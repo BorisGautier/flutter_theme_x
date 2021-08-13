@@ -10,13 +10,9 @@
 import 'dart:ui';
 
 import 'package:flutter_theme_x/themes/app_theme.dart';
-import 'package:flutter_theme_x/themes/custom_theme.dart';
 
 import '../../utils/spacing.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
-import '../../themes/app_theme_notifier.dart';
 
 class FxContainer extends StatelessWidget {
   final Widget child;

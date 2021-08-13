@@ -32,6 +32,7 @@ class FxOnBoarding extends StatefulWidget {
 
 class _FxOnBoardingState extends State<FxOnBoarding>
     with TickerProviderStateMixin {
+  // ignore: close_sinks
   StreamController<SlideUpdate>? slideUpdateStream;
   AnimatedPageDragger? animatedPageDragger;
 

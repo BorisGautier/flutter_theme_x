@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/core/state_management/controller.dart';
 
@@ -67,7 +65,6 @@ class FxBuilderState<T extends FxController>
     */
   @override
   void deactivate() {
-    // TODO: implement deactivate
     print("deactivate");
     super.deactivate();
   }

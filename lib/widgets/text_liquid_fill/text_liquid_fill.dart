@@ -153,7 +153,9 @@ class WavePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    // ignore: unnecessary_null_comparison
     double width = (size.width != null) ? size.width : 200;
+    // ignore: unnecessary_null_comparison
     double height = (size.height != null) ? size.height : 200;
 
     Paint wavePaint = Paint()..color = waveColor!;

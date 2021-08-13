@@ -55,14 +55,12 @@ class FxShadow {
         case FxShadowPosition.topRight:
           this.offset = Offset(elevation, -elevation);
           break;
-        //TODO: Shadow problem
         case FxShadowPosition.centerLeft:
           this.offset = Offset(-elevation, elevation * 0.25);
           break;
         case FxShadowPosition.center:
           this.offset = Offset(0, 0);
           break;
-        //TODO: Shadow problem
         case FxShadowPosition.centerRight:
           this.offset = Offset(elevation, elevation * 0.25);
           break;
