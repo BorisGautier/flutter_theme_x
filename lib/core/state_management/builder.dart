@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/core/state_management/controller.dart';
 
-typedef FxControllerBuilder<T> = Widget Function(T controller);
+typedef FTxControllerBuilder<T> = Widget Function(T controller);
 
-class FxBuilder<T extends FxController> extends StatefulWidget {
-  final FxControllerBuilder<T> builder;
+class FTxBuilder<T extends FTxController> extends StatefulWidget {
+  final FTxControllerBuilder<T> builder;
   final T? controller;
 
-  final void Function(FxBuilderState<T> state)? initState,
+  final void Function(FTxBuilderState<T> state)? initState,
       dispose,
       didChangeDependencies;
-  final void Function(FxBuilder oldWidget, FxBuilderState<T> state)?
+  final void Function(FTxBuilder oldWidget, FTxBuilderState<T> state)?
       didUpdateWidget;
 
-  const FxBuilder({
+  const FTxBuilder({
     Key? key,
     required this.controller,
     required this.builder,
@@ -24,11 +24,11 @@ class FxBuilder<T extends FxController> extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  FxBuilderState<T> createState() => FxBuilderState<T>();
+  FTxBuilderState<T> createState() => FTxBuilderState<T>();
 }
 
-class FxBuilderState<T extends FxController>
-    extends State<FxBuilder<T>> //with GetStateUpdaterMixin
+class FTxBuilderState<T extends FTxController>
+    extends State<FTxBuilder<T>> //with GetStateUpdaterMixin
 {
   T? controller;
   VoidCallback? _remove;
@@ -105,9 +105,9 @@ class FxBuilderState<T extends FxController>
   }
 
   @override
-  void didUpdateWidget(FxBuilder oldWidget) {
+  void didUpdateWidget(FTxBuilder oldWidget) {
     print("didUpdateWidget");
-    super.didUpdateWidget(oldWidget as FxBuilder<T>);
+    super.didUpdateWidget(oldWidget as FTxBuilder<T>);
     widget.didUpdateWidget?.call(oldWidget, this);
   }
 

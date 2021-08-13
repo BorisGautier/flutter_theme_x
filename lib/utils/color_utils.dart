@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxColorUtils] - returns a list of colors.
+/// [FTxColorUtils] - returns a list of colors.
 
 import 'package:flutter/material.dart';
 
-class FxColorUtils {
+class FTxColorUtils {
   static const Color starColor = Color(0xfff9c700);
   static const Color goldColor = Color(0xffFFDF00);
   static const Color silverColor = Color(0xffC0C0C0);

@@ -4,7 +4,7 @@ import 'package:flutter_theme_x/core/state_management/listenable_mixin.dart';
 
 import 'disposable_interface.dart';
 
-abstract class FxController extends DisposableInterface
+abstract class FTxController extends DisposableInterface
     with ListenableMixin, ListNotifierMixin {
   bool save = true;
   late BuildContext context;
@@ -21,7 +21,7 @@ abstract class FxController extends DisposableInterface
   void dispose() {
     if (!save) {
       super.dispose();
-      FxControllerStore().delete(this);
+      FTxControllerStore().delete(this);
     }
   }
 }

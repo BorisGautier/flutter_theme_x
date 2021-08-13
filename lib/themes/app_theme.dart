@@ -7,21 +7,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxAppThemeType.dark] - Applies all the properties for dark theme
-/// [FxAppThemeType.light] - Applies all the properties for light theme
+/// [FTxAppThemeType.dark] - Applies all the properties for dark theme
+/// [FTxAppThemeType.light] - Applies all the properties for light theme
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_theme.dart';
 
-enum FxAppThemeType { light, dark }
+enum FTxAppThemeType { light, dark }
 
-class FxAppTheme {
-  static FxAppThemeType defaultThemeType = FxAppThemeType.light;
+class FTxAppTheme {
+  static FTxAppThemeType defaultThemeType = FTxAppThemeType.light;
 
-  static ThemeData get theme => FxAppTheme.getThemeFromThemeMode();
-  static FxCustomTheme get customTheme => FxCustomTheme.getCustomAppTheme();
+  static ThemeData get theme => FTxAppTheme.getThemeFromThemeMode();
+  static FTxCustomTheme get customTheme => FTxCustomTheme.getCustomAppTheme();
 
   static ThemeData lightTheme = ThemeData.light().copyWith(
     brightness: Brightness.light,
@@ -217,13 +217,13 @@ class FxAppTheme {
       ),
       cupertinoOverrideTheme: CupertinoThemeData());
 
-  static ThemeData getThemeFromThemeMode({FxAppThemeType? themeType}) {
+  static ThemeData getThemeFromThemeMode({FTxAppThemeType? themeType}) {
     if (themeType == null) {
       themeType = defaultThemeType;
     }
 
     switch (themeType) {
-      case FxAppThemeType.light:
+      case FTxAppThemeType.light:
         return lightTheme;
       default:
         return darkTheme;
@@ -238,7 +238,7 @@ class FxAppTheme {
     darkTheme = themeData;
   }
 
-  static void changeThemeType(FxAppThemeType? themeType) {
+  static void changeThemeType(FTxAppThemeType? themeType) {
     defaultThemeType = themeType!;
   }
 }

@@ -2,2745 +2,2748 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxTwoToneMdiIcons] - List of the Icons
+/// [FTxTwoToneMdiIcons] - List of the Icons
 
 import 'two_tone_icon_data.dart';
 
-class FxTwoToneMdiIcons {
+class FTxTwoToneMdiIcons {
   static const String _package = "mdi";
 
   static String get package => _package;
 
-  static const FxTwoToneIconData agriculture =
-      FxTwoToneIconData('agriculture', iconPack: 'mdi');
-  static const FxTwoToneIconData local_library =
-      FxTwoToneIconData('local_library', iconPack: 'mdi');
-  static const FxTwoToneIconData traffic =
-      FxTwoToneIconData('traffic', iconPack: 'mdi');
-  static const FxTwoToneIconData departure_board =
-      FxTwoToneIconData('departure_board', iconPack: 'mdi');
-  static const FxTwoToneIconData moped =
-      FxTwoToneIconData('moped', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_walk =
-      FxTwoToneIconData('directions_walk', iconPack: 'mdi');
-  static const FxTwoToneIconData miscellaneous_services =
-      FxTwoToneIconData('miscellaneous_services', iconPack: 'mdi');
-  static const FxTwoToneIconData wrong_location =
-      FxTwoToneIconData('wrong_location', iconPack: 'mdi');
-  static const FxTwoToneIconData add_road =
-      FxTwoToneIconData('add_road', iconPack: 'mdi');
-  static const FxTwoToneIconData not_listed_location =
-      FxTwoToneIconData('not_listed_location', iconPack: 'mdi');
-  static const FxTwoToneIconData handyman =
-      FxTwoToneIconData('handyman', iconPack: 'mdi');
-  static const FxTwoToneIconData two_wheeler =
-      FxTwoToneIconData('two_wheeler', iconPack: 'mdi');
-  static const FxTwoToneIconData add_location =
-      FxTwoToneIconData('add_location', iconPack: 'mdi');
-  static const FxTwoToneIconData electric_scooter =
-      FxTwoToneIconData('electric_scooter', iconPack: 'mdi');
-  static const FxTwoToneIconData local_printshop =
-      FxTwoToneIconData('local_printshop', iconPack: 'mdi');
-  static const FxTwoToneIconData restaurant =
-      FxTwoToneIconData('restaurant', iconPack: 'mdi');
-  static const FxTwoToneIconData cleaning_services =
-      FxTwoToneIconData('cleaning_services', iconPack: 'mdi');
-  static const FxTwoToneIconData fastfood =
-      FxTwoToneIconData('fastfood', iconPack: 'mdi');
-  static const FxTwoToneIconData local_laundry_service =
-      FxTwoToneIconData('local_laundry_service', iconPack: 'mdi');
-  static const FxTwoToneIconData medical_services =
-      FxTwoToneIconData('medical_services', iconPack: 'mdi');
-  static const FxTwoToneIconData directions =
-      FxTwoToneIconData('directions', iconPack: 'mdi');
-  static const FxTwoToneIconData edit_location =
-      FxTwoToneIconData('edit_location', iconPack: 'mdi');
-  static const FxTwoToneIconData local_shipping =
-      FxTwoToneIconData('local_shipping', iconPack: 'mdi');
-  static const FxTwoToneIconData add_business =
-      FxTwoToneIconData('add_business', iconPack: 'mdi');
-  static const FxTwoToneIconData electric_bike =
-      FxTwoToneIconData('electric_bike', iconPack: 'mdi');
-  static const FxTwoToneIconData transfer_within_a_station =
-      FxTwoToneIconData('transfer_within_a_station', iconPack: 'mdi');
-  static const FxTwoToneIconData local_grocery_store =
-      FxTwoToneIconData('local_grocery_store', iconPack: 'mdi');
-  static const FxTwoToneIconData no_transfer =
-      FxTwoToneIconData('no_transfer', iconPack: 'mdi');
-  static const FxTwoToneIconData local_activity =
-      FxTwoToneIconData('local_activity', iconPack: 'mdi');
-  static const FxTwoToneIconData local_phone =
-      FxTwoToneIconData('local_phone', iconPack: 'mdi');
-  static const FxTwoToneIconData design_services =
-      FxTwoToneIconData('design_services', iconPack: 'mdi');
-  static const FxTwoToneIconData layers =
-      FxTwoToneIconData('layers', iconPack: 'mdi');
-  static const FxTwoToneIconData wine_bar =
-      FxTwoToneIconData('wine_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData category =
-      FxTwoToneIconData('category', iconPack: 'mdi');
-  static const FxTwoToneIconData store_mall_directory =
-      FxTwoToneIconData('store_mall_directory', iconPack: 'mdi');
-  static const FxTwoToneIconData hotel =
-      FxTwoToneIconData('hotel', iconPack: 'mdi');
-  static const FxTwoToneIconData local_pizza =
-      FxTwoToneIconData('local_pizza', iconPack: 'mdi');
-  static const FxTwoToneIconData bike_scooter =
-      FxTwoToneIconData('bike_scooter', iconPack: 'mdi');
-  static const FxTwoToneIconData atm =
-      FxTwoToneIconData('atm', iconPack: 'mdi');
-  static const FxTwoToneIconData set_meal =
-      FxTwoToneIconData('set_meal', iconPack: 'mdi');
-  static const FxTwoToneIconData maps_ugc =
-      FxTwoToneIconData('maps_ugc', iconPack: 'mdi');
-  static const FxTwoToneIconData pest_control =
-      FxTwoToneIconData('pest_control', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_boat =
-      FxTwoToneIconData('directions_boat', iconPack: 'mdi');
-  static const FxTwoToneIconData flight =
-      FxTwoToneIconData('flight', iconPack: 'mdi');
-  static const FxTwoToneIconData pedal_bike =
-      FxTwoToneIconData('pedal_bike', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_bike =
-      FxTwoToneIconData('directions_bike', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_run =
-      FxTwoToneIconData('directions_run', iconPack: 'mdi');
-  static const FxTwoToneIconData local_car_wash =
-      FxTwoToneIconData('local_car_wash', iconPack: 'mdi');
-  static const FxTwoToneIconData my_location =
-      FxTwoToneIconData('my_location', iconPack: 'mdi');
-  static const FxTwoToneIconData local_gas_station =
-      FxTwoToneIconData('local_gas_station', iconPack: 'mdi');
-  static const FxTwoToneIconData transit_enterexit =
-      FxTwoToneIconData('transit_enterexit', iconPack: 'mdi');
-  static const FxTwoToneIconData navigation =
-      FxTwoToneIconData('navigation', iconPack: 'mdi');
-  static const FxTwoToneIconData local_see =
-      FxTwoToneIconData('local_see', iconPack: 'mdi');
-  static const FxTwoToneIconData hvac =
-      FxTwoToneIconData('hvac', iconPack: 'mdi');
-  static const FxTwoToneIconData tram =
-      FxTwoToneIconData('tram', iconPack: 'mdi');
-  static const FxTwoToneIconData local_florist =
-      FxTwoToneIconData('local_florist', iconPack: 'mdi');
-  static const FxTwoToneIconData compass_calibration =
-      FxTwoToneIconData('compass_calibration', iconPack: 'mdi');
-  static const FxTwoToneIconData local_atm =
-      FxTwoToneIconData('local_atm', iconPack: 'mdi');
-  static const FxTwoToneIconData local_drink =
-      FxTwoToneIconData('local_drink', iconPack: 'mdi');
-  static const FxTwoToneIconData restaurant_menu =
-      FxTwoToneIconData('restaurant_menu', iconPack: 'mdi');
-  static const FxTwoToneIconData rate_review =
-      FxTwoToneIconData('rate_review', iconPack: 'mdi');
-  static const FxTwoToneIconData local_fire_department =
-      FxTwoToneIconData('local_fire_department', iconPack: 'mdi');
-  static const FxTwoToneIconData add_location_alt =
-      FxTwoToneIconData('add_location_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData local_pharmacy =
-      FxTwoToneIconData('local_pharmacy', iconPack: 'mdi');
-  static const FxTwoToneIconData run_circle =
-      FxTwoToneIconData('run_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData near_me_disabled =
-      FxTwoToneIconData('near_me_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData local_cafe =
-      FxTwoToneIconData('local_cafe', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_car =
-      FxTwoToneIconData('directions_car', iconPack: 'mdi');
-  static const FxTwoToneIconData map =
-      FxTwoToneIconData('map', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_subway =
-      FxTwoToneIconData('directions_subway', iconPack: 'mdi');
-  static const FxTwoToneIconData ev_station =
-      FxTwoToneIconData('ev_station', iconPack: 'mdi');
-  static const FxTwoToneIconData local_offer =
-      FxTwoToneIconData('local_offer', iconPack: 'mdi');
-  static const FxTwoToneIconData three_six_zero_ =
-      FxTwoToneIconData('360', iconPack: 'mdi');
-  static const FxTwoToneIconData zoom_out_map =
-      FxTwoToneIconData('zoom_out_map', iconPack: 'mdi');
-  static const FxTwoToneIconData alt_route =
-      FxTwoToneIconData('alt_route', iconPack: 'mdi');
-  static const FxTwoToneIconData local_hotel =
-      FxTwoToneIconData('local_hotel', iconPack: 'mdi');
-  static const FxTwoToneIconData home_repair_service =
-      FxTwoToneIconData('home_repair_service', iconPack: 'mdi');
-  static const FxTwoToneIconData money =
-      FxTwoToneIconData('money', iconPack: 'mdi');
-  static const FxTwoToneIconData edit_attributes =
-      FxTwoToneIconData('edit_attributes', iconPack: 'mdi');
-  static const FxTwoToneIconData local_movies =
-      FxTwoToneIconData('local_movies', iconPack: 'mdi');
-  static const FxTwoToneIconData terrain =
-      FxTwoToneIconData('terrain', iconPack: 'mdi');
-  static const FxTwoToneIconData satellite =
-      FxTwoToneIconData('satellite', iconPack: 'mdi');
-  static const FxTwoToneIconData local_parking =
-      FxTwoToneIconData('local_parking', iconPack: 'mdi');
-  static const FxTwoToneIconData train =
-      FxTwoToneIconData('train', iconPack: 'mdi');
-  static const FxTwoToneIconData layers_clear =
-      FxTwoToneIconData('layers_clear', iconPack: 'mdi');
-  static const FxTwoToneIconData beenhere =
-      FxTwoToneIconData('beenhere', iconPack: 'mdi');
-  static const FxTwoToneIconData museum =
-      FxTwoToneIconData('museum', iconPack: 'mdi');
-  static const FxTwoToneIconData local_airport =
-      FxTwoToneIconData('local_airport', iconPack: 'mdi');
-  static const FxTwoToneIconData person_pin_circle =
-      FxTwoToneIconData('person_pin_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData trip_origin =
-      FxTwoToneIconData('trip_origin', iconPack: 'mdi');
-  static const FxTwoToneIconData plumbing =
-      FxTwoToneIconData('plumbing', iconPack: 'mdi');
-  static const FxTwoToneIconData electric_car =
-      FxTwoToneIconData('electric_car', iconPack: 'mdi');
-  static const FxTwoToneIconData local_play =
-      FxTwoToneIconData('local_play', iconPack: 'mdi');
-  static const FxTwoToneIconData pin_drop =
-      FxTwoToneIconData('pin_drop', iconPack: 'mdi');
-  static const FxTwoToneIconData local_mall =
-      FxTwoToneIconData('local_mall', iconPack: 'mdi');
-  static const FxTwoToneIconData local_dining =
-      FxTwoToneIconData('local_dining', iconPack: 'mdi');
-  static const FxTwoToneIconData menu_book =
-      FxTwoToneIconData('menu_book', iconPack: 'mdi');
-  static const FxTwoToneIconData edit_road =
-      FxTwoToneIconData('edit_road', iconPack: 'mdi');
-  static const FxTwoToneIconData electric_rickshaw =
-      FxTwoToneIconData('electric_rickshaw', iconPack: 'mdi');
-  static const FxTwoToneIconData place =
-      FxTwoToneIconData('place', iconPack: 'mdi');
-  static const FxTwoToneIconData near_me =
-      FxTwoToneIconData('near_me', iconPack: 'mdi');
-  static const FxTwoToneIconData multiple_stop =
-      FxTwoToneIconData('multiple_stop', iconPack: 'mdi');
-  static const FxTwoToneIconData electrical_services =
-      FxTwoToneIconData('electrical_services', iconPack: 'mdi');
-  static const FxTwoToneIconData local_taxi =
-      FxTwoToneIconData('local_taxi', iconPack: 'mdi');
-  static const FxTwoToneIconData local_police =
-      FxTwoToneIconData('local_police', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_transit =
-      FxTwoToneIconData('directions_transit', iconPack: 'mdi');
-  static const FxTwoToneIconData local_bar =
-      FxTwoToneIconData('local_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData streetview =
-      FxTwoToneIconData('streetview', iconPack: 'mdi');
-  static const FxTwoToneIconData local_convenience_store =
-      FxTwoToneIconData('local_convenience_store', iconPack: 'mdi');
-  static const FxTwoToneIconData pest_control_rodent =
-      FxTwoToneIconData('pest_control_rodent', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_bus =
-      FxTwoToneIconData('directions_bus', iconPack: 'mdi');
-  static const FxTwoToneIconData electric_moped =
-      FxTwoToneIconData('electric_moped', iconPack: 'mdi');
-  static const FxTwoToneIconData subway =
-      FxTwoToneIconData('subway', iconPack: 'mdi');
-  static const FxTwoToneIconData no_meals =
-      FxTwoToneIconData('no_meals', iconPack: 'mdi');
-  static const FxTwoToneIconData local_post_office =
-      FxTwoToneIconData('local_post_office', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_railway =
-      FxTwoToneIconData('directions_railway', iconPack: 'mdi');
-  static const FxTwoToneIconData person_pin =
-      FxTwoToneIconData('person_pin', iconPack: 'mdi');
-  static const FxTwoToneIconData local_hospital =
-      FxTwoToneIconData('local_hospital', iconPack: 'mdi');
-  static const FxTwoToneIconData sensor_door =
-      FxTwoToneIconData('sensor_door', iconPack: 'mdi');
-  static const FxTwoToneIconData sensor_window =
-      FxTwoToneIconData('sensor_window', iconPack: 'mdi');
-  static const FxTwoToneIconData device_unknown =
-      FxTwoToneIconData('device_unknown', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_capslock =
-      FxTwoToneIconData('keyboard_capslock', iconPack: 'mdi');
-  static const FxTwoToneIconData tablet =
-      FxTwoToneIconData('tablet', iconPack: 'mdi');
-  static const FxTwoToneIconData headset =
-      FxTwoToneIconData('headset', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_hide =
-      FxTwoToneIconData('keyboard_hide', iconPack: 'mdi');
-  static const FxTwoToneIconData desktop_mac =
-      FxTwoToneIconData('desktop_mac', iconPack: 'mdi');
-  static const FxTwoToneIconData memory =
-      FxTwoToneIconData('memory', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_arrow_left =
-      FxTwoToneIconData('keyboard_arrow_left', iconPack: 'mdi');
-  static const FxTwoToneIconData sim_card =
-      FxTwoToneIconData('sim_card', iconPack: 'mdi');
-  static const FxTwoToneIconData toys =
-      FxTwoToneIconData('toys', iconPack: 'mdi');
-  static const FxTwoToneIconData security =
-      FxTwoToneIconData('security', iconPack: 'mdi');
-  static const FxTwoToneIconData speaker =
-      FxTwoToneIconData('speaker', iconPack: 'mdi');
-  static const FxTwoToneIconData smartphone =
-      FxTwoToneIconData('smartphone', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_voice =
-      FxTwoToneIconData('keyboard_voice', iconPack: 'mdi');
-  static const FxTwoToneIconData cast =
-      FxTwoToneIconData('cast', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink_off =
-      FxTwoToneIconData('phonelink_off', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_android =
-      FxTwoToneIconData('phone_android', iconPack: 'mdi');
-  static const FxTwoToneIconData tablet_android =
-      FxTwoToneIconData('tablet_android', iconPack: 'mdi');
-  static const FxTwoToneIconData gamepad =
-      FxTwoToneIconData('gamepad', iconPack: 'mdi');
-  static const FxTwoToneIconData power_input =
-      FxTwoToneIconData('power_input', iconPack: 'mdi');
-  static const FxTwoToneIconData laptop_windows =
-      FxTwoToneIconData('laptop_windows', iconPack: 'mdi');
-  static const FxTwoToneIconData speaker_group =
-      FxTwoToneIconData('speaker_group', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_return =
-      FxTwoToneIconData('keyboard_return', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink =
-      FxTwoToneIconData('phonelink', iconPack: 'mdi');
-  static const FxTwoToneIconData videogame_asset =
-      FxTwoToneIconData('videogame_asset', iconPack: 'mdi');
-  static const FxTwoToneIconData tv = FxTwoToneIconData('tv', iconPack: 'mdi');
-  static const FxTwoToneIconData mouse =
-      FxTwoToneIconData('mouse', iconPack: 'mdi');
-  static const FxTwoToneIconData browser_not_supported =
-      FxTwoToneIconData('browser_not_supported', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_arrow_down =
-      FxTwoToneIconData('keyboard_arrow_down', iconPack: 'mdi');
-  static const FxTwoToneIconData tablet_mac =
-      FxTwoToneIconData('tablet_mac', iconPack: 'mdi');
-  static const FxTwoToneIconData developer_board =
-      FxTwoToneIconData('developer_board', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_arrow_up =
-      FxTwoToneIconData('keyboard_arrow_up', iconPack: 'mdi');
-  static const FxTwoToneIconData laptop_mac =
-      FxTwoToneIconData('laptop_mac', iconPack: 'mdi');
-  static const FxTwoToneIconData point_of_sale =
-      FxTwoToneIconData('point_of_sale', iconPack: 'mdi');
-  static const FxTwoToneIconData headset_mic =
-      FxTwoToneIconData('headset_mic', iconPack: 'mdi');
-  static const FxTwoToneIconData cast_connected =
-      FxTwoToneIconData('cast_connected', iconPack: 'mdi');
-  static const FxTwoToneIconData watch =
-      FxTwoToneIconData('watch', iconPack: 'mdi');
-  static const FxTwoToneIconData laptop_chromebook =
-      FxTwoToneIconData('laptop_chromebook', iconPack: 'mdi');
-  static const FxTwoToneIconData cast_for_education =
-      FxTwoToneIconData('cast_for_education', iconPack: 'mdi');
-  static const FxTwoToneIconData desktop_windows =
-      FxTwoToneIconData('desktop_windows', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_iphone =
-      FxTwoToneIconData('phone_iphone', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_tab =
-      FxTwoToneIconData('keyboard_tab', iconPack: 'mdi');
-  static const FxTwoToneIconData laptop =
-      FxTwoToneIconData('laptop', iconPack: 'mdi');
-  static const FxTwoToneIconData device_hub =
-      FxTwoToneIconData('device_hub', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_backspace =
-      FxTwoToneIconData('keyboard_backspace', iconPack: 'mdi');
-  static const FxTwoToneIconData computer =
-      FxTwoToneIconData('computer', iconPack: 'mdi');
-  static const FxTwoToneIconData scanner =
-      FxTwoToneIconData('scanner', iconPack: 'mdi');
-  static const FxTwoToneIconData devices_other =
-      FxTwoToneIconData('devices_other', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard =
-      FxTwoToneIconData('keyboard', iconPack: 'mdi');
-  static const FxTwoToneIconData dock =
-      FxTwoToneIconData('dock', iconPack: 'mdi');
-  static const FxTwoToneIconData keyboard_arrow_right =
-      FxTwoToneIconData('keyboard_arrow_right', iconPack: 'mdi');
-  static const FxTwoToneIconData router =
-      FxTwoToneIconData('router', iconPack: 'mdi');
-  static const FxTwoToneIconData music_video =
-      FxTwoToneIconData('music_video', iconPack: 'mdi');
-  static const FxTwoToneIconData new_releases =
-      FxTwoToneIconData('new_releases', iconPack: 'mdi');
-  static const FxTwoToneIconData pause =
-      FxTwoToneIconData('pause', iconPack: 'mdi');
-  static const FxTwoToneIconData playlist_add =
-      FxTwoToneIconData('playlist_add', iconPack: 'mdi');
-  static const FxTwoToneIconData control_camera =
-      FxTwoToneIconData('control_camera', iconPack: 'mdi');
-  static const FxTwoToneIconData hearing =
-      FxTwoToneIconData('hearing', iconPack: 'mdi');
-  static const FxTwoToneIconData note =
-      FxTwoToneIconData('note', iconPack: 'mdi');
-  static const FxTwoToneIconData video_library =
-      FxTwoToneIconData('video_library', iconPack: 'mdi');
-  static const FxTwoToneIconData five_g =
-      FxTwoToneIconData('5g', iconPack: 'mdi');
-  static const FxTwoToneIconData surround_sound =
-      FxTwoToneIconData('surround_sound', iconPack: 'mdi');
-  static const FxTwoToneIconData repeat =
-      FxTwoToneIconData('repeat', iconPack: 'mdi');
-  static const FxTwoToneIconData pause_circle_outline =
-      FxTwoToneIconData('pause_circle_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData videocam =
-      FxTwoToneIconData('videocam', iconPack: 'mdi');
-  static const FxTwoToneIconData movie =
-      FxTwoToneIconData('movie', iconPack: 'mdi');
-  static const FxTwoToneIconData library_music =
-      FxTwoToneIconData('library_music', iconPack: 'mdi');
-  static const FxTwoToneIconData fiber_manual_record =
-      FxTwoToneIconData('fiber_manual_record', iconPack: 'mdi');
-  static const FxTwoToneIconData shuffle =
-      FxTwoToneIconData('shuffle', iconPack: 'mdi');
-  static const FxTwoToneIconData pause_circle_filled =
-      FxTwoToneIconData('pause_circle_filled', iconPack: 'mdi');
-  static const FxTwoToneIconData radio =
-      FxTwoToneIconData('radio', iconPack: 'mdi');
-  static const FxTwoToneIconData high_quality =
-      FxTwoToneIconData('high_quality', iconPack: 'mdi');
-  static const FxTwoToneIconData remove_from_queue =
-      FxTwoToneIconData('remove_from_queue', iconPack: 'mdi');
-  static const FxTwoToneIconData hd = FxTwoToneIconData('hd', iconPack: 'mdi');
-  static const FxTwoToneIconData replay_5 =
-      FxTwoToneIconData('replay_5', iconPack: 'mdi');
-  static const FxTwoToneIconData equalizer =
-      FxTwoToneIconData('equalizer', iconPack: 'mdi');
-  static const FxTwoToneIconData volume_down =
-      FxTwoToneIconData('volume_down', iconPack: 'mdi');
-  static const FxTwoToneIconData slow_motion_video =
-      FxTwoToneIconData('slow_motion_video', iconPack: 'mdi');
-  static const FxTwoToneIconData fiber_pin =
-      FxTwoToneIconData('fiber_pin', iconPack: 'mdi');
-  static const FxTwoToneIconData play_circle_filled =
-      FxTwoToneIconData('play_circle_filled', iconPack: 'mdi');
-  static const FxTwoToneIconData library_add =
-      FxTwoToneIconData('library_add', iconPack: 'mdi');
-  static const FxTwoToneIconData missed_video_call =
-      FxTwoToneIconData('missed_video_call', iconPack: 'mdi');
-  static const FxTwoToneIconData explicit =
-      FxTwoToneIconData('explicit', iconPack: 'mdi');
-  static const FxTwoToneIconData featured_video =
-      FxTwoToneIconData('featured_video', iconPack: 'mdi');
-  static const FxTwoToneIconData speed =
-      FxTwoToneIconData('speed', iconPack: 'mdi');
-  static const FxTwoToneIconData sort_by_alpha =
-      FxTwoToneIconData('sort_by_alpha', iconPack: 'mdi');
-  static const FxTwoToneIconData web =
-      FxTwoToneIconData('web', iconPack: 'mdi');
-  static const FxTwoToneIconData mic_none =
-      FxTwoToneIconData('mic_none', iconPack: 'mdi');
-  static const FxTwoToneIconData replay_10 =
-      FxTwoToneIconData('replay_10', iconPack: 'mdi');
-  static const FxTwoToneIconData play_arrow =
-      FxTwoToneIconData('play_arrow', iconPack: 'mdi');
-  static const FxTwoToneIconData forward_5 =
-      FxTwoToneIconData('forward_5', iconPack: 'mdi');
-  static const FxTwoToneIconData queue_play_next =
-      FxTwoToneIconData('queue_play_next', iconPack: 'mdi');
-  static const FxTwoToneIconData volume_off =
-      FxTwoToneIconData('volume_off', iconPack: 'mdi');
-  static const FxTwoToneIconData closed_caption =
-      FxTwoToneIconData('closed_caption', iconPack: 'mdi');
-  static const FxTwoToneIconData four_k =
-      FxTwoToneIconData('4k', iconPack: 'mdi');
-  static const FxTwoToneIconData videocam_off =
-      FxTwoToneIconData('videocam_off', iconPack: 'mdi');
-  static const FxTwoToneIconData playlist_add_check =
-      FxTwoToneIconData('playlist_add_check', iconPack: 'mdi');
-  static const FxTwoToneIconData library_books =
-      FxTwoToneIconData('library_books', iconPack: 'mdi');
-  static const FxTwoToneIconData mic =
-      FxTwoToneIconData('mic', iconPack: 'mdi');
-  static const FxTwoToneIconData forward_10 =
-      FxTwoToneIconData('forward_10', iconPack: 'mdi');
-  static const FxTwoToneIconData stop_circle =
-      FxTwoToneIconData('stop_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData stop =
-      FxTwoToneIconData('stop', iconPack: 'mdi');
-  static const FxTwoToneIconData repeat_one =
-      FxTwoToneIconData('repeat_one', iconPack: 'mdi');
-  static const FxTwoToneIconData call_to_action =
-      FxTwoToneIconData('call_to_action', iconPack: 'mdi');
-  static const FxTwoToneIconData playlist_play =
-      FxTwoToneIconData('playlist_play', iconPack: 'mdi');
-  static const FxTwoToneIconData subscriptions =
-      FxTwoToneIconData('subscriptions', iconPack: 'mdi');
-  static const FxTwoToneIconData fast_rewind =
-      FxTwoToneIconData('fast_rewind', iconPack: 'mdi');
-  static const FxTwoToneIconData mic_off =
-      FxTwoToneIconData('mic_off', iconPack: 'mdi');
-  static const FxTwoToneIconData forward_30 =
-      FxTwoToneIconData('forward_30', iconPack: 'mdi');
-  static const FxTwoToneIconData fiber_new =
-      FxTwoToneIconData('fiber_new', iconPack: 'mdi');
-  static const FxTwoToneIconData add_to_queue =
-      FxTwoToneIconData('add_to_queue', iconPack: 'mdi');
-  static const FxTwoToneIconData airplay =
-      FxTwoToneIconData('airplay', iconPack: 'mdi');
-  static const FxTwoToneIconData replay_30 =
-      FxTwoToneIconData('replay_30', iconPack: 'mdi');
-  static const FxTwoToneIconData hearing_disabled =
-      FxTwoToneIconData('hearing_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData featured_play_list =
-      FxTwoToneIconData('featured_play_list', iconPack: 'mdi');
-  static const FxTwoToneIconData queue_music =
-      FxTwoToneIconData('queue_music', iconPack: 'mdi');
-  static const FxTwoToneIconData volume_up =
-      FxTwoToneIconData('volume_up', iconPack: 'mdi');
-  static const FxTwoToneIconData av_timer =
-      FxTwoToneIconData('av_timer', iconPack: 'mdi');
-  static const FxTwoToneIconData web_asset =
-      FxTwoToneIconData('web_asset', iconPack: 'mdi');
-  static const FxTwoToneIconData video_label =
-      FxTwoToneIconData('video_label', iconPack: 'mdi');
-  static const FxTwoToneIconData volume_mute =
-      FxTwoToneIconData('volume_mute', iconPack: 'mdi');
-  static const FxTwoToneIconData queue =
-      FxTwoToneIconData('queue', iconPack: 'mdi');
-  static const FxTwoToneIconData video_settings =
-      FxTwoToneIconData('video_settings', iconPack: 'mdi');
-  static const FxTwoToneIconData snooze =
-      FxTwoToneIconData('snooze', iconPack: 'mdi');
-  static const FxTwoToneIconData not_interested =
-      FxTwoToneIconData('not_interested', iconPack: 'mdi');
-  static const FxTwoToneIconData fiber_smart_record =
-      FxTwoToneIconData('fiber_smart_record', iconPack: 'mdi');
-  static const FxTwoToneIconData branding_watermark =
-      FxTwoToneIconData('branding_watermark', iconPack: 'mdi');
-  static const FxTwoToneIconData subtitles =
-      FxTwoToneIconData('subtitles', iconPack: 'mdi');
-  static const FxTwoToneIconData video_call =
-      FxTwoToneIconData('video_call', iconPack: 'mdi');
-  static const FxTwoToneIconData replay =
-      FxTwoToneIconData('replay', iconPack: 'mdi');
-  static const FxTwoToneIconData recent_actors =
-      FxTwoToneIconData('recent_actors', iconPack: 'mdi');
-  static const FxTwoToneIconData fiber_dvr =
-      FxTwoToneIconData('fiber_dvr', iconPack: 'mdi');
-  static const FxTwoToneIconData fast_forward =
-      FxTwoToneIconData('fast_forward', iconPack: 'mdi');
-  static const FxTwoToneIconData album =
-      FxTwoToneIconData('album', iconPack: 'mdi');
-  static const FxTwoToneIconData games =
-      FxTwoToneIconData('games', iconPack: 'mdi');
-  static const FxTwoToneIconData skip_previous =
-      FxTwoToneIconData('skip_previous', iconPack: 'mdi');
-  static const FxTwoToneIconData loop =
-      FxTwoToneIconData('loop', iconPack: 'mdi');
-  static const FxTwoToneIconData closed_caption_disabled =
-      FxTwoToneIconData('closed_caption_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData library_add_check =
-      FxTwoToneIconData('library_add_check', iconPack: 'mdi');
-  static const FxTwoToneIconData art_track =
-      FxTwoToneIconData('art_track', iconPack: 'mdi');
-  static const FxTwoToneIconData skip_next =
-      FxTwoToneIconData('skip_next', iconPack: 'mdi');
-  static const FxTwoToneIconData play_circle_outline =
-      FxTwoToneIconData('play_circle_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData folder_shared =
-      FxTwoToneIconData('folder_shared', iconPack: 'mdi');
-  static const FxTwoToneIconData snippet_folder =
-      FxTwoToneIconData('snippet_folder', iconPack: 'mdi');
-  static const FxTwoToneIconData create_new_folder =
-      FxTwoToneIconData('create_new_folder', iconPack: 'mdi');
-  static const FxTwoToneIconData folder_open =
-      FxTwoToneIconData('folder_open', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_done =
-      FxTwoToneIconData('cloud_done', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_queue =
-      FxTwoToneIconData('cloud_queue', iconPack: 'mdi');
-  static const FxTwoToneIconData download_done =
-      FxTwoToneIconData('download_done', iconPack: 'mdi');
-  static const FxTwoToneIconData text_snippet =
-      FxTwoToneIconData('text_snippet', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_download =
-      FxTwoToneIconData('cloud_download', iconPack: 'mdi');
-  static const FxTwoToneIconData attachment =
-      FxTwoToneIconData('attachment', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_upload =
-      FxTwoToneIconData('cloud_upload', iconPack: 'mdi');
-  static const FxTwoToneIconData folder =
-      FxTwoToneIconData('folder', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_circle =
-      FxTwoToneIconData('cloud_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData topic =
-      FxTwoToneIconData('topic', iconPack: 'mdi');
-  static const FxTwoToneIconData rule_folder =
-      FxTwoToneIconData('rule_folder', iconPack: 'mdi');
-  static const FxTwoToneIconData attach_email =
-      FxTwoToneIconData('attach_email', iconPack: 'mdi');
-  static const FxTwoToneIconData download =
-      FxTwoToneIconData('download', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud =
-      FxTwoToneIconData('cloud', iconPack: 'mdi');
-  static const FxTwoToneIconData cloud_off =
-      FxTwoToneIconData('cloud_off', iconPack: 'mdi');
-  static const FxTwoToneIconData request_quote =
-      FxTwoToneIconData('request_quote', iconPack: 'mdi');
-  static const FxTwoToneIconData upload =
-      FxTwoToneIconData('upload', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_callback =
-      FxTwoToneIconData('phone_callback', iconPack: 'mdi');
-  static const FxTwoToneIconData vibration =
-      FxTwoToneIconData('vibration', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_paused =
-      FxTwoToneIconData('phone_paused', iconPack: 'mdi');
-  static const FxTwoToneIconData power =
-      FxTwoToneIconData('power', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi =
-      FxTwoToneIconData('wifi', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_recline_extra =
-      FxTwoToneIconData('airline_seat_recline_extra', iconPack: 'mdi');
-  static const FxTwoToneIconData sms_failed =
-      FxTwoToneIconData('sms_failed', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_legroom_normal =
-      FxTwoToneIconData('airline_seat_legroom_normal', iconPack: 'mdi');
-  static const FxTwoToneIconData do_disturb_on =
-      FxTwoToneIconData('do_disturb_on', iconPack: 'mdi');
-  static const FxTwoToneIconData enhanced_encryption =
-      FxTwoToneIconData('enhanced_encryption', iconPack: 'mdi');
-  static const FxTwoToneIconData tap_and_play =
-      FxTwoToneIconData('tap_and_play', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_locked =
-      FxTwoToneIconData('phone_locked', iconPack: 'mdi');
-  static const FxTwoToneIconData do_disturb =
-      FxTwoToneIconData('do_disturb', iconPack: 'mdi');
-  static const FxTwoToneIconData power_off =
-      FxTwoToneIconData('power_off', iconPack: 'mdi');
-  static const FxTwoToneIconData voice_chat =
-      FxTwoToneIconData('voice_chat', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_legroom_reduced =
-      FxTwoToneIconData('airline_seat_legroom_reduced', iconPack: 'mdi');
-  static const FxTwoToneIconData sms =
-      FxTwoToneIconData('sms', iconPack: 'mdi');
-  static const FxTwoToneIconData sd_card =
-      FxTwoToneIconData('sd_card', iconPack: 'mdi');
-  static const FxTwoToneIconData sync_problem =
-      FxTwoToneIconData('sync_problem', iconPack: 'mdi');
-  static const FxTwoToneIconData folder_special =
-      FxTwoToneIconData('folder_special', iconPack: 'mdi');
-  static const FxTwoToneIconData network_locked =
-      FxTwoToneIconData('network_locked', iconPack: 'mdi');
-  static const FxTwoToneIconData system_update =
-      FxTwoToneIconData('system_update', iconPack: 'mdi');
-  static const FxTwoToneIconData tv_off =
-      FxTwoToneIconData('tv_off', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_individual_suite =
-      FxTwoToneIconData('airline_seat_individual_suite', iconPack: 'mdi');
-  static const FxTwoToneIconData time_to_leave =
-      FxTwoToneIconData('time_to_leave', iconPack: 'mdi');
-  static const FxTwoToneIconData live_tv =
-      FxTwoToneIconData('live_tv', iconPack: 'mdi');
-  static const FxTwoToneIconData wc = FxTwoToneIconData('wc', iconPack: 'mdi');
-  static const FxTwoToneIconData vpn_lock =
-      FxTwoToneIconData('vpn_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData account_tree =
-      FxTwoToneIconData('account_tree', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_in_talk =
-      FxTwoToneIconData('phone_in_talk', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_flat_angled =
-      FxTwoToneIconData('airline_seat_flat_angled', iconPack: 'mdi');
-  static const FxTwoToneIconData directions_off =
-      FxTwoToneIconData('directions_off', iconPack: 'mdi');
-  static const FxTwoToneIconData no_encryption_gmailerrorred =
-      FxTwoToneIconData('no_encryption_gmailerrorred', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi_off =
-      FxTwoToneIconData('wifi_off', iconPack: 'mdi');
-  static const FxTwoToneIconData more =
-      FxTwoToneIconData('more', iconPack: 'mdi');
-  static const FxTwoToneIconData mms =
-      FxTwoToneIconData('mms', iconPack: 'mdi');
-  static const FxTwoToneIconData do_disturb_off =
-      FxTwoToneIconData('do_disturb_off', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_missed =
-      FxTwoToneIconData('phone_missed', iconPack: 'mdi');
-  static const FxTwoToneIconData network_check =
-      FxTwoToneIconData('network_check', iconPack: 'mdi');
-  static const FxTwoToneIconData adb =
-      FxTwoToneIconData('adb', iconPack: 'mdi');
-  static const FxTwoToneIconData ondemand_video =
-      FxTwoToneIconData('ondemand_video', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_forwarded =
-      FxTwoToneIconData('phone_forwarded', iconPack: 'mdi');
-  static const FxTwoToneIconData no_encryption =
-      FxTwoToneIconData('no_encryption', iconPack: 'mdi');
-  static const FxTwoToneIconData event_note =
-      FxTwoToneIconData('event_note', iconPack: 'mdi');
-  static const FxTwoToneIconData do_disturb_alt =
-      FxTwoToneIconData('do_disturb_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_recline_normal =
-      FxTwoToneIconData('airline_seat_recline_normal', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_flat =
-      FxTwoToneIconData('airline_seat_flat', iconPack: 'mdi');
-  static const FxTwoToneIconData sd_card_alert =
-      FxTwoToneIconData('sd_card_alert', iconPack: 'mdi');
-  static const FxTwoToneIconData disc_full =
-      FxTwoToneIconData('disc_full', iconPack: 'mdi');
-  static const FxTwoToneIconData personal_video =
-      FxTwoToneIconData('personal_video', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_bluetooth_speaker =
-      FxTwoToneIconData('phone_bluetooth_speaker', iconPack: 'mdi');
-  static const FxTwoToneIconData airline_seat_legroom_extra =
-      FxTwoToneIconData('airline_seat_legroom_extra', iconPack: 'mdi');
-  static const FxTwoToneIconData sync =
-      FxTwoToneIconData('sync', iconPack: 'mdi');
-  static const FxTwoToneIconData event_busy =
-      FxTwoToneIconData('event_busy', iconPack: 'mdi');
-  static const FxTwoToneIconData event_available =
-      FxTwoToneIconData('event_available', iconPack: 'mdi');
-  static const FxTwoToneIconData support_agent =
-      FxTwoToneIconData('support_agent', iconPack: 'mdi');
-  static const FxTwoToneIconData bluetooth_audio =
-      FxTwoToneIconData('bluetooth_audio', iconPack: 'mdi');
-  static const FxTwoToneIconData confirmation_number =
-      FxTwoToneIconData('confirmation_number', iconPack: 'mdi');
-  static const FxTwoToneIconData sync_disabled =
-      FxTwoToneIconData('sync_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData drive_eta =
-      FxTwoToneIconData('drive_eta', iconPack: 'mdi');
-  static const FxTwoToneIconData priority_high =
-      FxTwoToneIconData('priority_high', iconPack: 'mdi');
-  static const FxTwoToneIconData error_outline =
-      FxTwoToneIconData('error_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData add_alert =
-      FxTwoToneIconData('add_alert', iconPack: 'mdi');
-  static const FxTwoToneIconData notification_important =
-      FxTwoToneIconData('notification_important', iconPack: 'mdi');
-  static const FxTwoToneIconData warning_amber =
-      FxTwoToneIconData('warning_amber', iconPack: 'mdi');
-  static const FxTwoToneIconData warning =
-      FxTwoToneIconData('warning', iconPack: 'mdi');
-  static const FxTwoToneIconData auto_delete =
-      FxTwoToneIconData('auto_delete', iconPack: 'mdi');
-  static const FxTwoToneIconData error =
-      FxTwoToneIconData('error', iconPack: 'mdi');
-  static const FxTwoToneIconData child_care =
-      FxTwoToneIconData('child_care', iconPack: 'mdi');
-  static const FxTwoToneIconData microwave =
-      FxTwoToneIconData('microwave', iconPack: 'mdi');
-  static const FxTwoToneIconData meeting_room =
-      FxTwoToneIconData('meeting_room', iconPack: 'mdi');
-  static const FxTwoToneIconData beach_access =
-      FxTwoToneIconData('beach_access', iconPack: 'mdi');
-  static const FxTwoToneIconData dry =
-      FxTwoToneIconData('dry', iconPack: 'mdi');
-  static const FxTwoToneIconData water_damage =
-      FxTwoToneIconData('water_damage', iconPack: 'mdi');
-  static const FxTwoToneIconData fire_extinguisher =
-      FxTwoToneIconData('fire_extinguisher', iconPack: 'mdi');
-  static const FxTwoToneIconData rv_hookup =
-      FxTwoToneIconData('rv_hookup', iconPack: 'mdi');
-  static const FxTwoToneIconData tty =
-      FxTwoToneIconData('tty', iconPack: 'mdi');
-  static const FxTwoToneIconData room_service =
-      FxTwoToneIconData('room_service', iconPack: 'mdi');
-  static const FxTwoToneIconData do_not_touch =
-      FxTwoToneIconData('do_not_touch', iconPack: 'mdi');
-  static const FxTwoToneIconData storefront =
-      FxTwoToneIconData('storefront', iconPack: 'mdi');
-  static const FxTwoToneIconData escalator =
-      FxTwoToneIconData('escalator', iconPack: 'mdi');
-  static const FxTwoToneIconData smoking_rooms =
-      FxTwoToneIconData('smoking_rooms', iconPack: 'mdi');
-  static const FxTwoToneIconData countertops =
-      FxTwoToneIconData('countertops', iconPack: 'mdi');
-  static const FxTwoToneIconData stroller =
-      FxTwoToneIconData('stroller', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_bar =
-      FxTwoToneIconData('sports_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData all_inclusive =
-      FxTwoToneIconData('all_inclusive', iconPack: 'mdi');
-  static const FxTwoToneIconData business_center =
-      FxTwoToneIconData('business_center', iconPack: 'mdi');
-  static const FxTwoToneIconData house_siding =
-      FxTwoToneIconData('house_siding', iconPack: 'mdi');
-  static const FxTwoToneIconData carpenter =
-      FxTwoToneIconData('carpenter', iconPack: 'mdi');
-  static const FxTwoToneIconData free_breakfast =
-      FxTwoToneIconData('free_breakfast', iconPack: 'mdi');
-  static const FxTwoToneIconData escalator_warning =
-      FxTwoToneIconData('escalator_warning', iconPack: 'mdi');
-  static const FxTwoToneIconData grass =
-      FxTwoToneIconData('grass', iconPack: 'mdi');
-  static const FxTwoToneIconData golf_course =
-      FxTwoToneIconData('golf_course', iconPack: 'mdi');
-  static const FxTwoToneIconData casino =
-      FxTwoToneIconData('casino', iconPack: 'mdi');
-  static const FxTwoToneIconData tapas =
-      FxTwoToneIconData('tapas', iconPack: 'mdi');
-  static const FxTwoToneIconData charging_station =
-      FxTwoToneIconData('charging_station', iconPack: 'mdi');
-  static const FxTwoToneIconData smoke_free =
-      FxTwoToneIconData('smoke_free', iconPack: 'mdi');
-  static const FxTwoToneIconData foundation =
-      FxTwoToneIconData('foundation', iconPack: 'mdi');
-  static const FxTwoToneIconData no_stroller =
-      FxTwoToneIconData('no_stroller', iconPack: 'mdi');
-  static const FxTwoToneIconData corporate_fare =
-      FxTwoToneIconData('corporate_fare', iconPack: 'mdi');
-  static const FxTwoToneIconData no_drinks =
-      FxTwoToneIconData('no_drinks', iconPack: 'mdi');
-  static const FxTwoToneIconData family_restroom =
-      FxTwoToneIconData('family_restroom', iconPack: 'mdi');
-  static const FxTwoToneIconData checkroom =
-      FxTwoToneIconData('checkroom', iconPack: 'mdi');
-  static const FxTwoToneIconData soap =
-      FxTwoToneIconData('soap', iconPack: 'mdi');
-  static const FxTwoToneIconData roofing =
-      FxTwoToneIconData('roofing', iconPack: 'mdi');
-  static const FxTwoToneIconData night_shelter =
-      FxTwoToneIconData('night_shelter', iconPack: 'mdi');
-  static const FxTwoToneIconData do_not_step =
-      FxTwoToneIconData('do_not_step', iconPack: 'mdi');
-  static const FxTwoToneIconData spa =
-      FxTwoToneIconData('spa', iconPack: 'mdi');
-  static const FxTwoToneIconData ac_unit =
-      FxTwoToneIconData('ac_unit', iconPack: 'mdi');
-  static const FxTwoToneIconData no_food =
-      FxTwoToneIconData('no_food', iconPack: 'mdi');
-  static const FxTwoToneIconData room_preferences =
-      FxTwoToneIconData('room_preferences', iconPack: 'mdi');
-  static const FxTwoToneIconData no_backpack =
-      FxTwoToneIconData('no_backpack', iconPack: 'mdi');
-  static const FxTwoToneIconData child_friendly =
-      FxTwoToneIconData('child_friendly', iconPack: 'mdi');
-  static const FxTwoToneIconData hot_tub =
-      FxTwoToneIconData('hot_tub', iconPack: 'mdi');
-  static const FxTwoToneIconData fence =
-      FxTwoToneIconData('fence', iconPack: 'mdi');
-  static const FxTwoToneIconData rice_bowl =
-      FxTwoToneIconData('rice_bowl', iconPack: 'mdi');
-  static const FxTwoToneIconData no_photography =
-      FxTwoToneIconData('no_photography', iconPack: 'mdi');
-  static const FxTwoToneIconData bento =
-      FxTwoToneIconData('bento', iconPack: 'mdi');
-  static const FxTwoToneIconData no_cell =
-      FxTwoToneIconData('no_cell', iconPack: 'mdi');
-  static const FxTwoToneIconData umbrella =
-      FxTwoToneIconData('umbrella', iconPack: 'mdi');
-  static const FxTwoToneIconData house =
-      FxTwoToneIconData('house', iconPack: 'mdi');
-  static const FxTwoToneIconData baby_changing_station =
-      FxTwoToneIconData('baby_changing_station', iconPack: 'mdi');
-  static const FxTwoToneIconData bathtub =
-      FxTwoToneIconData('bathtub', iconPack: 'mdi');
-  static const FxTwoToneIconData wash =
-      FxTwoToneIconData('wash', iconPack: 'mdi');
-  static const FxTwoToneIconData airport_shuttle =
-      FxTwoToneIconData('airport_shuttle', iconPack: 'mdi');
-  static const FxTwoToneIconData no_flash =
-      FxTwoToneIconData('no_flash', iconPack: 'mdi');
-  static const FxTwoToneIconData backpack =
-      FxTwoToneIconData('backpack', iconPack: 'mdi');
-  static const FxTwoToneIconData food_bank =
-      FxTwoToneIconData('food_bank', iconPack: 'mdi');
-  static const FxTwoToneIconData kitchen =
-      FxTwoToneIconData('kitchen', iconPack: 'mdi');
-  static const FxTwoToneIconData elevator =
-      FxTwoToneIconData('elevator', iconPack: 'mdi');
-  static const FxTwoToneIconData apartment =
-      FxTwoToneIconData('apartment', iconPack: 'mdi');
-  static const FxTwoToneIconData pool =
-      FxTwoToneIconData('pool', iconPack: 'mdi');
-  static const FxTwoToneIconData stairs =
-      FxTwoToneIconData('stairs', iconPack: 'mdi');
-  static const FxTwoToneIconData no_meeting_room =
-      FxTwoToneIconData('no_meeting_room', iconPack: 'mdi');
-  static const FxTwoToneIconData wheelchair_pickup =
-      FxTwoToneIconData('wheelchair_pickup', iconPack: 'mdi');
-  static const FxTwoToneIconData fitness_center =
-      FxTwoToneIconData('fitness_center', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_forward =
-      FxTwoToneIconData('arrow_forward', iconPack: 'mdi');
-  static const FxTwoToneIconData subdirectory_arrow_right =
-      FxTwoToneIconData('subdirectory_arrow_right', iconPack: 'mdi');
-  static const FxTwoToneIconData cancel =
-      FxTwoToneIconData('cancel', iconPack: 'mdi');
-  static const FxTwoToneIconData expand_less =
-      FxTwoToneIconData('expand_less', iconPack: 'mdi');
-  static const FxTwoToneIconData payments =
-      FxTwoToneIconData('payments', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_drop_down =
-      FxTwoToneIconData('arrow_drop_down', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_downward =
-      FxTwoToneIconData('arrow_downward', iconPack: 'mdi');
-  static const FxTwoToneIconData unfold_less =
-      FxTwoToneIconData('unfold_less', iconPack: 'mdi');
-  static const FxTwoToneIconData close =
-      FxTwoToneIconData('close', iconPack: 'mdi');
-  static const FxTwoToneIconData last_page =
-      FxTwoToneIconData('last_page', iconPack: 'mdi');
-  static const FxTwoToneIconData north =
-      FxTwoToneIconData('north', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_drop_up =
-      FxTwoToneIconData('arrow_drop_up', iconPack: 'mdi');
-  static const FxTwoToneIconData fullscreen_exit =
-      FxTwoToneIconData('fullscreen_exit', iconPack: 'mdi');
-  static const FxTwoToneIconData subdirectory_arrow_left =
-      FxTwoToneIconData('subdirectory_arrow_left', iconPack: 'mdi');
-  static const FxTwoToneIconData refresh =
-      FxTwoToneIconData('refresh', iconPack: 'mdi');
-  static const FxTwoToneIconData expand_more =
-      FxTwoToneIconData('expand_more', iconPack: 'mdi');
-  static const FxTwoToneIconData app_settings_alt =
-      FxTwoToneIconData('app_settings_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_drop_down_circle =
-      FxTwoToneIconData('arrow_drop_down_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData unfold_more =
-      FxTwoToneIconData('unfold_more', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_forward_ios =
-      FxTwoToneIconData('arrow_forward_ios', iconPack: 'mdi');
-  static const FxTwoToneIconData chevron_left =
-      FxTwoToneIconData('chevron_left', iconPack: 'mdi');
-  static const FxTwoToneIconData east =
-      FxTwoToneIconData('east', iconPack: 'mdi');
-  static const FxTwoToneIconData legend_toggle =
-      FxTwoToneIconData('legend_toggle', iconPack: 'mdi');
-  static const FxTwoToneIconData menu_open =
-      FxTwoToneIconData('menu_open', iconPack: 'mdi');
-  static const FxTwoToneIconData switch_left =
-      FxTwoToneIconData('switch_left', iconPack: 'mdi');
-  static const FxTwoToneIconData switch_right =
-      FxTwoToneIconData('switch_right', iconPack: 'mdi');
-  static const FxTwoToneIconData double_arrow =
-      FxTwoToneIconData('double_arrow', iconPack: 'mdi');
-  static const FxTwoToneIconData home_work =
-      FxTwoToneIconData('home_work', iconPack: 'mdi');
-  static const FxTwoToneIconData north_east =
-      FxTwoToneIconData('north_east', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_back =
-      FxTwoToneIconData('arrow_back', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_back_ios =
-      FxTwoToneIconData('arrow_back_ios', iconPack: 'mdi');
-  static const FxTwoToneIconData menu =
-      FxTwoToneIconData('menu', iconPack: 'mdi');
-  static const FxTwoToneIconData campaign =
-      FxTwoToneIconData('campaign', iconPack: 'mdi');
-  static const FxTwoToneIconData south =
-      FxTwoToneIconData('south', iconPack: 'mdi');
-  static const FxTwoToneIconData south_west =
-      FxTwoToneIconData('south_west', iconPack: 'mdi');
-  static const FxTwoToneIconData more_horiz =
-      FxTwoToneIconData('more_horiz', iconPack: 'mdi');
-  static const FxTwoToneIconData west =
-      FxTwoToneIconData('west', iconPack: 'mdi');
-  static const FxTwoToneIconData fullscreen =
-      FxTwoToneIconData('fullscreen', iconPack: 'mdi');
-  static const FxTwoToneIconData check =
-      FxTwoToneIconData('check', iconPack: 'mdi');
-  static const FxTwoToneIconData apps =
-      FxTwoToneIconData('apps', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_upward =
-      FxTwoToneIconData('arrow_upward', iconPack: 'mdi');
-  static const FxTwoToneIconData more_vert =
-      FxTwoToneIconData('more_vert', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_left =
-      FxTwoToneIconData('arrow_left', iconPack: 'mdi');
-  static const FxTwoToneIconData south_east =
-      FxTwoToneIconData('south_east', iconPack: 'mdi');
-  static const FxTwoToneIconData north_west =
-      FxTwoToneIconData('north_west', iconPack: 'mdi');
-  static const FxTwoToneIconData first_page =
-      FxTwoToneIconData('first_page', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_right =
-      FxTwoToneIconData('arrow_right', iconPack: 'mdi');
-  static const FxTwoToneIconData chevron_right =
-      FxTwoToneIconData('chevron_right', iconPack: 'mdi');
-  static const FxTwoToneIconData biotech =
-      FxTwoToneIconData('biotech', iconPack: 'mdi');
-  static const FxTwoToneIconData insights =
-      FxTwoToneIconData('insights', iconPack: 'mdi');
-  static const FxTwoToneIconData flag =
-      FxTwoToneIconData('flag', iconPack: 'mdi');
-  static const FxTwoToneIconData font_download =
-      FxTwoToneIconData('font_download', iconPack: 'mdi');
-  static const FxTwoToneIconData remove =
-      FxTwoToneIconData('remove', iconPack: 'mdi');
-  static const FxTwoToneIconData add_circle_outline =
-      FxTwoToneIconData('add_circle_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData dynamic_feed =
-      FxTwoToneIconData('dynamic_feed', iconPack: 'mdi');
-  static const FxTwoToneIconData select_all =
-      FxTwoToneIconData('select_all', iconPack: 'mdi');
-  static const FxTwoToneIconData content_copy =
-      FxTwoToneIconData('content_copy', iconPack: 'mdi');
-  static const FxTwoToneIconData inbox =
-      FxTwoToneIconData('inbox', iconPack: 'mdi');
-  static const FxTwoToneIconData weekend =
-      FxTwoToneIconData('weekend', iconPack: 'mdi');
-  static const FxTwoToneIconData push_pin =
-      FxTwoToneIconData('push_pin', iconPack: 'mdi');
-  static const FxTwoToneIconData calculate =
-      FxTwoToneIconData('calculate', iconPack: 'mdi');
-  static const FxTwoToneIconData archive =
-      FxTwoToneIconData('archive', iconPack: 'mdi');
-  static const FxTwoToneIconData sort =
-      FxTwoToneIconData('sort', iconPack: 'mdi');
-  static const FxTwoToneIconData how_to_vote =
-      FxTwoToneIconData('how_to_vote', iconPack: 'mdi');
-  static const FxTwoToneIconData how_to_reg =
-      FxTwoToneIconData('how_to_reg', iconPack: 'mdi');
-  static const FxTwoToneIconData content_cut =
-      FxTwoToneIconData('content_cut', iconPack: 'mdi');
-  static const FxTwoToneIconData redo =
-      FxTwoToneIconData('redo', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_list =
-      FxTwoToneIconData('filter_list', iconPack: 'mdi');
-  static const FxTwoToneIconData mail =
-      FxTwoToneIconData('mail', iconPack: 'mdi');
-  static const FxTwoToneIconData drafts =
-      FxTwoToneIconData('drafts', iconPack: 'mdi');
-  static const FxTwoToneIconData link_off =
-      FxTwoToneIconData('link_off', iconPack: 'mdi');
-  static const FxTwoToneIconData content_paste =
-      FxTwoToneIconData('content_paste', iconPack: 'mdi');
-  static const FxTwoToneIconData remove_circle =
-      FxTwoToneIconData('remove_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData remove_circle_outline =
-      FxTwoToneIconData('remove_circle_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData amp_stories =
-      FxTwoToneIconData('amp_stories', iconPack: 'mdi');
-  static const FxTwoToneIconData undo =
-      FxTwoToneIconData('undo', iconPack: 'mdi');
-  static const FxTwoToneIconData file_copy =
-      FxTwoToneIconData('file_copy', iconPack: 'mdi');
-  static const FxTwoToneIconData text_format =
-      FxTwoToneIconData('text_format', iconPack: 'mdi');
-  static const FxTwoToneIconData unarchive =
-      FxTwoToneIconData('unarchive', iconPack: 'mdi');
-  static const FxTwoToneIconData clear =
-      FxTwoToneIconData('clear', iconPack: 'mdi');
-  static const FxTwoToneIconData markunread =
-      FxTwoToneIconData('markunread', iconPack: 'mdi');
-  static const FxTwoToneIconData where_to_vote =
-      FxTwoToneIconData('where_to_vote', iconPack: 'mdi');
-  static const FxTwoToneIconData reply_all =
-      FxTwoToneIconData('reply_all', iconPack: 'mdi');
-  static const FxTwoToneIconData reply =
-      FxTwoToneIconData('reply', iconPack: 'mdi');
-  static const FxTwoToneIconData save_alt =
-      FxTwoToneIconData('save_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData report_off =
-      FxTwoToneIconData('report_off', iconPack: 'mdi');
-  static const FxTwoToneIconData add =
-      FxTwoToneIconData('add', iconPack: 'mdi');
-  static const FxTwoToneIconData link =
-      FxTwoToneIconData('link', iconPack: 'mdi');
-  static const FxTwoToneIconData add_circle =
-      FxTwoToneIconData('add_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData add_box =
-      FxTwoToneIconData('add_box', iconPack: 'mdi');
-  static const FxTwoToneIconData gesture =
-      FxTwoToneIconData('gesture', iconPack: 'mdi');
-  static const FxTwoToneIconData next_week =
-      FxTwoToneIconData('next_week', iconPack: 'mdi');
-  static const FxTwoToneIconData attribution =
-      FxTwoToneIconData('attribution', iconPack: 'mdi');
-  static const FxTwoToneIconData waves =
-      FxTwoToneIconData('waves', iconPack: 'mdi');
-  static const FxTwoToneIconData ballot =
-      FxTwoToneIconData('ballot', iconPack: 'mdi');
-  static const FxTwoToneIconData backspace =
-      FxTwoToneIconData('backspace', iconPack: 'mdi');
-  static const FxTwoToneIconData report =
-      FxTwoToneIconData('report', iconPack: 'mdi');
-  static const FxTwoToneIconData delete_sweep =
-      FxTwoToneIconData('delete_sweep', iconPack: 'mdi');
-  static const FxTwoToneIconData square_foot =
-      FxTwoToneIconData('square_foot', iconPack: 'mdi');
-  static const FxTwoToneIconData outlined_flag =
-      FxTwoToneIconData('outlined_flag', iconPack: 'mdi');
-  static const FxTwoToneIconData report_gmailerrorred =
-      FxTwoToneIconData('report_gmailerrorred', iconPack: 'mdi');
-  static const FxTwoToneIconData save =
-      FxTwoToneIconData('save', iconPack: 'mdi');
-  static const FxTwoToneIconData send =
-      FxTwoToneIconData('send', iconPack: 'mdi');
-  static const FxTwoToneIconData create =
-      FxTwoToneIconData('create', iconPack: 'mdi');
-  static const FxTwoToneIconData low_priority =
-      FxTwoToneIconData('low_priority', iconPack: 'mdi');
-  static const FxTwoToneIconData forward =
-      FxTwoToneIconData('forward', iconPack: 'mdi');
-  static const FxTwoToneIconData policy =
-      FxTwoToneIconData('policy', iconPack: 'mdi');
-  static const FxTwoToneIconData move_to_inbox =
-      FxTwoToneIconData('move_to_inbox', iconPack: 'mdi');
-  static const FxTwoToneIconData block =
-      FxTwoToneIconData('block', iconPack: 'mdi');
-  static const FxTwoToneIconData assistant_photo =
-      FxTwoToneIconData('assistant_photo', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_4 =
-      FxTwoToneIconData('brightness_4', iconPack: 'mdi');
-  static const FxTwoToneIconData broken_image =
-      FxTwoToneIconData('broken_image', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_3 =
-      FxTwoToneIconData('brightness_3', iconPack: 'mdi');
-  static const FxTwoToneIconData assistant =
-      FxTwoToneIconData('assistant', iconPack: 'mdi');
-  static const FxTwoToneIconData grid_off =
-      FxTwoToneIconData('grid_off', iconPack: 'mdi');
-  static const FxTwoToneIconData monochrome_photos =
-      FxTwoToneIconData('monochrome_photos', iconPack: 'mdi');
-  static const FxTwoToneIconData flip_camera_ios =
-      FxTwoToneIconData('flip_camera_ios', iconPack: 'mdi');
-  static const FxTwoToneIconData gradient =
-      FxTwoToneIconData('gradient', iconPack: 'mdi');
-  static const FxTwoToneIconData switch_camera =
-      FxTwoToneIconData('switch_camera', iconPack: 'mdi');
-  static const FxTwoToneIconData remove_red_eye =
-      FxTwoToneIconData('remove_red_eye', iconPack: 'mdi');
-  static const FxTwoToneIconData view_comfy =
-      FxTwoToneIconData('view_comfy', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_2 =
-      FxTwoToneIconData('brightness_2', iconPack: 'mdi');
-  static const FxTwoToneIconData wb_cloudy =
-      FxTwoToneIconData('wb_cloudy', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_5 =
-      FxTwoToneIconData('brightness_5', iconPack: 'mdi');
-  static const FxTwoToneIconData leak_remove =
-      FxTwoToneIconData('leak_remove', iconPack: 'mdi');
-  static const FxTwoToneIconData burst_mode =
-      FxTwoToneIconData('burst_mode', iconPack: 'mdi');
-  static const FxTwoToneIconData picture_as_pdf =
-      FxTwoToneIconData('picture_as_pdf', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure =
-      FxTwoToneIconData('exposure', iconPack: 'mdi');
-  static const FxTwoToneIconData audiotrack =
-      FxTwoToneIconData('audiotrack', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_tilt_shift =
-      FxTwoToneIconData('filter_tilt_shift', iconPack: 'mdi');
-  static const FxTwoToneIconData adjust =
-      FxTwoToneIconData('adjust', iconPack: 'mdi');
-  static const FxTwoToneIconData camera_rear =
-      FxTwoToneIconData('camera_rear', iconPack: 'mdi');
-  static const FxTwoToneIconData tag_faces =
-      FxTwoToneIconData('tag_faces', iconPack: 'mdi');
-  static const FxTwoToneIconData music_off =
-      FxTwoToneIconData('music_off', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_library =
-      FxTwoToneIconData('photo_library', iconPack: 'mdi');
-  static const FxTwoToneIconData wb_sunny =
-      FxTwoToneIconData('wb_sunny', iconPack: 'mdi');
-  static const FxTwoToneIconData flash_auto =
-      FxTwoToneIconData('flash_auto', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_16_9 =
-      FxTwoToneIconData('crop_16_9', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_rotate =
-      FxTwoToneIconData('crop_rotate', iconPack: 'mdi');
-  static const FxTwoToneIconData motion_photos_paused =
-      FxTwoToneIconData('motion_photos_paused', iconPack: 'mdi');
-  static const FxTwoToneIconData blur_off =
-      FxTwoToneIconData('blur_off', iconPack: 'mdi');
-  static const FxTwoToneIconData camera_front =
-      FxTwoToneIconData('camera_front', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_none =
-      FxTwoToneIconData('filter_none', iconPack: 'mdi');
-  static const FxTwoToneIconData hdr_weak =
-      FxTwoToneIconData('hdr_weak', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_vintage =
-      FxTwoToneIconData('filter_vintage', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_6 =
-      FxTwoToneIconData('looks_6', iconPack: 'mdi');
-  static const FxTwoToneIconData iso =
-      FxTwoToneIconData('iso', iconPack: 'mdi');
-  static const FxTwoToneIconData leak_add =
-      FxTwoToneIconData('leak_add', iconPack: 'mdi');
-  static const FxTwoToneIconData shutter_speed =
-      FxTwoToneIconData('shutter_speed', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_center_focus =
-      FxTwoToneIconData('filter_center_focus', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure_neg_1 =
-      FxTwoToneIconData('exposure_neg_1', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure_plus_1 =
-      FxTwoToneIconData('exposure_plus_1', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_filter =
-      FxTwoToneIconData('photo_filter', iconPack: 'mdi');
-  static const FxTwoToneIconData timer_3 =
-      FxTwoToneIconData('timer_3', iconPack: 'mdi');
-  static const FxTwoToneIconData image_not_supported =
-      FxTwoToneIconData('image_not_supported', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_frames =
-      FxTwoToneIconData('filter_frames', iconPack: 'mdi');
-  static const FxTwoToneIconData dehaze =
-      FxTwoToneIconData('dehaze', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_5_4 =
-      FxTwoToneIconData('crop_5_4', iconPack: 'mdi');
-  static const FxTwoToneIconData movie_creation =
-      FxTwoToneIconData('movie_creation', iconPack: 'mdi');
-  static const FxTwoToneIconData control_point =
-      FxTwoToneIconData('control_point', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_drama =
-      FxTwoToneIconData('filter_drama', iconPack: 'mdi');
-  static const FxTwoToneIconData camera =
-      FxTwoToneIconData('camera', iconPack: 'mdi');
-  static const FxTwoToneIconData wb_auto =
-      FxTwoToneIconData('wb_auto', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_5 =
-      FxTwoToneIconData('filter_5', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_2 =
-      FxTwoToneIconData('filter_2', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_b_and_w =
-      FxTwoToneIconData('filter_b_and_w', iconPack: 'mdi');
-  static const FxTwoToneIconData control_point_duplicate =
-      FxTwoToneIconData('control_point_duplicate', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_3 =
-      FxTwoToneIconData('filter_3', iconPack: 'mdi');
-  static const FxTwoToneIconData timer =
-      FxTwoToneIconData('timer', iconPack: 'mdi');
-  static const FxTwoToneIconData wb_incandescent =
-      FxTwoToneIconData('wb_incandescent', iconPack: 'mdi');
-  static const FxTwoToneIconData straighten =
-      FxTwoToneIconData('straighten', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_4 =
-      FxTwoToneIconData('filter_4', iconPack: 'mdi');
-  static const FxTwoToneIconData panorama_fish_eye =
-      FxTwoToneIconData('panorama_fish_eye', iconPack: 'mdi');
-  static const FxTwoToneIconData crop =
-      FxTwoToneIconData('crop', iconPack: 'mdi');
-  static const FxTwoToneIconData timelapse =
-      FxTwoToneIconData('timelapse', iconPack: 'mdi');
-  static const FxTwoToneIconData color_lens =
-      FxTwoToneIconData('color_lens', iconPack: 'mdi');
-  static const FxTwoToneIconData portrait =
-      FxTwoToneIconData('portrait', iconPack: 'mdi');
-  static const FxTwoToneIconData flash_off =
-      FxTwoToneIconData('flash_off', iconPack: 'mdi');
-  static const FxTwoToneIconData grid_on =
-      FxTwoToneIconData('grid_on', iconPack: 'mdi');
-  static const FxTwoToneIconData flip =
-      FxTwoToneIconData('flip', iconPack: 'mdi');
-  static const FxTwoToneIconData details =
-      FxTwoToneIconData('details', iconPack: 'mdi');
-  static const FxTwoToneIconData add_a_photo =
-      FxTwoToneIconData('add_a_photo', iconPack: 'mdi');
-  static const FxTwoToneIconData style =
-      FxTwoToneIconData('style', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_din =
-      FxTwoToneIconData('crop_din', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_square =
-      FxTwoToneIconData('crop_square', iconPack: 'mdi');
-  static const FxTwoToneIconData nature =
-      FxTwoToneIconData('nature', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_hdr =
-      FxTwoToneIconData('filter_hdr', iconPack: 'mdi');
-  static const FxTwoToneIconData image =
-      FxTwoToneIconData('image', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_landscape =
-      FxTwoToneIconData('crop_landscape', iconPack: 'mdi');
-  static const FxTwoToneIconData camera_alt =
-      FxTwoToneIconData('camera_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData blur_linear =
-      FxTwoToneIconData('blur_linear', iconPack: 'mdi');
-  static const FxTwoToneIconData switch_video =
-      FxTwoToneIconData('switch_video', iconPack: 'mdi');
-  static const FxTwoToneIconData blur_circular =
-      FxTwoToneIconData('blur_circular', iconPack: 'mdi');
-  static const FxTwoToneIconData edit =
-      FxTwoToneIconData('edit', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_7 =
-      FxTwoToneIconData('brightness_7', iconPack: 'mdi');
-  static const FxTwoToneIconData grain =
-      FxTwoToneIconData('grain', iconPack: 'mdi');
-  static const FxTwoToneIconData receipt_long =
-      FxTwoToneIconData('receipt_long', iconPack: 'mdi');
-  static const FxTwoToneIconData image_aspect_ratio =
-      FxTwoToneIconData('image_aspect_ratio', iconPack: 'mdi');
-  static const FxTwoToneIconData lens =
-      FxTwoToneIconData('lens', iconPack: 'mdi');
-  static const FxTwoToneIconData movie_filter =
-      FxTwoToneIconData('movie_filter', iconPack: 'mdi');
-  static const FxTwoToneIconData timer_10 =
-      FxTwoToneIconData('timer_10', iconPack: 'mdi');
-  static const FxTwoToneIconData panorama_horizontal =
-      FxTwoToneIconData('panorama_horizontal', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_album =
-      FxTwoToneIconData('photo_album', iconPack: 'mdi');
-  static const FxTwoToneIconData loupe =
-      FxTwoToneIconData('loupe', iconPack: 'mdi');
-  static const FxTwoToneIconData looks =
-      FxTwoToneIconData('looks', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_size_select_small =
-      FxTwoToneIconData('photo_size_select_small', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_6 =
-      FxTwoToneIconData('brightness_6', iconPack: 'mdi');
-  static const FxTwoToneIconData navigate_next =
-      FxTwoToneIconData('navigate_next', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_1 =
-      FxTwoToneIconData('brightness_1', iconPack: 'mdi');
-  static const FxTwoToneIconData tune =
-      FxTwoToneIconData('tune', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_camera =
-      FxTwoToneIconData('photo_camera', iconPack: 'mdi');
-  static const FxTwoToneIconData center_focus_weak =
-      FxTwoToneIconData('center_focus_weak', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_4 =
-      FxTwoToneIconData('looks_4', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_3 =
-      FxTwoToneIconData('looks_3', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_portrait =
-      FxTwoToneIconData('crop_portrait', iconPack: 'mdi');
-  static const FxTwoToneIconData bedtime =
-      FxTwoToneIconData('bedtime', iconPack: 'mdi');
-  static const FxTwoToneIconData rotate_right =
-      FxTwoToneIconData('rotate_right', iconPack: 'mdi');
-  static const FxTwoToneIconData hdr_strong =
-      FxTwoToneIconData('hdr_strong', iconPack: 'mdi');
-  static const FxTwoToneIconData nature_people =
-      FxTwoToneIconData('nature_people', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure_neg_2 =
-      FxTwoToneIconData('exposure_neg_2', iconPack: 'mdi');
-  static const FxTwoToneIconData compare =
-      FxTwoToneIconData('compare', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure_plus_2 =
-      FxTwoToneIconData('exposure_plus_2', iconPack: 'mdi');
-  static const FxTwoToneIconData panorama =
-      FxTwoToneIconData('panorama', iconPack: 'mdi');
-  static const FxTwoToneIconData collections_bookmark =
-      FxTwoToneIconData('collections_bookmark', iconPack: 'mdi');
-  static const FxTwoToneIconData hdr_on =
-      FxTwoToneIconData('hdr_on', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_9_plus =
-      FxTwoToneIconData('filter_9_plus', iconPack: 'mdi');
-  static const FxTwoToneIconData texture =
-      FxTwoToneIconData('texture', iconPack: 'mdi');
-  static const FxTwoToneIconData add_photo_alternate =
-      FxTwoToneIconData('add_photo_alternate', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_5 =
-      FxTwoToneIconData('looks_5', iconPack: 'mdi');
-  static const FxTwoToneIconData flash_on =
-      FxTwoToneIconData('flash_on', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_size_select_large =
-      FxTwoToneIconData('photo_size_select_large', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_8 =
-      FxTwoToneIconData('filter_8', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_3_2 =
-      FxTwoToneIconData('crop_3_2', iconPack: 'mdi');
-  static const FxTwoToneIconData brush =
-      FxTwoToneIconData('brush', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_1 =
-      FxTwoToneIconData('filter_1', iconPack: 'mdi');
-  static const FxTwoToneIconData healing =
-      FxTwoToneIconData('healing', iconPack: 'mdi');
-  static const FxTwoToneIconData euro =
-      FxTwoToneIconData('euro', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_6 =
-      FxTwoToneIconData('filter_6', iconPack: 'mdi');
-  static const FxTwoToneIconData landscape =
-      FxTwoToneIconData('landscape', iconPack: 'mdi');
-  static const FxTwoToneIconData navigate_before =
-      FxTwoToneIconData('navigate_before', iconPack: 'mdi');
-  static const FxTwoToneIconData vignette =
-      FxTwoToneIconData('vignette', iconPack: 'mdi');
-  static const FxTwoToneIconData image_search =
-      FxTwoToneIconData('image_search', iconPack: 'mdi');
-  static const FxTwoToneIconData filter =
-      FxTwoToneIconData('filter', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_7 =
-      FxTwoToneIconData('filter_7', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_9 =
-      FxTwoToneIconData('filter_9', iconPack: 'mdi');
-  static const FxTwoToneIconData tonality =
-      FxTwoToneIconData('tonality', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_one =
-      FxTwoToneIconData('looks_one', iconPack: 'mdi');
-  static const FxTwoToneIconData center_focus_strong =
-      FxTwoToneIconData('center_focus_strong', iconPack: 'mdi');
-  static const FxTwoToneIconData photo_size_select_actual =
-      FxTwoToneIconData('photo_size_select_actual', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_7_5 =
-      FxTwoToneIconData('crop_7_5', iconPack: 'mdi');
-  static const FxTwoToneIconData collections =
-      FxTwoToneIconData('collections', iconPack: 'mdi');
-  static const FxTwoToneIconData flip_camera_android =
-      FxTwoToneIconData('flip_camera_android', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_free =
-      FxTwoToneIconData('crop_free', iconPack: 'mdi');
-  static const FxTwoToneIconData motion_photos_pause =
-      FxTwoToneIconData('motion_photos_pause', iconPack: 'mdi');
-  static const FxTwoToneIconData exposure_zero =
-      FxTwoToneIconData('exposure_zero', iconPack: 'mdi');
-  static const FxTwoToneIconData hdr_off =
-      FxTwoToneIconData('hdr_off', iconPack: 'mdi');
-  static const FxTwoToneIconData panorama_wide_angle =
-      FxTwoToneIconData('panorama_wide_angle', iconPack: 'mdi');
-  static const FxTwoToneIconData transform =
-      FxTwoToneIconData('transform', iconPack: 'mdi');
-  static const FxTwoToneIconData camera_roll =
-      FxTwoToneIconData('camera_roll', iconPack: 'mdi');
-  static const FxTwoToneIconData slideshow =
-      FxTwoToneIconData('slideshow', iconPack: 'mdi');
-  static const FxTwoToneIconData music_note =
-      FxTwoToneIconData('music_note', iconPack: 'mdi');
-  static const FxTwoToneIconData panorama_vertical =
-      FxTwoToneIconData('panorama_vertical', iconPack: 'mdi');
-  static const FxTwoToneIconData photo =
-      FxTwoToneIconData('photo', iconPack: 'mdi');
-  static const FxTwoToneIconData wb_iridescent =
-      FxTwoToneIconData('wb_iridescent', iconPack: 'mdi');
-  static const FxTwoToneIconData colorize =
-      FxTwoToneIconData('colorize', iconPack: 'mdi');
-  static const FxTwoToneIconData rotate_left =
-      FxTwoToneIconData('rotate_left', iconPack: 'mdi');
-  static const FxTwoToneIconData flare =
-      FxTwoToneIconData('flare', iconPack: 'mdi');
-  static const FxTwoToneIconData crop_original =
-      FxTwoToneIconData('crop_original', iconPack: 'mdi');
-  static const FxTwoToneIconData timer_off =
-      FxTwoToneIconData('timer_off', iconPack: 'mdi');
-  static const FxTwoToneIconData palette =
-      FxTwoToneIconData('palette', iconPack: 'mdi');
-  static const FxTwoToneIconData looks_two =
-      FxTwoToneIconData('looks_two', iconPack: 'mdi');
-  static const FxTwoToneIconData add_to_photos =
-      FxTwoToneIconData('add_to_photos', iconPack: 'mdi');
-  static const FxTwoToneIconData rotate_90_degrees_ccw =
-      FxTwoToneIconData('rotate_90_degrees_ccw', iconPack: 'mdi');
-  static const FxTwoToneIconData linked_camera =
-      FxTwoToneIconData('linked_camera', iconPack: 'mdi');
-  static const FxTwoToneIconData motion_photos_on =
-      FxTwoToneIconData('motion_photos_on', iconPack: 'mdi');
-  static const FxTwoToneIconData blur_on =
-      FxTwoToneIconData('blur_on', iconPack: 'mdi');
-  static const FxTwoToneIconData view_compact =
-      FxTwoToneIconData('view_compact', iconPack: 'mdi');
-  static const FxTwoToneIconData indeterminate_check_box =
-      FxTwoToneIconData('indeterminate_check_box', iconPack: 'mdi');
-  static const FxTwoToneIconData star_border =
-      FxTwoToneIconData('star_border', iconPack: 'mdi');
-  static const FxTwoToneIconData radio_button_unchecked =
-      FxTwoToneIconData('radio_button_unchecked', iconPack: 'mdi');
-  static const FxTwoToneIconData check_box_outline_blank =
-      FxTwoToneIconData('check_box_outline_blank', iconPack: 'mdi');
-  static const FxTwoToneIconData star_half =
-      FxTwoToneIconData('star_half', iconPack: 'mdi');
-  static const FxTwoToneIconData radio_button_checked =
-      FxTwoToneIconData('radio_button_checked', iconPack: 'mdi');
-  static const FxTwoToneIconData toggle_on =
-      FxTwoToneIconData('toggle_on', iconPack: 'mdi');
-  static const FxTwoToneIconData toggle_off =
-      FxTwoToneIconData('toggle_off', iconPack: 'mdi');
-  static const FxTwoToneIconData star =
-      FxTwoToneIconData('star', iconPack: 'mdi');
-  static const FxTwoToneIconData star_outline =
-      FxTwoToneIconData('star_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData check_box =
-      FxTwoToneIconData('check_box', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_cricket =
-      FxTwoToneIconData('sports_cricket', iconPack: 'mdi');
-  static const FxTwoToneIconData thumb_down_alt =
-      FxTwoToneIconData('thumb_down_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_tennis =
-      FxTwoToneIconData('sports_tennis', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_rugby =
-      FxTwoToneIconData('sports_rugby', iconPack: 'mdi');
-  static const FxTwoToneIconData luggage =
-      FxTwoToneIconData('luggage', iconPack: 'mdi');
-  static const FxTwoToneIconData sick =
-      FxTwoToneIconData('sick', iconPack: 'mdi');
-  static const FxTwoToneIconData history_edu =
-      FxTwoToneIconData('history_edu', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_handball =
-      FxTwoToneIconData('sports_handball', iconPack: 'mdi');
-  static const FxTwoToneIconData fireplace =
-      FxTwoToneIconData('fireplace', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_hockey =
-      FxTwoToneIconData('sports_hockey', iconPack: 'mdi');
-  static const FxTwoToneIconData person_outline =
-      FxTwoToneIconData('person_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData public_off =
-      FxTwoToneIconData('public_off', iconPack: 'mdi');
-  static const FxTwoToneIconData plus_one =
-      FxTwoToneIconData('plus_one', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_volleyball =
-      FxTwoToneIconData('sports_volleyball', iconPack: 'mdi');
-  static const FxTwoToneIconData reduce_capacity =
-      FxTwoToneIconData('reduce_capacity', iconPack: 'mdi');
-  static const FxTwoToneIconData six_ft_apart =
-      FxTwoToneIconData('6_ft_apart', iconPack: 'mdi');
-  static const FxTwoToneIconData group_add =
-      FxTwoToneIconData('group_add', iconPack: 'mdi');
-  static const FxTwoToneIconData party_mode =
-      FxTwoToneIconData('party_mode', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_events =
-      FxTwoToneIconData('emoji_events', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_symbols =
-      FxTwoToneIconData('emoji_symbols', iconPack: 'mdi');
-  static const FxTwoToneIconData notifications_paused =
-      FxTwoToneIconData('notifications_paused', iconPack: 'mdi');
-  static const FxTwoToneIconData group =
-      FxTwoToneIconData('group', iconPack: 'mdi');
-  static const FxTwoToneIconData person =
-      FxTwoToneIconData('person', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_golf =
-      FxTwoToneIconData('sports_golf', iconPack: 'mdi');
-  static const FxTwoToneIconData person_remove_alt_1 =
-      FxTwoToneIconData('person_remove_alt_1', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_people =
-      FxTwoToneIconData('emoji_people', iconPack: 'mdi');
-  static const FxTwoToneIconData psychology =
-      FxTwoToneIconData('psychology', iconPack: 'mdi');
-  static const FxTwoToneIconData elderly =
-      FxTwoToneIconData('elderly', iconPack: 'mdi');
-  static const FxTwoToneIconData science =
-      FxTwoToneIconData('science', iconPack: 'mdi');
-  static const FxTwoToneIconData sanitizer =
-      FxTwoToneIconData('sanitizer', iconPack: 'mdi');
-  static const FxTwoToneIconData single_bed =
-      FxTwoToneIconData('single_bed', iconPack: 'mdi');
-  static const FxTwoToneIconData whatshot =
-      FxTwoToneIconData('whatshot', iconPack: 'mdi');
-  static const FxTwoToneIconData self_improvement =
-      FxTwoToneIconData('self_improvement', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_very_dissatisfied =
-      FxTwoToneIconData('sentiment_very_dissatisfied', iconPack: 'mdi');
-  static const FxTwoToneIconData groups =
-      FxTwoToneIconData('groups', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_mma =
-      FxTwoToneIconData('sports_mma', iconPack: 'mdi');
-  static const FxTwoToneIconData person_add =
-      FxTwoToneIconData('person_add', iconPack: 'mdi');
-  static const FxTwoToneIconData sports =
-      FxTwoToneIconData('sports', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_very_satisfied =
-      FxTwoToneIconData('sentiment_very_satisfied', iconPack: 'mdi');
-  static const FxTwoToneIconData mood_bad =
-      FxTwoToneIconData('mood_bad', iconPack: 'mdi');
-  static const FxTwoToneIconData location_city =
-      FxTwoToneIconData('location_city', iconPack: 'mdi');
-  static const FxTwoToneIconData coronavirus =
-      FxTwoToneIconData('coronavirus', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_dissatisfied =
-      FxTwoToneIconData('sentiment_dissatisfied', iconPack: 'mdi');
-  static const FxTwoToneIconData person_remove =
-      FxTwoToneIconData('person_remove', iconPack: 'mdi');
-  static const FxTwoToneIconData outdoor_grill =
-      FxTwoToneIconData('outdoor_grill', iconPack: 'mdi');
-  static const FxTwoToneIconData notifications_none =
-      FxTwoToneIconData('notifications_none', iconPack: 'mdi');
-  static const FxTwoToneIconData architecture =
-      FxTwoToneIconData('architecture', iconPack: 'mdi');
-  static const FxTwoToneIconData military_tech =
-      FxTwoToneIconData('military_tech', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_nature =
-      FxTwoToneIconData('emoji_nature', iconPack: 'mdi');
-  static const FxTwoToneIconData public =
-      FxTwoToneIconData('public', iconPack: 'mdi');
-  static const FxTwoToneIconData facebook =
-      FxTwoToneIconData('facebook', iconPack: 'mdi');
-  static const FxTwoToneIconData connect_without_contact =
-      FxTwoToneIconData('connect_without_contact', iconPack: 'mdi');
-  static const FxTwoToneIconData people_alt =
-      FxTwoToneIconData('people_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData king_bed =
-      FxTwoToneIconData('king_bed', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_satisfied =
-      FxTwoToneIconData('sentiment_satisfied', iconPack: 'mdi');
-  static const FxTwoToneIconData precision_manufacturing =
-      FxTwoToneIconData('precision_manufacturing', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_kabaddi =
-      FxTwoToneIconData('sports_kabaddi', iconPack: 'mdi');
-  static const FxTwoToneIconData people =
-      FxTwoToneIconData('people', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_esports =
-      FxTwoToneIconData('sports_esports', iconPack: 'mdi');
-  static const FxTwoToneIconData construction =
-      FxTwoToneIconData('construction', iconPack: 'mdi');
-  static const FxTwoToneIconData thumb_up_alt =
-      FxTwoToneIconData('thumb_up_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_emotions =
-      FxTwoToneIconData('emoji_emotions', iconPack: 'mdi');
-  static const FxTwoToneIconData clean_hands =
-      FxTwoToneIconData('clean_hands', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_baseball =
-      FxTwoToneIconData('sports_baseball', iconPack: 'mdi');
-  static const FxTwoToneIconData follow_the_signs =
-      FxTwoToneIconData('follow_the_signs', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_neutral =
-      FxTwoToneIconData('sentiment_neutral', iconPack: 'mdi');
-  static const FxTwoToneIconData no_luggage =
-      FxTwoToneIconData('no_luggage', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_soccer =
-      FxTwoToneIconData('sports_soccer', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_football =
-      FxTwoToneIconData('sports_football', iconPack: 'mdi');
-  static const FxTwoToneIconData notifications_off =
-      FxTwoToneIconData('notifications_off', iconPack: 'mdi');
-  static const FxTwoToneIconData person_add_alt_1 =
-      FxTwoToneIconData('person_add_alt_1', iconPack: 'mdi');
-  static const FxTwoToneIconData mood =
-      FxTwoToneIconData('mood', iconPack: 'mdi');
-  static const FxTwoToneIconData pages =
-      FxTwoToneIconData('pages', iconPack: 'mdi');
-  static const FxTwoToneIconData school =
-      FxTwoToneIconData('school', iconPack: 'mdi');
-  static const FxTwoToneIconData domain =
-      FxTwoToneIconData('domain', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_objects =
-      FxTwoToneIconData('emoji_objects', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_food_beverage =
-      FxTwoToneIconData('emoji_food_beverage', iconPack: 'mdi');
-  static const FxTwoToneIconData engineering =
-      FxTwoToneIconData('engineering', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_transportation =
-      FxTwoToneIconData('emoji_transportation', iconPack: 'mdi');
-  static const FxTwoToneIconData notifications =
-      FxTwoToneIconData('notifications', iconPack: 'mdi');
-  static const FxTwoToneIconData masks =
-      FxTwoToneIconData('masks', iconPack: 'mdi');
-  static const FxTwoToneIconData deck =
-      FxTwoToneIconData('deck', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_motorsports =
-      FxTwoToneIconData('sports_motorsports', iconPack: 'mdi');
-  static const FxTwoToneIconData cake =
-      FxTwoToneIconData('cake', iconPack: 'mdi');
-  static const FxTwoToneIconData emoji_flags =
-      FxTwoToneIconData('emoji_flags', iconPack: 'mdi');
-  static const FxTwoToneIconData poll =
-      FxTwoToneIconData('poll', iconPack: 'mdi');
-  static const FxTwoToneIconData sports_basketball =
-      FxTwoToneIconData('sports_basketball', iconPack: 'mdi');
-  static const FxTwoToneIconData people_outline =
-      FxTwoToneIconData('people_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData nights_stay =
-      FxTwoToneIconData('nights_stay', iconPack: 'mdi');
-  static const FxTwoToneIconData share =
-      FxTwoToneIconData('share', iconPack: 'mdi');
-  static const FxTwoToneIconData notifications_active =
-      FxTwoToneIconData('notifications_active', iconPack: 'mdi');
-  static const FxTwoToneIconData question_answer =
-      FxTwoToneIconData('question_answer', iconPack: 'mdi');
-  static const FxTwoToneIconData gavel =
-      FxTwoToneIconData('gavel', iconPack: 'mdi');
-  static const FxTwoToneIconData add_shopping_cart =
-      FxTwoToneIconData('add_shopping_cart', iconPack: 'mdi');
-  static const FxTwoToneIconData shopping_bag =
-      FxTwoToneIconData('shopping_bag', iconPack: 'mdi');
-  static const FxTwoToneIconData delete_outline =
-      FxTwoToneIconData('delete_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData highlight_alt =
-      FxTwoToneIconData('highlight_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData search_off =
-      FxTwoToneIconData('search_off', iconPack: 'mdi');
-  static const FxTwoToneIconData remove_shopping_cart =
-      FxTwoToneIconData('remove_shopping_cart', iconPack: 'mdi');
-  static const FxTwoToneIconData https =
-      FxTwoToneIconData('https', iconPack: 'mdi');
-  static const FxTwoToneIconData swap_horiz =
-      FxTwoToneIconData('swap_horiz', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_applications =
-      FxTwoToneIconData('settings_applications', iconPack: 'mdi');
-  static const FxTwoToneIconData settings =
-      FxTwoToneIconData('settings', iconPack: 'mdi');
-  static const FxTwoToneIconData home =
-      FxTwoToneIconData('home', iconPack: 'mdi');
-  static const FxTwoToneIconData thumb_down =
-      FxTwoToneIconData('thumb_down', iconPack: 'mdi');
-  static const FxTwoToneIconData trending_up =
-      FxTwoToneIconData('trending_up', iconPack: 'mdi');
-  static const FxTwoToneIconData plagiarism =
-      FxTwoToneIconData('plagiarism', iconPack: 'mdi');
-  static const FxTwoToneIconData app_blocking =
-      FxTwoToneIconData('app_blocking', iconPack: 'mdi');
-  static const FxTwoToneIconData reorder =
-      FxTwoToneIconData('reorder', iconPack: 'mdi');
-  static const FxTwoToneIconData view_stream =
-      FxTwoToneIconData('view_stream', iconPack: 'mdi');
-  static const FxTwoToneIconData build_circle =
-      FxTwoToneIconData('build_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData addchart =
-      FxTwoToneIconData('addchart', iconPack: 'mdi');
-  static const FxTwoToneIconData disabled_by_default =
-      FxTwoToneIconData('disabled_by_default', iconPack: 'mdi');
-  static const FxTwoToneIconData g_translate =
-      FxTwoToneIconData('g_translate', iconPack: 'mdi');
-  static const FxTwoToneIconData view_module =
-      FxTwoToneIconData('view_module', iconPack: 'mdi');
-  static const FxTwoToneIconData view_list =
-      FxTwoToneIconData('view_list', iconPack: 'mdi');
-  static const FxTwoToneIconData help_outline =
-      FxTwoToneIconData('help_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_phone =
-      FxTwoToneIconData('settings_phone', iconPack: 'mdi');
-  static const FxTwoToneIconData credit_card =
-      FxTwoToneIconData('credit_card', iconPack: 'mdi');
-  static const FxTwoToneIconData contactless =
-      FxTwoToneIconData('contactless', iconPack: 'mdi');
-  static const FxTwoToneIconData toc =
-      FxTwoToneIconData('toc', iconPack: 'mdi');
-  static const FxTwoToneIconData upgrade =
-      FxTwoToneIconData('upgrade', iconPack: 'mdi');
-  static const FxTwoToneIconData drag_indicator =
-      FxTwoToneIconData('drag_indicator', iconPack: 'mdi');
-  static const FxTwoToneIconData schedule =
-      FxTwoToneIconData('schedule', iconPack: 'mdi');
-  static const FxTwoToneIconData highlight_off =
-      FxTwoToneIconData('highlight_off', iconPack: 'mdi');
-  static const FxTwoToneIconData contact_support =
-      FxTwoToneIconData('contact_support', iconPack: 'mdi');
-  static const FxTwoToneIconData pregnant_woman =
-      FxTwoToneIconData('pregnant_woman', iconPack: 'mdi');
-  static const FxTwoToneIconData tab_unselected =
-      FxTwoToneIconData('tab_unselected', iconPack: 'mdi');
-  static const FxTwoToneIconData watch_later =
-      FxTwoToneIconData('watch_later', iconPack: 'mdi');
-  static const FxTwoToneIconData room =
-      FxTwoToneIconData('room', iconPack: 'mdi');
-  static const FxTwoToneIconData star_rate =
-      FxTwoToneIconData('star_rate', iconPack: 'mdi');
-  static const FxTwoToneIconData published_with_changes =
-      FxTwoToneIconData('published_with_changes', iconPack: 'mdi');
-  static const FxTwoToneIconData grading =
-      FxTwoToneIconData('grading', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_data_setting =
-      FxTwoToneIconData('perm_data_setting', iconPack: 'mdi');
-  static const FxTwoToneIconData pageview =
-      FxTwoToneIconData('pageview', iconPack: 'mdi');
-  static const FxTwoToneIconData bookmark =
-      FxTwoToneIconData('bookmark', iconPack: 'mdi');
-  static const FxTwoToneIconData check_circle =
-      FxTwoToneIconData('check_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData fingerprint =
-      FxTwoToneIconData('fingerprint', iconPack: 'mdi');
-  static const FxTwoToneIconData extension =
-      FxTwoToneIconData('extension', iconPack: 'mdi');
-  static const FxTwoToneIconData visibility_off =
-      FxTwoToneIconData('visibility_off', iconPack: 'mdi');
-  static const FxTwoToneIconData rowing =
-      FxTwoToneIconData('rowing', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_identity =
-      FxTwoToneIconData('perm_identity', iconPack: 'mdi');
-  static const FxTwoToneIconData alarm_on =
-      FxTwoToneIconData('alarm_on', iconPack: 'mdi');
-  static const FxTwoToneIconData vertical_split =
-      FxTwoToneIconData('vertical_split', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_brightness =
-      FxTwoToneIconData('settings_brightness', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_input_svideo =
-      FxTwoToneIconData('settings_input_svideo', iconPack: 'mdi');
-  static const FxTwoToneIconData fact_check =
-      FxTwoToneIconData('fact_check', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_input_antenna =
-      FxTwoToneIconData('settings_input_antenna', iconPack: 'mdi');
-  static const FxTwoToneIconData not_started =
-      FxTwoToneIconData('not_started', iconPack: 'mdi');
-  static const FxTwoToneIconData contact_page =
-      FxTwoToneIconData('contact_page', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_voice =
-      FxTwoToneIconData('settings_voice', iconPack: 'mdi');
-  static const FxTwoToneIconData update =
-      FxTwoToneIconData('update', iconPack: 'mdi');
-  static const FxTwoToneIconData face_unlock =
-      FxTwoToneIconData('face_unlock', iconPack: 'mdi');
-  static const FxTwoToneIconData label_off =
-      FxTwoToneIconData('label_off', iconPack: 'mdi');
-  static const FxTwoToneIconData delete =
-      FxTwoToneIconData('delete', iconPack: 'mdi');
-  static const FxTwoToneIconData view_column =
-      FxTwoToneIconData('view_column', iconPack: 'mdi');
-  static const FxTwoToneIconData offline_bolt =
-      FxTwoToneIconData('offline_bolt', iconPack: 'mdi');
-  static const FxTwoToneIconData view_array =
-      FxTwoToneIconData('view_array', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_contact_calendar =
-      FxTwoToneIconData('perm_contact_calendar', iconPack: 'mdi');
-  static const FxTwoToneIconData unpublished =
-      FxTwoToneIconData('unpublished', iconPack: 'mdi');
-  static const FxTwoToneIconData visibility =
-      FxTwoToneIconData('visibility', iconPack: 'mdi');
-  static const FxTwoToneIconData note_add =
-      FxTwoToneIconData('note_add', iconPack: 'mdi');
-  static const FxTwoToneIconData face =
-      FxTwoToneIconData('face', iconPack: 'mdi');
-  static const FxTwoToneIconData verified =
-      FxTwoToneIconData('verified', iconPack: 'mdi');
-  static const FxTwoToneIconData today =
-      FxTwoToneIconData('today', iconPack: 'mdi');
-  static const FxTwoToneIconData subtitles_off =
-      FxTwoToneIconData('subtitles_off', iconPack: 'mdi');
-  static const FxTwoToneIconData flaky =
-      FxTwoToneIconData('flaky', iconPack: 'mdi');
-  static const FxTwoToneIconData translate =
-      FxTwoToneIconData('translate', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_ethernet =
-      FxTwoToneIconData('settings_ethernet', iconPack: 'mdi');
-  static const FxTwoToneIconData lock_open =
-      FxTwoToneIconData('lock_open', iconPack: 'mdi');
-  static const FxTwoToneIconData input =
-      FxTwoToneIconData('input', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_cell =
-      FxTwoToneIconData('settings_cell', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_bluetooth =
-      FxTwoToneIconData('settings_bluetooth', iconPack: 'mdi');
-  static const FxTwoToneIconData trending_flat =
-      FxTwoToneIconData('trending_flat', iconPack: 'mdi');
-  static const FxTwoToneIconData swap_vertical_circle =
-      FxTwoToneIconData('swap_vertical_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData pets =
-      FxTwoToneIconData('pets', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment_ind =
-      FxTwoToneIconData('assignment_ind', iconPack: 'mdi');
-  static const FxTwoToneIconData outbond =
-      FxTwoToneIconData('outbond', iconPack: 'mdi');
-  static const FxTwoToneIconData launch =
-      FxTwoToneIconData('launch', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_circle_down =
-      FxTwoToneIconData('arrow_circle_down', iconPack: 'mdi');
-  static const FxTwoToneIconData supervisor_account =
-      FxTwoToneIconData('supervisor_account', iconPack: 'mdi');
-  static const FxTwoToneIconData payment =
-      FxTwoToneIconData('payment', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotate_vertical =
-      FxTwoToneIconData('text_rotate_vertical', iconPack: 'mdi');
-  static const FxTwoToneIconData picture_in_picture_alt =
-      FxTwoToneIconData('picture_in_picture_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData shop_two =
-      FxTwoToneIconData('shop_two', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment_returned =
-      FxTwoToneIconData('assignment_returned', iconPack: 'mdi');
-  static const FxTwoToneIconData wysiwyg =
-      FxTwoToneIconData('wysiwyg', iconPack: 'mdi');
-  static const FxTwoToneIconData system_update_alt =
-      FxTwoToneIconData('system_update_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData picture_in_picture =
-      FxTwoToneIconData('picture_in_picture', iconPack: 'mdi');
-  static const FxTwoToneIconData compare_arrows =
-      FxTwoToneIconData('compare_arrows', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_device_information =
-      FxTwoToneIconData('perm_device_information', iconPack: 'mdi');
-  static const FxTwoToneIconData source =
-      FxTwoToneIconData('source', iconPack: 'mdi');
-  static const FxTwoToneIconData pending_actions =
-      FxTwoToneIconData('pending_actions', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_overscan =
-      FxTwoToneIconData('settings_overscan', iconPack: 'mdi');
-  static const FxTwoToneIconData open_in_full =
-      FxTwoToneIconData('open_in_full', iconPack: 'mdi');
-  static const FxTwoToneIconData theaters =
-      FxTwoToneIconData('theaters', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_remote =
-      FxTwoToneIconData('settings_remote', iconPack: 'mdi');
-  static const FxTwoToneIconData swap_vert =
-      FxTwoToneIconData('swap_vert', iconPack: 'mdi');
-  static const FxTwoToneIconData shop =
-      FxTwoToneIconData('shop', iconPack: 'mdi');
-  static const FxTwoToneIconData calendar_view_day =
-      FxTwoToneIconData('calendar_view_day', iconPack: 'mdi');
-  static const FxTwoToneIconData thumb_up =
-      FxTwoToneIconData('thumb_up', iconPack: 'mdi');
-  static const FxTwoToneIconData flip_to_front =
-      FxTwoToneIconData('flip_to_front', iconPack: 'mdi');
-  static const FxTwoToneIconData subject =
-      FxTwoToneIconData('subject', iconPack: 'mdi');
-  static const FxTwoToneIconData flip_to_back =
-      FxTwoToneIconData('flip_to_back', iconPack: 'mdi');
-  static const FxTwoToneIconData done_outline =
-      FxTwoToneIconData('done_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData lock =
-      FxTwoToneIconData('lock', iconPack: 'mdi');
-  static const FxTwoToneIconData code =
-      FxTwoToneIconData('code', iconPack: 'mdi');
-  static const FxTwoToneIconData stars =
-      FxTwoToneIconData('stars', iconPack: 'mdi');
-  static const FxTwoToneIconData label =
-      FxTwoToneIconData('label', iconPack: 'mdi');
-  static const FxTwoToneIconData lightbulb_outline =
-      FxTwoToneIconData('lightbulb_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_backup_restore =
-      FxTwoToneIconData('settings_backup_restore', iconPack: 'mdi');
-  static const FxTwoToneIconData view_quilt =
-      FxTwoToneIconData('view_quilt', iconPack: 'mdi');
-  static const FxTwoToneIconData redeem =
-      FxTwoToneIconData('redeem', iconPack: 'mdi');
-  static const FxTwoToneIconData polymer =
-      FxTwoToneIconData('polymer', iconPack: 'mdi');
-  static const FxTwoToneIconData find_replace =
-      FxTwoToneIconData('find_replace', iconPack: 'mdi');
-  static const FxTwoToneIconData event_seat =
-      FxTwoToneIconData('event_seat', iconPack: 'mdi');
-  static const FxTwoToneIconData spellcheck =
-      FxTwoToneIconData('spellcheck', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi_protected_setup =
-      FxTwoToneIconData('wifi_protected_setup', iconPack: 'mdi');
-  static const FxTwoToneIconData admin_panel_settings =
-      FxTwoToneIconData('admin_panel_settings', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment =
-      FxTwoToneIconData('assignment', iconPack: 'mdi');
-  static const FxTwoToneIconData favorite =
-      FxTwoToneIconData('favorite', iconPack: 'mdi');
-  static const FxTwoToneIconData language =
-      FxTwoToneIconData('language', iconPack: 'mdi');
-  static const FxTwoToneIconData cached =
-      FxTwoToneIconData('cached', iconPack: 'mdi');
-  static const FxTwoToneIconData label_important =
-      FxTwoToneIconData('label_important', iconPack: 'mdi');
-  static const FxTwoToneIconData leaderboard =
-      FxTwoToneIconData('leaderboard', iconPack: 'mdi');
-  static const FxTwoToneIconData markunread_mailbox =
-      FxTwoToneIconData('markunread_mailbox', iconPack: 'mdi');
-  static const FxTwoToneIconData thumbs_up_down =
-      FxTwoToneIconData('thumbs_up_down', iconPack: 'mdi');
-  static const FxTwoToneIconData horizontal_split =
-      FxTwoToneIconData('horizontal_split', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_right_alt =
-      FxTwoToneIconData('arrow_right_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData loyalty =
-      FxTwoToneIconData('loyalty', iconPack: 'mdi');
-  static const FxTwoToneIconData bug_report =
-      FxTwoToneIconData('bug_report', iconPack: 'mdi');
-  static const FxTwoToneIconData pan_tool =
-      FxTwoToneIconData('pan_tool', iconPack: 'mdi');
-  static const FxTwoToneIconData work_off =
-      FxTwoToneIconData('work_off', iconPack: 'mdi');
-  static const FxTwoToneIconData autorenew =
-      FxTwoToneIconData('autorenew', iconPack: 'mdi');
-  static const FxTwoToneIconData assessment =
-      FxTwoToneIconData('assessment', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment_late =
-      FxTwoToneIconData('assignment_late', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_input_composite =
-      FxTwoToneIconData('settings_input_composite', iconPack: 'mdi');
-  static const FxTwoToneIconData tab =
-      FxTwoToneIconData('tab', iconPack: 'mdi');
-  static const FxTwoToneIconData done_all =
-      FxTwoToneIconData('done_all', iconPack: 'mdi');
-  static const FxTwoToneIconData mediation =
-      FxTwoToneIconData('mediation', iconPack: 'mdi');
-  static const FxTwoToneIconData turned_in =
-      FxTwoToneIconData('turned_in', iconPack: 'mdi');
-  static const FxTwoToneIconData eco =
-      FxTwoToneIconData('eco', iconPack: 'mdi');
-  static const FxTwoToneIconData work_outline =
-      FxTwoToneIconData('work_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData print =
-      FxTwoToneIconData('print', iconPack: 'mdi');
-  static const FxTwoToneIconData grade =
-      FxTwoToneIconData('grade', iconPack: 'mdi');
-  static const FxTwoToneIconData supervised_user_circle =
-      FxTwoToneIconData('supervised_user_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData feedback =
-      FxTwoToneIconData('feedback', iconPack: 'mdi');
-  static const FxTwoToneIconData explore =
-      FxTwoToneIconData('explore', iconPack: 'mdi');
-  static const FxTwoToneIconData query_builder =
-      FxTwoToneIconData('query_builder', iconPack: 'mdi');
-  static const FxTwoToneIconData rule =
-      FxTwoToneIconData('rule', iconPack: 'mdi');
-  static const FxTwoToneIconData search =
-      FxTwoToneIconData('search', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_media =
-      FxTwoToneIconData('perm_media', iconPack: 'mdi');
-  static const FxTwoToneIconData help_center =
-      FxTwoToneIconData('help_center', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_scan_wifi =
-      FxTwoToneIconData('perm_scan_wifi', iconPack: 'mdi');
-  static const FxTwoToneIconData info =
-      FxTwoToneIconData('info', iconPack: 'mdi');
-  static const FxTwoToneIconData dashboard =
-      FxTwoToneIconData('dashboard', iconPack: 'mdi');
-  static const FxTwoToneIconData trending_down =
-      FxTwoToneIconData('trending_down', iconPack: 'mdi');
-  static const FxTwoToneIconData donut_small =
-      FxTwoToneIconData('donut_small', iconPack: 'mdi');
-  static const FxTwoToneIconData bookmark_border =
-      FxTwoToneIconData('bookmark_border', iconPack: 'mdi');
-  static const FxTwoToneIconData outlet =
-      FxTwoToneIconData('outlet', iconPack: 'mdi');
-  static const FxTwoToneIconData hourglass_full =
-      FxTwoToneIconData('hourglass_full', iconPack: 'mdi');
-  static const FxTwoToneIconData zoom_out =
-      FxTwoToneIconData('zoom_out', iconPack: 'mdi');
-  static const FxTwoToneIconData group_work =
-      FxTwoToneIconData('group_work', iconPack: 'mdi');
-  static const FxTwoToneIconData turned_in_not =
-      FxTwoToneIconData('turned_in_not', iconPack: 'mdi');
-  static const FxTwoToneIconData arrow_circle_up =
-      FxTwoToneIconData('arrow_circle_up', iconPack: 'mdi');
-  static const FxTwoToneIconData privacy_tip =
-      FxTwoToneIconData('privacy_tip', iconPack: 'mdi');
-  static const FxTwoToneIconData voice_over_off =
-      FxTwoToneIconData('voice_over_off', iconPack: 'mdi');
-  static const FxTwoToneIconData receipt =
-      FxTwoToneIconData('receipt', iconPack: 'mdi');
-  static const FxTwoToneIconData hourglass_disabled =
-      FxTwoToneIconData('hourglass_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData quickreply =
-      FxTwoToneIconData('quickreply', iconPack: 'mdi');
-  static const FxTwoToneIconData eject =
-      FxTwoToneIconData('eject', iconPack: 'mdi');
-  static const FxTwoToneIconData card_membership =
-      FxTwoToneIconData('card_membership', iconPack: 'mdi');
-  static const FxTwoToneIconData verified_user =
-      FxTwoToneIconData('verified_user', iconPack: 'mdi');
-  static const FxTwoToneIconData close_fullscreen =
-      FxTwoToneIconData('close_fullscreen', iconPack: 'mdi');
-  static const FxTwoToneIconData alarm_add =
-      FxTwoToneIconData('alarm_add', iconPack: 'mdi');
-  static const FxTwoToneIconData done =
-      FxTwoToneIconData('done', iconPack: 'mdi');
-  static const FxTwoToneIconData label_outline =
-      FxTwoToneIconData('label_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData bookmarks =
-      FxTwoToneIconData('bookmarks', iconPack: 'mdi');
-  static const FxTwoToneIconData explore_off =
-      FxTwoToneIconData('explore_off', iconPack: 'mdi');
-  static const FxTwoToneIconData track_changes =
-      FxTwoToneIconData('track_changes', iconPack: 'mdi');
-  static const FxTwoToneIconData description =
-      FxTwoToneIconData('description', iconPack: 'mdi');
-  static const FxTwoToneIconData touch_app =
-      FxTwoToneIconData('touch_app', iconPack: 'mdi');
-  static const FxTwoToneIconData support =
-      FxTwoToneIconData('support', iconPack: 'mdi');
-  static const FxTwoToneIconData opacity =
-      FxTwoToneIconData('opacity', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_input_component =
-      FxTwoToneIconData('settings_input_component', iconPack: 'mdi');
-  static const FxTwoToneIconData book_online =
-      FxTwoToneIconData('book_online', iconPack: 'mdi');
-  static const FxTwoToneIconData dynamic_form =
-      FxTwoToneIconData('dynamic_form', iconPack: 'mdi');
-  static const FxTwoToneIconData get_app =
-      FxTwoToneIconData('get_app', iconPack: 'mdi');
-  static const FxTwoToneIconData speaker_notes_off =
-      FxTwoToneIconData('speaker_notes_off', iconPack: 'mdi');
-  static const FxTwoToneIconData http =
-      FxTwoToneIconData('http', iconPack: 'mdi');
-  static const FxTwoToneIconData important_devices =
-      FxTwoToneIconData('important_devices', iconPack: 'mdi');
-  static const FxTwoToneIconData flight_takeoff =
-      FxTwoToneIconData('flight_takeoff', iconPack: 'mdi');
-  static const FxTwoToneIconData check_circle_outline =
-      FxTwoToneIconData('check_circle_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotate_up =
-      FxTwoToneIconData('text_rotate_up', iconPack: 'mdi');
-  static const FxTwoToneIconData work =
-      FxTwoToneIconData('work', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_power =
-      FxTwoToneIconData('settings_power', iconPack: 'mdi');
-  static const FxTwoToneIconData list =
-      FxTwoToneIconData('list', iconPack: 'mdi');
-  static const FxTwoToneIconData android =
-      FxTwoToneIconData('android', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_input_hdmi =
-      FxTwoToneIconData('settings_input_hdmi', iconPack: 'mdi');
-  static const FxTwoToneIconData favorite_border =
-      FxTwoToneIconData('favorite_border', iconPack: 'mdi');
-  static const FxTwoToneIconData card_travel =
-      FxTwoToneIconData('card_travel', iconPack: 'mdi');
-  static const FxTwoToneIconData history =
-      FxTwoToneIconData('history', iconPack: 'mdi');
-  static const FxTwoToneIconData accessibility_new =
-      FxTwoToneIconData('accessibility_new', iconPack: 'mdi');
-  static const FxTwoToneIconData view_week =
-      FxTwoToneIconData('view_week', iconPack: 'mdi');
-  static const FxTwoToneIconData book =
-      FxTwoToneIconData('book', iconPack: 'mdi');
-  static const FxTwoToneIconData smart_button =
-      FxTwoToneIconData('smart_button', iconPack: 'mdi');
-  static const FxTwoToneIconData not_accessible =
-      FxTwoToneIconData('not_accessible', iconPack: 'mdi');
-  static const FxTwoToneIconData commute =
-      FxTwoToneIconData('commute', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_phone_msg =
-      FxTwoToneIconData('perm_phone_msg', iconPack: 'mdi');
-  static const FxTwoToneIconData class_ =
-      FxTwoToneIconData('class', iconPack: 'mdi');
-  static const FxTwoToneIconData tour =
-      FxTwoToneIconData('tour', iconPack: 'mdi');
-  static const FxTwoToneIconData sticky_note_2 =
-      FxTwoToneIconData('sticky_note_2', iconPack: 'mdi');
-  static const FxTwoToneIconData speaker_notes =
-      FxTwoToneIconData('speaker_notes', iconPack: 'mdi');
-  static const FxTwoToneIconData api =
-      FxTwoToneIconData('api', iconPack: 'mdi');
-  static const FxTwoToneIconData invert_colors =
-      FxTwoToneIconData('invert_colors', iconPack: 'mdi');
-  static const FxTwoToneIconData open_in_browser =
-      FxTwoToneIconData('open_in_browser', iconPack: 'mdi');
-  static const FxTwoToneIconData hourglass_empty =
-      FxTwoToneIconData('hourglass_empty', iconPack: 'mdi');
-  static const FxTwoToneIconData backup_table =
-      FxTwoToneIconData('backup_table', iconPack: 'mdi');
-  static const FxTwoToneIconData exit_to_app =
-      FxTwoToneIconData('exit_to_app', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotation_angleup =
-      FxTwoToneIconData('text_rotation_angleup', iconPack: 'mdi');
-  static const FxTwoToneIconData open_in_new =
-      FxTwoToneIconData('open_in_new', iconPack: 'mdi');
-  static const FxTwoToneIconData lock_outline =
-      FxTwoToneIconData('lock_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData preview =
-      FxTwoToneIconData('preview', iconPack: 'mdi');
-  static const FxTwoToneIconData calendar_today =
-      FxTwoToneIconData('calendar_today', iconPack: 'mdi');
-  static const FxTwoToneIconData three_d_rotation =
-      FxTwoToneIconData('3d_rotation', iconPack: 'mdi');
-  static const FxTwoToneIconData history_toggle_off =
-      FxTwoToneIconData('history_toggle_off', iconPack: 'mdi');
-  static const FxTwoToneIconData account_box =
-      FxTwoToneIconData('account_box', iconPack: 'mdi');
-  static const FxTwoToneIconData account_balance_wallet =
-      FxTwoToneIconData('account_balance_wallet', iconPack: 'mdi');
-  static const FxTwoToneIconData copyright =
-      FxTwoToneIconData('copyright', iconPack: 'mdi');
-  static const FxTwoToneIconData filter_alt =
-      FxTwoToneIconData('filter_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData anchor =
-      FxTwoToneIconData('anchor', iconPack: 'mdi');
-  static const FxTwoToneIconData change_history =
-      FxTwoToneIconData('change_history', iconPack: 'mdi');
-  static const FxTwoToneIconData power_settings_new =
-      FxTwoToneIconData('power_settings_new', iconPack: 'mdi');
-  static const FxTwoToneIconData card_giftcard =
-      FxTwoToneIconData('card_giftcard', iconPack: 'mdi');
-  static const FxTwoToneIconData find_in_page =
-      FxTwoToneIconData('find_in_page', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotation_down =
-      FxTwoToneIconData('text_rotation_down', iconPack: 'mdi');
-  static const FxTwoToneIconData build =
-      FxTwoToneIconData('build', iconPack: 'mdi');
-  static const FxTwoToneIconData rounded_corner =
-      FxTwoToneIconData('rounded_corner', iconPack: 'mdi');
-  static const FxTwoToneIconData alarm =
-      FxTwoToneIconData('alarm', iconPack: 'mdi');
-  static const FxTwoToneIconData accessible =
-      FxTwoToneIconData('accessible', iconPack: 'mdi');
-  static const FxTwoToneIconData play_for_work =
-      FxTwoToneIconData('play_for_work', iconPack: 'mdi');
-  static const FxTwoToneIconData zoom_in =
-      FxTwoToneIconData('zoom_in', iconPack: 'mdi');
-  static const FxTwoToneIconData article =
-      FxTwoToneIconData('article', iconPack: 'mdi');
-  static const FxTwoToneIconData account_circle =
-      FxTwoToneIconData('account_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData maximize =
-      FxTwoToneIconData('maximize', iconPack: 'mdi');
-  static const FxTwoToneIconData date_range =
-      FxTwoToneIconData('date_range', iconPack: 'mdi');
-  static const FxTwoToneIconData model_training =
-      FxTwoToneIconData('model_training', iconPack: 'mdi');
-  static const FxTwoToneIconData label_important_outline =
-      FxTwoToneIconData('label_important_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotation_angledown =
-      FxTwoToneIconData('text_rotation_angledown', iconPack: 'mdi');
-  static const FxTwoToneIconData info_outline =
-      FxTwoToneIconData('info_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData text_rotation_none =
-      FxTwoToneIconData('text_rotation_none', iconPack: 'mdi');
-  static const FxTwoToneIconData cancel_schedule_send =
-      FxTwoToneIconData('cancel_schedule_send', iconPack: 'mdi');
-  static const FxTwoToneIconData youtube_searched_for =
-      FxTwoToneIconData('youtube_searched_for', iconPack: 'mdi');
-  static const FxTwoToneIconData donut_large =
-      FxTwoToneIconData('donut_large', iconPack: 'mdi');
-  static const FxTwoToneIconData line_style =
-      FxTwoToneIconData('line_style', iconPack: 'mdi');
-  static const FxTwoToneIconData restore_from_trash =
-      FxTwoToneIconData('restore_from_trash', iconPack: 'mdi');
-  static const FxTwoToneIconData sync_alt =
-      FxTwoToneIconData('sync_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData backup =
-      FxTwoToneIconData('backup', iconPack: 'mdi');
-  static const FxTwoToneIconData announcement =
-      FxTwoToneIconData('announcement', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment_turned_in =
-      FxTwoToneIconData('assignment_turned_in', iconPack: 'mdi');
-  static const FxTwoToneIconData dns =
-      FxTwoToneIconData('dns', iconPack: 'mdi');
-  static const FxTwoToneIconData record_voice_over =
-      FxTwoToneIconData('record_voice_over', iconPack: 'mdi');
-  static const FxTwoToneIconData integration_instructions =
-      FxTwoToneIconData('integration_instructions', iconPack: 'mdi');
-  static const FxTwoToneIconData camera_enhance =
-      FxTwoToneIconData('camera_enhance', iconPack: 'mdi');
-  static const FxTwoToneIconData accessibility =
-      FxTwoToneIconData('accessibility', iconPack: 'mdi');
-  static const FxTwoToneIconData all_inbox =
-      FxTwoToneIconData('all_inbox', iconPack: 'mdi');
-  static const FxTwoToneIconData timeline =
-      FxTwoToneIconData('timeline', iconPack: 'mdi');
-  static const FxTwoToneIconData restore =
-      FxTwoToneIconData('restore', iconPack: 'mdi');
-  static const FxTwoToneIconData toll =
-      FxTwoToneIconData('toll', iconPack: 'mdi');
-  static const FxTwoToneIconData view_sidebar =
-      FxTwoToneIconData('view_sidebar', iconPack: 'mdi');
-  static const FxTwoToneIconData perm_camera_mic =
-      FxTwoToneIconData('perm_camera_mic', iconPack: 'mdi');
-  static const FxTwoToneIconData online_prediction =
-      FxTwoToneIconData('online_prediction', iconPack: 'mdi');
-  static const FxTwoToneIconData shopping_cart =
-      FxTwoToneIconData('shopping_cart', iconPack: 'mdi');
-  static const FxTwoToneIconData event =
-      FxTwoToneIconData('event', iconPack: 'mdi');
-  static const FxTwoToneIconData view_headline =
-      FxTwoToneIconData('view_headline', iconPack: 'mdi');
-  static const FxTwoToneIconData minimize =
-      FxTwoToneIconData('minimize', iconPack: 'mdi');
-  static const FxTwoToneIconData accessible_forward =
-      FxTwoToneIconData('accessible_forward', iconPack: 'mdi');
-  static const FxTwoToneIconData aspect_ratio =
-      FxTwoToneIconData('aspect_ratio', iconPack: 'mdi');
-  static const FxTwoToneIconData euro_symbol =
-      FxTwoToneIconData('euro_symbol', iconPack: 'mdi');
-  static const FxTwoToneIconData delete_forever =
-      FxTwoToneIconData('delete_forever', iconPack: 'mdi');
-  static const FxTwoToneIconData restore_page =
-      FxTwoToneIconData('restore_page', iconPack: 'mdi');
-  static const FxTwoToneIconData login =
-      FxTwoToneIconData('login', iconPack: 'mdi');
-  static const FxTwoToneIconData chrome_reader_mode =
-      FxTwoToneIconData('chrome_reader_mode', iconPack: 'mdi');
-  static const FxTwoToneIconData alarm_off =
-      FxTwoToneIconData('alarm_off', iconPack: 'mdi');
-  static const FxTwoToneIconData batch_prediction =
-      FxTwoToneIconData('batch_prediction', iconPack: 'mdi');
-  static const FxTwoToneIconData report_problem =
-      FxTwoToneIconData('report_problem', iconPack: 'mdi');
-  static const FxTwoToneIconData view_carousel =
-      FxTwoToneIconData('view_carousel', iconPack: 'mdi');
-  static const FxTwoToneIconData next_plan =
-      FxTwoToneIconData('next_plan', iconPack: 'mdi');
-  static const FxTwoToneIconData view_day =
-      FxTwoToneIconData('view_day', iconPack: 'mdi');
-  static const FxTwoToneIconData assignment_return =
-      FxTwoToneIconData('assignment_return', iconPack: 'mdi');
-  static const FxTwoToneIconData table_view =
-      FxTwoToneIconData('table_view', iconPack: 'mdi');
-  static const FxTwoToneIconData flight_land =
-      FxTwoToneIconData('flight_land', iconPack: 'mdi');
-  static const FxTwoToneIconData line_weight =
-      FxTwoToneIconData('line_weight', iconPack: 'mdi');
-  static const FxTwoToneIconData help =
-      FxTwoToneIconData('help', iconPack: 'mdi');
-  static const FxTwoToneIconData request_page =
-      FxTwoToneIconData('request_page', iconPack: 'mdi');
-  static const FxTwoToneIconData offline_pin =
-      FxTwoToneIconData('offline_pin', iconPack: 'mdi');
-  static const FxTwoToneIconData analytics =
-      FxTwoToneIconData('analytics', iconPack: 'mdi');
-  static const FxTwoToneIconData view_agenda =
-      FxTwoToneIconData('view_agenda', iconPack: 'mdi');
-  static const FxTwoToneIconData open_with =
-      FxTwoToneIconData('open_with', iconPack: 'mdi');
-  static const FxTwoToneIconData pending =
-      FxTwoToneIconData('pending', iconPack: 'mdi');
-  static const FxTwoToneIconData shopping_basket =
-      FxTwoToneIconData('shopping_basket', iconPack: 'mdi');
-  static const FxTwoToneIconData store =
-      FxTwoToneIconData('store', iconPack: 'mdi');
-  static const FxTwoToneIconData account_balance =
-      FxTwoToneIconData('account_balance', iconPack: 'mdi');
-  static const FxTwoToneIconData add_task =
-      FxTwoToneIconData('add_task', iconPack: 'mdi');
-  static const FxTwoToneIconData swap_horizontal_circle =
-      FxTwoToneIconData('swap_horizontal_circle', iconPack: 'mdi');
-  static const FxTwoToneIconData gif =
-      FxTwoToneIconData('gif', iconPack: 'mdi');
-  static const FxTwoToneIconData comment_bank =
-      FxTwoToneIconData('comment_bank', iconPack: 'mdi');
-  static const FxTwoToneIconData all_out =
-      FxTwoToneIconData('all_out', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_1_bar_lock =
-      FxTwoToneIconData('signal_wifi_1_bar_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData bluetooth_searching =
-      FxTwoToneIconData('bluetooth_searching', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_off =
-      FxTwoToneIconData('signal_wifi_off', iconPack: 'mdi');
-  static const FxTwoToneIconData access_alarm =
-      FxTwoToneIconData('access_alarm', iconPack: 'mdi');
-  static const FxTwoToneIconData location_disabled =
-      FxTwoToneIconData('location_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_high =
-      FxTwoToneIconData('brightness_high', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_full =
-      FxTwoToneIconData('battery_full', iconPack: 'mdi');
-  static const FxTwoToneIconData location_searching =
-      FxTwoToneIconData('location_searching', iconPack: 'mdi');
-  static const FxTwoToneIconData access_alarms =
-      FxTwoToneIconData('access_alarms', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_low =
-      FxTwoToneIconData('brightness_low', iconPack: 'mdi');
-  static const FxTwoToneIconData sd_storage =
-      FxTwoToneIconData('sd_storage', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_auto =
-      FxTwoToneIconData('brightness_auto', iconPack: 'mdi');
-  static const FxTwoToneIconData airplanemode_active =
-      FxTwoToneIconData('airplanemode_active', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_30 =
-      FxTwoToneIconData('battery_charging_30', iconPack: 'mdi');
-  static const FxTwoToneIconData network_wifi =
-      FxTwoToneIconData('network_wifi', iconPack: 'mdi');
-  static const FxTwoToneIconData data_usage =
-      FxTwoToneIconData('data_usage', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_4_bar =
-      FxTwoToneIconData('signal_cellular_4_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData gps_not_fixed =
-      FxTwoToneIconData('gps_not_fixed', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_null =
-      FxTwoToneIconData('signal_cellular_null', iconPack: 'mdi');
-  static const FxTwoToneIconData settings_system_daydream =
-      FxTwoToneIconData('settings_system_daydream', iconPack: 'mdi');
-  static const FxTwoToneIconData screen_lock_portrait =
-      FxTwoToneIconData('screen_lock_portrait', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_90 =
-      FxTwoToneIconData('battery_charging_90', iconPack: 'mdi');
-  static const FxTwoToneIconData graphic_eq =
-      FxTwoToneIconData('graphic_eq', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_1_bar =
-      FxTwoToneIconData('signal_cellular_1_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData screen_rotation =
-      FxTwoToneIconData('screen_rotation', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_0_bar =
-      FxTwoToneIconData('signal_cellular_0_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData mobile_friendly =
-      FxTwoToneIconData('mobile_friendly', iconPack: 'mdi');
-  static const FxTwoToneIconData gps_off =
-      FxTwoToneIconData('gps_off', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_30 =
-      FxTwoToneIconData('battery_30', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_full =
-      FxTwoToneIconData('battery_charging_full', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_2_bar =
-      FxTwoToneIconData('signal_cellular_2_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_3_bar =
-      FxTwoToneIconData('signal_cellular_3_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData bluetooth_connected =
-      FxTwoToneIconData('bluetooth_connected', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi_tethering =
-      FxTwoToneIconData('wifi_tethering', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_90 =
-      FxTwoToneIconData('battery_90', iconPack: 'mdi');
-  static const FxTwoToneIconData storage =
-      FxTwoToneIconData('storage', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_connected_no_internet_3_bar =
-      FxTwoToneIconData('signal_cellular_connected_no_internet_3_bar',
+  static const FTxTwoToneIconData agriculture =
+      FTxTwoToneIconData('agriculture', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_library =
+      FTxTwoToneIconData('local_library', iconPack: 'mdi');
+  static const FTxTwoToneIconData traffic =
+      FTxTwoToneIconData('traffic', iconPack: 'mdi');
+  static const FTxTwoToneIconData departure_board =
+      FTxTwoToneIconData('departure_board', iconPack: 'mdi');
+  static const FTxTwoToneIconData moped =
+      FTxTwoToneIconData('moped', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_walk =
+      FTxTwoToneIconData('directions_walk', iconPack: 'mdi');
+  static const FTxTwoToneIconData miscellaneous_services =
+      FTxTwoToneIconData('miscellaneous_services', iconPack: 'mdi');
+  static const FTxTwoToneIconData wrong_location =
+      FTxTwoToneIconData('wrong_location', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_road =
+      FTxTwoToneIconData('add_road', iconPack: 'mdi');
+  static const FTxTwoToneIconData not_listed_location =
+      FTxTwoToneIconData('not_listed_location', iconPack: 'mdi');
+  static const FTxTwoToneIconData handyman =
+      FTxTwoToneIconData('handyman', iconPack: 'mdi');
+  static const FTxTwoToneIconData two_wheeler =
+      FTxTwoToneIconData('two_wheeler', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_location =
+      FTxTwoToneIconData('add_location', iconPack: 'mdi');
+  static const FTxTwoToneIconData electric_scooter =
+      FTxTwoToneIconData('electric_scooter', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_printshop =
+      FTxTwoToneIconData('local_printshop', iconPack: 'mdi');
+  static const FTxTwoToneIconData restaurant =
+      FTxTwoToneIconData('restaurant', iconPack: 'mdi');
+  static const FTxTwoToneIconData cleaning_services =
+      FTxTwoToneIconData('cleaning_services', iconPack: 'mdi');
+  static const FTxTwoToneIconData fastfood =
+      FTxTwoToneIconData('fastfood', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_laundry_service =
+      FTxTwoToneIconData('local_laundry_service', iconPack: 'mdi');
+  static const FTxTwoToneIconData medical_services =
+      FTxTwoToneIconData('medical_services', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions =
+      FTxTwoToneIconData('directions', iconPack: 'mdi');
+  static const FTxTwoToneIconData edit_location =
+      FTxTwoToneIconData('edit_location', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_shipping =
+      FTxTwoToneIconData('local_shipping', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_business =
+      FTxTwoToneIconData('add_business', iconPack: 'mdi');
+  static const FTxTwoToneIconData electric_bike =
+      FTxTwoToneIconData('electric_bike', iconPack: 'mdi');
+  static const FTxTwoToneIconData transfer_within_a_station =
+      FTxTwoToneIconData('transfer_within_a_station', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_grocery_store =
+      FTxTwoToneIconData('local_grocery_store', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_transfer =
+      FTxTwoToneIconData('no_transfer', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_activity =
+      FTxTwoToneIconData('local_activity', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_phone =
+      FTxTwoToneIconData('local_phone', iconPack: 'mdi');
+  static const FTxTwoToneIconData design_services =
+      FTxTwoToneIconData('design_services', iconPack: 'mdi');
+  static const FTxTwoToneIconData layers =
+      FTxTwoToneIconData('layers', iconPack: 'mdi');
+  static const FTxTwoToneIconData wine_bar =
+      FTxTwoToneIconData('wine_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData category =
+      FTxTwoToneIconData('category', iconPack: 'mdi');
+  static const FTxTwoToneIconData store_mall_directory =
+      FTxTwoToneIconData('store_mall_directory', iconPack: 'mdi');
+  static const FTxTwoToneIconData hotel =
+      FTxTwoToneIconData('hotel', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_pizza =
+      FTxTwoToneIconData('local_pizza', iconPack: 'mdi');
+  static const FTxTwoToneIconData bike_scooter =
+      FTxTwoToneIconData('bike_scooter', iconPack: 'mdi');
+  static const FTxTwoToneIconData atm =
+      FTxTwoToneIconData('atm', iconPack: 'mdi');
+  static const FTxTwoToneIconData set_meal =
+      FTxTwoToneIconData('set_meal', iconPack: 'mdi');
+  static const FTxTwoToneIconData maps_ugc =
+      FTxTwoToneIconData('maps_ugc', iconPack: 'mdi');
+  static const FTxTwoToneIconData pest_control =
+      FTxTwoToneIconData('pest_control', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_boat =
+      FTxTwoToneIconData('directions_boat', iconPack: 'mdi');
+  static const FTxTwoToneIconData flight =
+      FTxTwoToneIconData('flight', iconPack: 'mdi');
+  static const FTxTwoToneIconData pedal_bike =
+      FTxTwoToneIconData('pedal_bike', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_bike =
+      FTxTwoToneIconData('directions_bike', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_run =
+      FTxTwoToneIconData('directions_run', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_car_wash =
+      FTxTwoToneIconData('local_car_wash', iconPack: 'mdi');
+  static const FTxTwoToneIconData my_location =
+      FTxTwoToneIconData('my_location', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_gas_station =
+      FTxTwoToneIconData('local_gas_station', iconPack: 'mdi');
+  static const FTxTwoToneIconData transit_enterexit =
+      FTxTwoToneIconData('transit_enterexit', iconPack: 'mdi');
+  static const FTxTwoToneIconData navigation =
+      FTxTwoToneIconData('navigation', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_see =
+      FTxTwoToneIconData('local_see', iconPack: 'mdi');
+  static const FTxTwoToneIconData hvac =
+      FTxTwoToneIconData('hvac', iconPack: 'mdi');
+  static const FTxTwoToneIconData tram =
+      FTxTwoToneIconData('tram', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_florist =
+      FTxTwoToneIconData('local_florist', iconPack: 'mdi');
+  static const FTxTwoToneIconData compass_calibration =
+      FTxTwoToneIconData('compass_calibration', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_atm =
+      FTxTwoToneIconData('local_atm', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_drink =
+      FTxTwoToneIconData('local_drink', iconPack: 'mdi');
+  static const FTxTwoToneIconData restaurant_menu =
+      FTxTwoToneIconData('restaurant_menu', iconPack: 'mdi');
+  static const FTxTwoToneIconData rate_review =
+      FTxTwoToneIconData('rate_review', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_fire_department =
+      FTxTwoToneIconData('local_fire_department', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_location_alt =
+      FTxTwoToneIconData('add_location_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_pharmacy =
+      FTxTwoToneIconData('local_pharmacy', iconPack: 'mdi');
+  static const FTxTwoToneIconData run_circle =
+      FTxTwoToneIconData('run_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData near_me_disabled =
+      FTxTwoToneIconData('near_me_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_cafe =
+      FTxTwoToneIconData('local_cafe', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_car =
+      FTxTwoToneIconData('directions_car', iconPack: 'mdi');
+  static const FTxTwoToneIconData map =
+      FTxTwoToneIconData('map', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_subway =
+      FTxTwoToneIconData('directions_subway', iconPack: 'mdi');
+  static const FTxTwoToneIconData ev_station =
+      FTxTwoToneIconData('ev_station', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_offer =
+      FTxTwoToneIconData('local_offer', iconPack: 'mdi');
+  static const FTxTwoToneIconData three_six_zero_ =
+      FTxTwoToneIconData('360', iconPack: 'mdi');
+  static const FTxTwoToneIconData zoom_out_map =
+      FTxTwoToneIconData('zoom_out_map', iconPack: 'mdi');
+  static const FTxTwoToneIconData alt_route =
+      FTxTwoToneIconData('alt_route', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_hotel =
+      FTxTwoToneIconData('local_hotel', iconPack: 'mdi');
+  static const FTxTwoToneIconData home_repair_service =
+      FTxTwoToneIconData('home_repair_service', iconPack: 'mdi');
+  static const FTxTwoToneIconData money =
+      FTxTwoToneIconData('money', iconPack: 'mdi');
+  static const FTxTwoToneIconData edit_attributes =
+      FTxTwoToneIconData('edit_attributes', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_movies =
+      FTxTwoToneIconData('local_movies', iconPack: 'mdi');
+  static const FTxTwoToneIconData terrain =
+      FTxTwoToneIconData('terrain', iconPack: 'mdi');
+  static const FTxTwoToneIconData satellite =
+      FTxTwoToneIconData('satellite', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_parking =
+      FTxTwoToneIconData('local_parking', iconPack: 'mdi');
+  static const FTxTwoToneIconData train =
+      FTxTwoToneIconData('train', iconPack: 'mdi');
+  static const FTxTwoToneIconData layers_clear =
+      FTxTwoToneIconData('layers_clear', iconPack: 'mdi');
+  static const FTxTwoToneIconData beenhere =
+      FTxTwoToneIconData('beenhere', iconPack: 'mdi');
+  static const FTxTwoToneIconData museum =
+      FTxTwoToneIconData('museum', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_airport =
+      FTxTwoToneIconData('local_airport', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_pin_circle =
+      FTxTwoToneIconData('person_pin_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData trip_origin =
+      FTxTwoToneIconData('trip_origin', iconPack: 'mdi');
+  static const FTxTwoToneIconData plumbing =
+      FTxTwoToneIconData('plumbing', iconPack: 'mdi');
+  static const FTxTwoToneIconData electric_car =
+      FTxTwoToneIconData('electric_car', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_play =
+      FTxTwoToneIconData('local_play', iconPack: 'mdi');
+  static const FTxTwoToneIconData pin_drop =
+      FTxTwoToneIconData('pin_drop', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_mall =
+      FTxTwoToneIconData('local_mall', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_dining =
+      FTxTwoToneIconData('local_dining', iconPack: 'mdi');
+  static const FTxTwoToneIconData menu_book =
+      FTxTwoToneIconData('menu_book', iconPack: 'mdi');
+  static const FTxTwoToneIconData edit_road =
+      FTxTwoToneIconData('edit_road', iconPack: 'mdi');
+  static const FTxTwoToneIconData electric_rickshaw =
+      FTxTwoToneIconData('electric_rickshaw', iconPack: 'mdi');
+  static const FTxTwoToneIconData place =
+      FTxTwoToneIconData('place', iconPack: 'mdi');
+  static const FTxTwoToneIconData near_me =
+      FTxTwoToneIconData('near_me', iconPack: 'mdi');
+  static const FTxTwoToneIconData multiple_stop =
+      FTxTwoToneIconData('multiple_stop', iconPack: 'mdi');
+  static const FTxTwoToneIconData electrical_services =
+      FTxTwoToneIconData('electrical_services', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_taxi =
+      FTxTwoToneIconData('local_taxi', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_police =
+      FTxTwoToneIconData('local_police', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_transit =
+      FTxTwoToneIconData('directions_transit', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_bar =
+      FTxTwoToneIconData('local_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData streetview =
+      FTxTwoToneIconData('streetview', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_convenience_store =
+      FTxTwoToneIconData('local_convenience_store', iconPack: 'mdi');
+  static const FTxTwoToneIconData pest_control_rodent =
+      FTxTwoToneIconData('pest_control_rodent', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_bus =
+      FTxTwoToneIconData('directions_bus', iconPack: 'mdi');
+  static const FTxTwoToneIconData electric_moped =
+      FTxTwoToneIconData('electric_moped', iconPack: 'mdi');
+  static const FTxTwoToneIconData subway =
+      FTxTwoToneIconData('subway', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_meals =
+      FTxTwoToneIconData('no_meals', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_post_office =
+      FTxTwoToneIconData('local_post_office', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_railway =
+      FTxTwoToneIconData('directions_railway', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_pin =
+      FTxTwoToneIconData('person_pin', iconPack: 'mdi');
+  static const FTxTwoToneIconData local_hospital =
+      FTxTwoToneIconData('local_hospital', iconPack: 'mdi');
+  static const FTxTwoToneIconData sensor_door =
+      FTxTwoToneIconData('sensor_door', iconPack: 'mdi');
+  static const FTxTwoToneIconData sensor_window =
+      FTxTwoToneIconData('sensor_window', iconPack: 'mdi');
+  static const FTxTwoToneIconData device_unknown =
+      FTxTwoToneIconData('device_unknown', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_capslock =
+      FTxTwoToneIconData('keyboard_capslock', iconPack: 'mdi');
+  static const FTxTwoToneIconData tablet =
+      FTxTwoToneIconData('tablet', iconPack: 'mdi');
+  static const FTxTwoToneIconData headset =
+      FTxTwoToneIconData('headset', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_hide =
+      FTxTwoToneIconData('keyboard_hide', iconPack: 'mdi');
+  static const FTxTwoToneIconData desktop_mac =
+      FTxTwoToneIconData('desktop_mac', iconPack: 'mdi');
+  static const FTxTwoToneIconData memory =
+      FTxTwoToneIconData('memory', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_arrow_left =
+      FTxTwoToneIconData('keyboard_arrow_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData sim_card =
+      FTxTwoToneIconData('sim_card', iconPack: 'mdi');
+  static const FTxTwoToneIconData toys =
+      FTxTwoToneIconData('toys', iconPack: 'mdi');
+  static const FTxTwoToneIconData security =
+      FTxTwoToneIconData('security', iconPack: 'mdi');
+  static const FTxTwoToneIconData speaker =
+      FTxTwoToneIconData('speaker', iconPack: 'mdi');
+  static const FTxTwoToneIconData smartphone =
+      FTxTwoToneIconData('smartphone', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_voice =
+      FTxTwoToneIconData('keyboard_voice', iconPack: 'mdi');
+  static const FTxTwoToneIconData cast =
+      FTxTwoToneIconData('cast', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink_off =
+      FTxTwoToneIconData('phonelink_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_android =
+      FTxTwoToneIconData('phone_android', iconPack: 'mdi');
+  static const FTxTwoToneIconData tablet_android =
+      FTxTwoToneIconData('tablet_android', iconPack: 'mdi');
+  static const FTxTwoToneIconData gamepad =
+      FTxTwoToneIconData('gamepad', iconPack: 'mdi');
+  static const FTxTwoToneIconData power_input =
+      FTxTwoToneIconData('power_input', iconPack: 'mdi');
+  static const FTxTwoToneIconData laptop_windows =
+      FTxTwoToneIconData('laptop_windows', iconPack: 'mdi');
+  static const FTxTwoToneIconData speaker_group =
+      FTxTwoToneIconData('speaker_group', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_return =
+      FTxTwoToneIconData('keyboard_return', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink =
+      FTxTwoToneIconData('phonelink', iconPack: 'mdi');
+  static const FTxTwoToneIconData videogame_asset =
+      FTxTwoToneIconData('videogame_asset', iconPack: 'mdi');
+  static const FTxTwoToneIconData tv =
+      FTxTwoToneIconData('tv', iconPack: 'mdi');
+  static const FTxTwoToneIconData mouse =
+      FTxTwoToneIconData('mouse', iconPack: 'mdi');
+  static const FTxTwoToneIconData browser_not_supported =
+      FTxTwoToneIconData('browser_not_supported', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_arrow_down =
+      FTxTwoToneIconData('keyboard_arrow_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData tablet_mac =
+      FTxTwoToneIconData('tablet_mac', iconPack: 'mdi');
+  static const FTxTwoToneIconData developer_board =
+      FTxTwoToneIconData('developer_board', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_arrow_up =
+      FTxTwoToneIconData('keyboard_arrow_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData laptop_mac =
+      FTxTwoToneIconData('laptop_mac', iconPack: 'mdi');
+  static const FTxTwoToneIconData point_of_sale =
+      FTxTwoToneIconData('point_of_sale', iconPack: 'mdi');
+  static const FTxTwoToneIconData headset_mic =
+      FTxTwoToneIconData('headset_mic', iconPack: 'mdi');
+  static const FTxTwoToneIconData cast_connected =
+      FTxTwoToneIconData('cast_connected', iconPack: 'mdi');
+  static const FTxTwoToneIconData watch =
+      FTxTwoToneIconData('watch', iconPack: 'mdi');
+  static const FTxTwoToneIconData laptop_chromebook =
+      FTxTwoToneIconData('laptop_chromebook', iconPack: 'mdi');
+  static const FTxTwoToneIconData cast_for_education =
+      FTxTwoToneIconData('cast_for_education', iconPack: 'mdi');
+  static const FTxTwoToneIconData desktop_windows =
+      FTxTwoToneIconData('desktop_windows', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_iphone =
+      FTxTwoToneIconData('phone_iphone', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_tab =
+      FTxTwoToneIconData('keyboard_tab', iconPack: 'mdi');
+  static const FTxTwoToneIconData laptop =
+      FTxTwoToneIconData('laptop', iconPack: 'mdi');
+  static const FTxTwoToneIconData device_hub =
+      FTxTwoToneIconData('device_hub', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_backspace =
+      FTxTwoToneIconData('keyboard_backspace', iconPack: 'mdi');
+  static const FTxTwoToneIconData computer =
+      FTxTwoToneIconData('computer', iconPack: 'mdi');
+  static const FTxTwoToneIconData scanner =
+      FTxTwoToneIconData('scanner', iconPack: 'mdi');
+  static const FTxTwoToneIconData devices_other =
+      FTxTwoToneIconData('devices_other', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard =
+      FTxTwoToneIconData('keyboard', iconPack: 'mdi');
+  static const FTxTwoToneIconData dock =
+      FTxTwoToneIconData('dock', iconPack: 'mdi');
+  static const FTxTwoToneIconData keyboard_arrow_right =
+      FTxTwoToneIconData('keyboard_arrow_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData router =
+      FTxTwoToneIconData('router', iconPack: 'mdi');
+  static const FTxTwoToneIconData music_video =
+      FTxTwoToneIconData('music_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData new_releases =
+      FTxTwoToneIconData('new_releases', iconPack: 'mdi');
+  static const FTxTwoToneIconData pause =
+      FTxTwoToneIconData('pause', iconPack: 'mdi');
+  static const FTxTwoToneIconData playlist_add =
+      FTxTwoToneIconData('playlist_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData control_camera =
+      FTxTwoToneIconData('control_camera', iconPack: 'mdi');
+  static const FTxTwoToneIconData hearing =
+      FTxTwoToneIconData('hearing', iconPack: 'mdi');
+  static const FTxTwoToneIconData note =
+      FTxTwoToneIconData('note', iconPack: 'mdi');
+  static const FTxTwoToneIconData video_library =
+      FTxTwoToneIconData('video_library', iconPack: 'mdi');
+  static const FTxTwoToneIconData five_g =
+      FTxTwoToneIconData('5g', iconPack: 'mdi');
+  static const FTxTwoToneIconData surround_sound =
+      FTxTwoToneIconData('surround_sound', iconPack: 'mdi');
+  static const FTxTwoToneIconData repeat =
+      FTxTwoToneIconData('repeat', iconPack: 'mdi');
+  static const FTxTwoToneIconData pause_circle_outline =
+      FTxTwoToneIconData('pause_circle_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData videocam =
+      FTxTwoToneIconData('videocam', iconPack: 'mdi');
+  static const FTxTwoToneIconData movie =
+      FTxTwoToneIconData('movie', iconPack: 'mdi');
+  static const FTxTwoToneIconData library_music =
+      FTxTwoToneIconData('library_music', iconPack: 'mdi');
+  static const FTxTwoToneIconData fiber_manual_record =
+      FTxTwoToneIconData('fiber_manual_record', iconPack: 'mdi');
+  static const FTxTwoToneIconData shuffle =
+      FTxTwoToneIconData('shuffle', iconPack: 'mdi');
+  static const FTxTwoToneIconData pause_circle_filled =
+      FTxTwoToneIconData('pause_circle_filled', iconPack: 'mdi');
+  static const FTxTwoToneIconData radio =
+      FTxTwoToneIconData('radio', iconPack: 'mdi');
+  static const FTxTwoToneIconData high_quality =
+      FTxTwoToneIconData('high_quality', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove_from_queue =
+      FTxTwoToneIconData('remove_from_queue', iconPack: 'mdi');
+  static const FTxTwoToneIconData hd =
+      FTxTwoToneIconData('hd', iconPack: 'mdi');
+  static const FTxTwoToneIconData replay_5 =
+      FTxTwoToneIconData('replay_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData equalizer =
+      FTxTwoToneIconData('equalizer', iconPack: 'mdi');
+  static const FTxTwoToneIconData volume_down =
+      FTxTwoToneIconData('volume_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData slow_motion_video =
+      FTxTwoToneIconData('slow_motion_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData fiber_pin =
+      FTxTwoToneIconData('fiber_pin', iconPack: 'mdi');
+  static const FTxTwoToneIconData play_circle_filled =
+      FTxTwoToneIconData('play_circle_filled', iconPack: 'mdi');
+  static const FTxTwoToneIconData library_add =
+      FTxTwoToneIconData('library_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData missed_video_call =
+      FTxTwoToneIconData('missed_video_call', iconPack: 'mdi');
+  static const FTxTwoToneIconData explicit =
+      FTxTwoToneIconData('explicit', iconPack: 'mdi');
+  static const FTxTwoToneIconData featured_video =
+      FTxTwoToneIconData('featured_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData speed =
+      FTxTwoToneIconData('speed', iconPack: 'mdi');
+  static const FTxTwoToneIconData sort_by_alpha =
+      FTxTwoToneIconData('sort_by_alpha', iconPack: 'mdi');
+  static const FTxTwoToneIconData web =
+      FTxTwoToneIconData('web', iconPack: 'mdi');
+  static const FTxTwoToneIconData mic_none =
+      FTxTwoToneIconData('mic_none', iconPack: 'mdi');
+  static const FTxTwoToneIconData replay_10 =
+      FTxTwoToneIconData('replay_10', iconPack: 'mdi');
+  static const FTxTwoToneIconData play_arrow =
+      FTxTwoToneIconData('play_arrow', iconPack: 'mdi');
+  static const FTxTwoToneIconData forward_5 =
+      FTxTwoToneIconData('forward_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData queue_play_next =
+      FTxTwoToneIconData('queue_play_next', iconPack: 'mdi');
+  static const FTxTwoToneIconData volume_off =
+      FTxTwoToneIconData('volume_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData closed_caption =
+      FTxTwoToneIconData('closed_caption', iconPack: 'mdi');
+  static const FTxTwoToneIconData four_k =
+      FTxTwoToneIconData('4k', iconPack: 'mdi');
+  static const FTxTwoToneIconData videocam_off =
+      FTxTwoToneIconData('videocam_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData playlist_add_check =
+      FTxTwoToneIconData('playlist_add_check', iconPack: 'mdi');
+  static const FTxTwoToneIconData library_books =
+      FTxTwoToneIconData('library_books', iconPack: 'mdi');
+  static const FTxTwoToneIconData mic =
+      FTxTwoToneIconData('mic', iconPack: 'mdi');
+  static const FTxTwoToneIconData forward_10 =
+      FTxTwoToneIconData('forward_10', iconPack: 'mdi');
+  static const FTxTwoToneIconData stop_circle =
+      FTxTwoToneIconData('stop_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData stop =
+      FTxTwoToneIconData('stop', iconPack: 'mdi');
+  static const FTxTwoToneIconData repeat_one =
+      FTxTwoToneIconData('repeat_one', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_to_action =
+      FTxTwoToneIconData('call_to_action', iconPack: 'mdi');
+  static const FTxTwoToneIconData playlist_play =
+      FTxTwoToneIconData('playlist_play', iconPack: 'mdi');
+  static const FTxTwoToneIconData subscriptions =
+      FTxTwoToneIconData('subscriptions', iconPack: 'mdi');
+  static const FTxTwoToneIconData fast_rewind =
+      FTxTwoToneIconData('fast_rewind', iconPack: 'mdi');
+  static const FTxTwoToneIconData mic_off =
+      FTxTwoToneIconData('mic_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData forward_30 =
+      FTxTwoToneIconData('forward_30', iconPack: 'mdi');
+  static const FTxTwoToneIconData fiber_new =
+      FTxTwoToneIconData('fiber_new', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_to_queue =
+      FTxTwoToneIconData('add_to_queue', iconPack: 'mdi');
+  static const FTxTwoToneIconData airplay =
+      FTxTwoToneIconData('airplay', iconPack: 'mdi');
+  static const FTxTwoToneIconData replay_30 =
+      FTxTwoToneIconData('replay_30', iconPack: 'mdi');
+  static const FTxTwoToneIconData hearing_disabled =
+      FTxTwoToneIconData('hearing_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData featured_play_list =
+      FTxTwoToneIconData('featured_play_list', iconPack: 'mdi');
+  static const FTxTwoToneIconData queue_music =
+      FTxTwoToneIconData('queue_music', iconPack: 'mdi');
+  static const FTxTwoToneIconData volume_up =
+      FTxTwoToneIconData('volume_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData av_timer =
+      FTxTwoToneIconData('av_timer', iconPack: 'mdi');
+  static const FTxTwoToneIconData web_asset =
+      FTxTwoToneIconData('web_asset', iconPack: 'mdi');
+  static const FTxTwoToneIconData video_label =
+      FTxTwoToneIconData('video_label', iconPack: 'mdi');
+  static const FTxTwoToneIconData volume_mute =
+      FTxTwoToneIconData('volume_mute', iconPack: 'mdi');
+  static const FTxTwoToneIconData queue =
+      FTxTwoToneIconData('queue', iconPack: 'mdi');
+  static const FTxTwoToneIconData video_settings =
+      FTxTwoToneIconData('video_settings', iconPack: 'mdi');
+  static const FTxTwoToneIconData snooze =
+      FTxTwoToneIconData('snooze', iconPack: 'mdi');
+  static const FTxTwoToneIconData not_interested =
+      FTxTwoToneIconData('not_interested', iconPack: 'mdi');
+  static const FTxTwoToneIconData fiber_smart_record =
+      FTxTwoToneIconData('fiber_smart_record', iconPack: 'mdi');
+  static const FTxTwoToneIconData branding_watermark =
+      FTxTwoToneIconData('branding_watermark', iconPack: 'mdi');
+  static const FTxTwoToneIconData subtitles =
+      FTxTwoToneIconData('subtitles', iconPack: 'mdi');
+  static const FTxTwoToneIconData video_call =
+      FTxTwoToneIconData('video_call', iconPack: 'mdi');
+  static const FTxTwoToneIconData replay =
+      FTxTwoToneIconData('replay', iconPack: 'mdi');
+  static const FTxTwoToneIconData recent_actors =
+      FTxTwoToneIconData('recent_actors', iconPack: 'mdi');
+  static const FTxTwoToneIconData fiber_dvr =
+      FTxTwoToneIconData('fiber_dvr', iconPack: 'mdi');
+  static const FTxTwoToneIconData fast_forward =
+      FTxTwoToneIconData('fast_forward', iconPack: 'mdi');
+  static const FTxTwoToneIconData album =
+      FTxTwoToneIconData('album', iconPack: 'mdi');
+  static const FTxTwoToneIconData games =
+      FTxTwoToneIconData('games', iconPack: 'mdi');
+  static const FTxTwoToneIconData skip_previous =
+      FTxTwoToneIconData('skip_previous', iconPack: 'mdi');
+  static const FTxTwoToneIconData loop =
+      FTxTwoToneIconData('loop', iconPack: 'mdi');
+  static const FTxTwoToneIconData closed_caption_disabled =
+      FTxTwoToneIconData('closed_caption_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData library_add_check =
+      FTxTwoToneIconData('library_add_check', iconPack: 'mdi');
+  static const FTxTwoToneIconData art_track =
+      FTxTwoToneIconData('art_track', iconPack: 'mdi');
+  static const FTxTwoToneIconData skip_next =
+      FTxTwoToneIconData('skip_next', iconPack: 'mdi');
+  static const FTxTwoToneIconData play_circle_outline =
+      FTxTwoToneIconData('play_circle_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData folder_shared =
+      FTxTwoToneIconData('folder_shared', iconPack: 'mdi');
+  static const FTxTwoToneIconData snippet_folder =
+      FTxTwoToneIconData('snippet_folder', iconPack: 'mdi');
+  static const FTxTwoToneIconData create_new_folder =
+      FTxTwoToneIconData('create_new_folder', iconPack: 'mdi');
+  static const FTxTwoToneIconData folder_open =
+      FTxTwoToneIconData('folder_open', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_done =
+      FTxTwoToneIconData('cloud_done', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_queue =
+      FTxTwoToneIconData('cloud_queue', iconPack: 'mdi');
+  static const FTxTwoToneIconData download_done =
+      FTxTwoToneIconData('download_done', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_snippet =
+      FTxTwoToneIconData('text_snippet', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_download =
+      FTxTwoToneIconData('cloud_download', iconPack: 'mdi');
+  static const FTxTwoToneIconData attachment =
+      FTxTwoToneIconData('attachment', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_upload =
+      FTxTwoToneIconData('cloud_upload', iconPack: 'mdi');
+  static const FTxTwoToneIconData folder =
+      FTxTwoToneIconData('folder', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_circle =
+      FTxTwoToneIconData('cloud_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData topic =
+      FTxTwoToneIconData('topic', iconPack: 'mdi');
+  static const FTxTwoToneIconData rule_folder =
+      FTxTwoToneIconData('rule_folder', iconPack: 'mdi');
+  static const FTxTwoToneIconData attach_email =
+      FTxTwoToneIconData('attach_email', iconPack: 'mdi');
+  static const FTxTwoToneIconData download =
+      FTxTwoToneIconData('download', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud =
+      FTxTwoToneIconData('cloud', iconPack: 'mdi');
+  static const FTxTwoToneIconData cloud_off =
+      FTxTwoToneIconData('cloud_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData request_quote =
+      FTxTwoToneIconData('request_quote', iconPack: 'mdi');
+  static const FTxTwoToneIconData upload =
+      FTxTwoToneIconData('upload', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_callback =
+      FTxTwoToneIconData('phone_callback', iconPack: 'mdi');
+  static const FTxTwoToneIconData vibration =
+      FTxTwoToneIconData('vibration', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_paused =
+      FTxTwoToneIconData('phone_paused', iconPack: 'mdi');
+  static const FTxTwoToneIconData power =
+      FTxTwoToneIconData('power', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi =
+      FTxTwoToneIconData('wifi', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_recline_extra =
+      FTxTwoToneIconData('airline_seat_recline_extra', iconPack: 'mdi');
+  static const FTxTwoToneIconData sms_failed =
+      FTxTwoToneIconData('sms_failed', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_legroom_normal =
+      FTxTwoToneIconData('airline_seat_legroom_normal', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_disturb_on =
+      FTxTwoToneIconData('do_disturb_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData enhanced_encryption =
+      FTxTwoToneIconData('enhanced_encryption', iconPack: 'mdi');
+  static const FTxTwoToneIconData tap_and_play =
+      FTxTwoToneIconData('tap_and_play', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_locked =
+      FTxTwoToneIconData('phone_locked', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_disturb =
+      FTxTwoToneIconData('do_disturb', iconPack: 'mdi');
+  static const FTxTwoToneIconData power_off =
+      FTxTwoToneIconData('power_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData voice_chat =
+      FTxTwoToneIconData('voice_chat', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_legroom_reduced =
+      FTxTwoToneIconData('airline_seat_legroom_reduced', iconPack: 'mdi');
+  static const FTxTwoToneIconData sms =
+      FTxTwoToneIconData('sms', iconPack: 'mdi');
+  static const FTxTwoToneIconData sd_card =
+      FTxTwoToneIconData('sd_card', iconPack: 'mdi');
+  static const FTxTwoToneIconData sync_problem =
+      FTxTwoToneIconData('sync_problem', iconPack: 'mdi');
+  static const FTxTwoToneIconData folder_special =
+      FTxTwoToneIconData('folder_special', iconPack: 'mdi');
+  static const FTxTwoToneIconData network_locked =
+      FTxTwoToneIconData('network_locked', iconPack: 'mdi');
+  static const FTxTwoToneIconData system_update =
+      FTxTwoToneIconData('system_update', iconPack: 'mdi');
+  static const FTxTwoToneIconData tv_off =
+      FTxTwoToneIconData('tv_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_individual_suite =
+      FTxTwoToneIconData('airline_seat_individual_suite', iconPack: 'mdi');
+  static const FTxTwoToneIconData time_to_leave =
+      FTxTwoToneIconData('time_to_leave', iconPack: 'mdi');
+  static const FTxTwoToneIconData live_tv =
+      FTxTwoToneIconData('live_tv', iconPack: 'mdi');
+  static const FTxTwoToneIconData wc =
+      FTxTwoToneIconData('wc', iconPack: 'mdi');
+  static const FTxTwoToneIconData vpn_lock =
+      FTxTwoToneIconData('vpn_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData account_tree =
+      FTxTwoToneIconData('account_tree', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_in_talk =
+      FTxTwoToneIconData('phone_in_talk', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_flat_angled =
+      FTxTwoToneIconData('airline_seat_flat_angled', iconPack: 'mdi');
+  static const FTxTwoToneIconData directions_off =
+      FTxTwoToneIconData('directions_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_encryption_gmailerrorred =
+      FTxTwoToneIconData('no_encryption_gmailerrorred', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi_off =
+      FTxTwoToneIconData('wifi_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData more =
+      FTxTwoToneIconData('more', iconPack: 'mdi');
+  static const FTxTwoToneIconData mms =
+      FTxTwoToneIconData('mms', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_disturb_off =
+      FTxTwoToneIconData('do_disturb_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_missed =
+      FTxTwoToneIconData('phone_missed', iconPack: 'mdi');
+  static const FTxTwoToneIconData network_check =
+      FTxTwoToneIconData('network_check', iconPack: 'mdi');
+  static const FTxTwoToneIconData adb =
+      FTxTwoToneIconData('adb', iconPack: 'mdi');
+  static const FTxTwoToneIconData ondemand_video =
+      FTxTwoToneIconData('ondemand_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_forwarded =
+      FTxTwoToneIconData('phone_forwarded', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_encryption =
+      FTxTwoToneIconData('no_encryption', iconPack: 'mdi');
+  static const FTxTwoToneIconData event_note =
+      FTxTwoToneIconData('event_note', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_disturb_alt =
+      FTxTwoToneIconData('do_disturb_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_recline_normal =
+      FTxTwoToneIconData('airline_seat_recline_normal', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_flat =
+      FTxTwoToneIconData('airline_seat_flat', iconPack: 'mdi');
+  static const FTxTwoToneIconData sd_card_alert =
+      FTxTwoToneIconData('sd_card_alert', iconPack: 'mdi');
+  static const FTxTwoToneIconData disc_full =
+      FTxTwoToneIconData('disc_full', iconPack: 'mdi');
+  static const FTxTwoToneIconData personal_video =
+      FTxTwoToneIconData('personal_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_bluetooth_speaker =
+      FTxTwoToneIconData('phone_bluetooth_speaker', iconPack: 'mdi');
+  static const FTxTwoToneIconData airline_seat_legroom_extra =
+      FTxTwoToneIconData('airline_seat_legroom_extra', iconPack: 'mdi');
+  static const FTxTwoToneIconData sync =
+      FTxTwoToneIconData('sync', iconPack: 'mdi');
+  static const FTxTwoToneIconData event_busy =
+      FTxTwoToneIconData('event_busy', iconPack: 'mdi');
+  static const FTxTwoToneIconData event_available =
+      FTxTwoToneIconData('event_available', iconPack: 'mdi');
+  static const FTxTwoToneIconData support_agent =
+      FTxTwoToneIconData('support_agent', iconPack: 'mdi');
+  static const FTxTwoToneIconData bluetooth_audio =
+      FTxTwoToneIconData('bluetooth_audio', iconPack: 'mdi');
+  static const FTxTwoToneIconData confirmation_number =
+      FTxTwoToneIconData('confirmation_number', iconPack: 'mdi');
+  static const FTxTwoToneIconData sync_disabled =
+      FTxTwoToneIconData('sync_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData drive_eta =
+      FTxTwoToneIconData('drive_eta', iconPack: 'mdi');
+  static const FTxTwoToneIconData priority_high =
+      FTxTwoToneIconData('priority_high', iconPack: 'mdi');
+  static const FTxTwoToneIconData error_outline =
+      FTxTwoToneIconData('error_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_alert =
+      FTxTwoToneIconData('add_alert', iconPack: 'mdi');
+  static const FTxTwoToneIconData notification_important =
+      FTxTwoToneIconData('notification_important', iconPack: 'mdi');
+  static const FTxTwoToneIconData warning_amber =
+      FTxTwoToneIconData('warning_amber', iconPack: 'mdi');
+  static const FTxTwoToneIconData warning =
+      FTxTwoToneIconData('warning', iconPack: 'mdi');
+  static const FTxTwoToneIconData auto_delete =
+      FTxTwoToneIconData('auto_delete', iconPack: 'mdi');
+  static const FTxTwoToneIconData error =
+      FTxTwoToneIconData('error', iconPack: 'mdi');
+  static const FTxTwoToneIconData child_care =
+      FTxTwoToneIconData('child_care', iconPack: 'mdi');
+  static const FTxTwoToneIconData microwave =
+      FTxTwoToneIconData('microwave', iconPack: 'mdi');
+  static const FTxTwoToneIconData meeting_room =
+      FTxTwoToneIconData('meeting_room', iconPack: 'mdi');
+  static const FTxTwoToneIconData beach_access =
+      FTxTwoToneIconData('beach_access', iconPack: 'mdi');
+  static const FTxTwoToneIconData dry =
+      FTxTwoToneIconData('dry', iconPack: 'mdi');
+  static const FTxTwoToneIconData water_damage =
+      FTxTwoToneIconData('water_damage', iconPack: 'mdi');
+  static const FTxTwoToneIconData fire_extinguisher =
+      FTxTwoToneIconData('fire_extinguisher', iconPack: 'mdi');
+  static const FTxTwoToneIconData rv_hookup =
+      FTxTwoToneIconData('rv_hookup', iconPack: 'mdi');
+  static const FTxTwoToneIconData tty =
+      FTxTwoToneIconData('tty', iconPack: 'mdi');
+  static const FTxTwoToneIconData room_service =
+      FTxTwoToneIconData('room_service', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_not_touch =
+      FTxTwoToneIconData('do_not_touch', iconPack: 'mdi');
+  static const FTxTwoToneIconData storefront =
+      FTxTwoToneIconData('storefront', iconPack: 'mdi');
+  static const FTxTwoToneIconData escalator =
+      FTxTwoToneIconData('escalator', iconPack: 'mdi');
+  static const FTxTwoToneIconData smoking_rooms =
+      FTxTwoToneIconData('smoking_rooms', iconPack: 'mdi');
+  static const FTxTwoToneIconData countertops =
+      FTxTwoToneIconData('countertops', iconPack: 'mdi');
+  static const FTxTwoToneIconData stroller =
+      FTxTwoToneIconData('stroller', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_bar =
+      FTxTwoToneIconData('sports_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData all_inclusive =
+      FTxTwoToneIconData('all_inclusive', iconPack: 'mdi');
+  static const FTxTwoToneIconData business_center =
+      FTxTwoToneIconData('business_center', iconPack: 'mdi');
+  static const FTxTwoToneIconData house_siding =
+      FTxTwoToneIconData('house_siding', iconPack: 'mdi');
+  static const FTxTwoToneIconData carpenter =
+      FTxTwoToneIconData('carpenter', iconPack: 'mdi');
+  static const FTxTwoToneIconData free_breakfast =
+      FTxTwoToneIconData('free_breakfast', iconPack: 'mdi');
+  static const FTxTwoToneIconData escalator_warning =
+      FTxTwoToneIconData('escalator_warning', iconPack: 'mdi');
+  static const FTxTwoToneIconData grass =
+      FTxTwoToneIconData('grass', iconPack: 'mdi');
+  static const FTxTwoToneIconData golf_course =
+      FTxTwoToneIconData('golf_course', iconPack: 'mdi');
+  static const FTxTwoToneIconData casino =
+      FTxTwoToneIconData('casino', iconPack: 'mdi');
+  static const FTxTwoToneIconData tapas =
+      FTxTwoToneIconData('tapas', iconPack: 'mdi');
+  static const FTxTwoToneIconData charging_station =
+      FTxTwoToneIconData('charging_station', iconPack: 'mdi');
+  static const FTxTwoToneIconData smoke_free =
+      FTxTwoToneIconData('smoke_free', iconPack: 'mdi');
+  static const FTxTwoToneIconData foundation =
+      FTxTwoToneIconData('foundation', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_stroller =
+      FTxTwoToneIconData('no_stroller', iconPack: 'mdi');
+  static const FTxTwoToneIconData corporate_fare =
+      FTxTwoToneIconData('corporate_fare', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_drinks =
+      FTxTwoToneIconData('no_drinks', iconPack: 'mdi');
+  static const FTxTwoToneIconData family_restroom =
+      FTxTwoToneIconData('family_restroom', iconPack: 'mdi');
+  static const FTxTwoToneIconData checkroom =
+      FTxTwoToneIconData('checkroom', iconPack: 'mdi');
+  static const FTxTwoToneIconData soap =
+      FTxTwoToneIconData('soap', iconPack: 'mdi');
+  static const FTxTwoToneIconData roofing =
+      FTxTwoToneIconData('roofing', iconPack: 'mdi');
+  static const FTxTwoToneIconData night_shelter =
+      FTxTwoToneIconData('night_shelter', iconPack: 'mdi');
+  static const FTxTwoToneIconData do_not_step =
+      FTxTwoToneIconData('do_not_step', iconPack: 'mdi');
+  static const FTxTwoToneIconData spa =
+      FTxTwoToneIconData('spa', iconPack: 'mdi');
+  static const FTxTwoToneIconData ac_unit =
+      FTxTwoToneIconData('ac_unit', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_food =
+      FTxTwoToneIconData('no_food', iconPack: 'mdi');
+  static const FTxTwoToneIconData room_preferences =
+      FTxTwoToneIconData('room_preferences', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_backpack =
+      FTxTwoToneIconData('no_backpack', iconPack: 'mdi');
+  static const FTxTwoToneIconData child_friendly =
+      FTxTwoToneIconData('child_friendly', iconPack: 'mdi');
+  static const FTxTwoToneIconData hot_tub =
+      FTxTwoToneIconData('hot_tub', iconPack: 'mdi');
+  static const FTxTwoToneIconData fence =
+      FTxTwoToneIconData('fence', iconPack: 'mdi');
+  static const FTxTwoToneIconData rice_bowl =
+      FTxTwoToneIconData('rice_bowl', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_photography =
+      FTxTwoToneIconData('no_photography', iconPack: 'mdi');
+  static const FTxTwoToneIconData bento =
+      FTxTwoToneIconData('bento', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_cell =
+      FTxTwoToneIconData('no_cell', iconPack: 'mdi');
+  static const FTxTwoToneIconData umbrella =
+      FTxTwoToneIconData('umbrella', iconPack: 'mdi');
+  static const FTxTwoToneIconData house =
+      FTxTwoToneIconData('house', iconPack: 'mdi');
+  static const FTxTwoToneIconData baby_changing_station =
+      FTxTwoToneIconData('baby_changing_station', iconPack: 'mdi');
+  static const FTxTwoToneIconData bathtub =
+      FTxTwoToneIconData('bathtub', iconPack: 'mdi');
+  static const FTxTwoToneIconData wash =
+      FTxTwoToneIconData('wash', iconPack: 'mdi');
+  static const FTxTwoToneIconData airport_shuttle =
+      FTxTwoToneIconData('airport_shuttle', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_flash =
+      FTxTwoToneIconData('no_flash', iconPack: 'mdi');
+  static const FTxTwoToneIconData backpack =
+      FTxTwoToneIconData('backpack', iconPack: 'mdi');
+  static const FTxTwoToneIconData food_bank =
+      FTxTwoToneIconData('food_bank', iconPack: 'mdi');
+  static const FTxTwoToneIconData kitchen =
+      FTxTwoToneIconData('kitchen', iconPack: 'mdi');
+  static const FTxTwoToneIconData elevator =
+      FTxTwoToneIconData('elevator', iconPack: 'mdi');
+  static const FTxTwoToneIconData apartment =
+      FTxTwoToneIconData('apartment', iconPack: 'mdi');
+  static const FTxTwoToneIconData pool =
+      FTxTwoToneIconData('pool', iconPack: 'mdi');
+  static const FTxTwoToneIconData stairs =
+      FTxTwoToneIconData('stairs', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_meeting_room =
+      FTxTwoToneIconData('no_meeting_room', iconPack: 'mdi');
+  static const FTxTwoToneIconData wheelchair_pickup =
+      FTxTwoToneIconData('wheelchair_pickup', iconPack: 'mdi');
+  static const FTxTwoToneIconData fitness_center =
+      FTxTwoToneIconData('fitness_center', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_forward =
+      FTxTwoToneIconData('arrow_forward', iconPack: 'mdi');
+  static const FTxTwoToneIconData subdirectory_arrow_right =
+      FTxTwoToneIconData('subdirectory_arrow_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData cancel =
+      FTxTwoToneIconData('cancel', iconPack: 'mdi');
+  static const FTxTwoToneIconData expand_less =
+      FTxTwoToneIconData('expand_less', iconPack: 'mdi');
+  static const FTxTwoToneIconData payments =
+      FTxTwoToneIconData('payments', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_drop_down =
+      FTxTwoToneIconData('arrow_drop_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_downward =
+      FTxTwoToneIconData('arrow_downward', iconPack: 'mdi');
+  static const FTxTwoToneIconData unfold_less =
+      FTxTwoToneIconData('unfold_less', iconPack: 'mdi');
+  static const FTxTwoToneIconData close =
+      FTxTwoToneIconData('close', iconPack: 'mdi');
+  static const FTxTwoToneIconData last_page =
+      FTxTwoToneIconData('last_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData north =
+      FTxTwoToneIconData('north', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_drop_up =
+      FTxTwoToneIconData('arrow_drop_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData fullscreen_exit =
+      FTxTwoToneIconData('fullscreen_exit', iconPack: 'mdi');
+  static const FTxTwoToneIconData subdirectory_arrow_left =
+      FTxTwoToneIconData('subdirectory_arrow_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData refresh =
+      FTxTwoToneIconData('refresh', iconPack: 'mdi');
+  static const FTxTwoToneIconData expand_more =
+      FTxTwoToneIconData('expand_more', iconPack: 'mdi');
+  static const FTxTwoToneIconData app_settings_alt =
+      FTxTwoToneIconData('app_settings_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_drop_down_circle =
+      FTxTwoToneIconData('arrow_drop_down_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData unfold_more =
+      FTxTwoToneIconData('unfold_more', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_forward_ios =
+      FTxTwoToneIconData('arrow_forward_ios', iconPack: 'mdi');
+  static const FTxTwoToneIconData chevron_left =
+      FTxTwoToneIconData('chevron_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData east =
+      FTxTwoToneIconData('east', iconPack: 'mdi');
+  static const FTxTwoToneIconData legend_toggle =
+      FTxTwoToneIconData('legend_toggle', iconPack: 'mdi');
+  static const FTxTwoToneIconData menu_open =
+      FTxTwoToneIconData('menu_open', iconPack: 'mdi');
+  static const FTxTwoToneIconData switch_left =
+      FTxTwoToneIconData('switch_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData switch_right =
+      FTxTwoToneIconData('switch_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData double_arrow =
+      FTxTwoToneIconData('double_arrow', iconPack: 'mdi');
+  static const FTxTwoToneIconData home_work =
+      FTxTwoToneIconData('home_work', iconPack: 'mdi');
+  static const FTxTwoToneIconData north_east =
+      FTxTwoToneIconData('north_east', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_back =
+      FTxTwoToneIconData('arrow_back', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_back_ios =
+      FTxTwoToneIconData('arrow_back_ios', iconPack: 'mdi');
+  static const FTxTwoToneIconData menu =
+      FTxTwoToneIconData('menu', iconPack: 'mdi');
+  static const FTxTwoToneIconData campaign =
+      FTxTwoToneIconData('campaign', iconPack: 'mdi');
+  static const FTxTwoToneIconData south =
+      FTxTwoToneIconData('south', iconPack: 'mdi');
+  static const FTxTwoToneIconData south_west =
+      FTxTwoToneIconData('south_west', iconPack: 'mdi');
+  static const FTxTwoToneIconData more_horiz =
+      FTxTwoToneIconData('more_horiz', iconPack: 'mdi');
+  static const FTxTwoToneIconData west =
+      FTxTwoToneIconData('west', iconPack: 'mdi');
+  static const FTxTwoToneIconData fullscreen =
+      FTxTwoToneIconData('fullscreen', iconPack: 'mdi');
+  static const FTxTwoToneIconData check =
+      FTxTwoToneIconData('check', iconPack: 'mdi');
+  static const FTxTwoToneIconData apps =
+      FTxTwoToneIconData('apps', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_upward =
+      FTxTwoToneIconData('arrow_upward', iconPack: 'mdi');
+  static const FTxTwoToneIconData more_vert =
+      FTxTwoToneIconData('more_vert', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_left =
+      FTxTwoToneIconData('arrow_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData south_east =
+      FTxTwoToneIconData('south_east', iconPack: 'mdi');
+  static const FTxTwoToneIconData north_west =
+      FTxTwoToneIconData('north_west', iconPack: 'mdi');
+  static const FTxTwoToneIconData first_page =
+      FTxTwoToneIconData('first_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_right =
+      FTxTwoToneIconData('arrow_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData chevron_right =
+      FTxTwoToneIconData('chevron_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData biotech =
+      FTxTwoToneIconData('biotech', iconPack: 'mdi');
+  static const FTxTwoToneIconData insights =
+      FTxTwoToneIconData('insights', iconPack: 'mdi');
+  static const FTxTwoToneIconData flag =
+      FTxTwoToneIconData('flag', iconPack: 'mdi');
+  static const FTxTwoToneIconData font_download =
+      FTxTwoToneIconData('font_download', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove =
+      FTxTwoToneIconData('remove', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_circle_outline =
+      FTxTwoToneIconData('add_circle_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData dynamic_feed =
+      FTxTwoToneIconData('dynamic_feed', iconPack: 'mdi');
+  static const FTxTwoToneIconData select_all =
+      FTxTwoToneIconData('select_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData content_copy =
+      FTxTwoToneIconData('content_copy', iconPack: 'mdi');
+  static const FTxTwoToneIconData inbox =
+      FTxTwoToneIconData('inbox', iconPack: 'mdi');
+  static const FTxTwoToneIconData weekend =
+      FTxTwoToneIconData('weekend', iconPack: 'mdi');
+  static const FTxTwoToneIconData push_pin =
+      FTxTwoToneIconData('push_pin', iconPack: 'mdi');
+  static const FTxTwoToneIconData calculate =
+      FTxTwoToneIconData('calculate', iconPack: 'mdi');
+  static const FTxTwoToneIconData archive =
+      FTxTwoToneIconData('archive', iconPack: 'mdi');
+  static const FTxTwoToneIconData sort =
+      FTxTwoToneIconData('sort', iconPack: 'mdi');
+  static const FTxTwoToneIconData how_to_vote =
+      FTxTwoToneIconData('how_to_vote', iconPack: 'mdi');
+  static const FTxTwoToneIconData how_to_reg =
+      FTxTwoToneIconData('how_to_reg', iconPack: 'mdi');
+  static const FTxTwoToneIconData content_cut =
+      FTxTwoToneIconData('content_cut', iconPack: 'mdi');
+  static const FTxTwoToneIconData redo =
+      FTxTwoToneIconData('redo', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_list =
+      FTxTwoToneIconData('filter_list', iconPack: 'mdi');
+  static const FTxTwoToneIconData mail =
+      FTxTwoToneIconData('mail', iconPack: 'mdi');
+  static const FTxTwoToneIconData drafts =
+      FTxTwoToneIconData('drafts', iconPack: 'mdi');
+  static const FTxTwoToneIconData link_off =
+      FTxTwoToneIconData('link_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData content_paste =
+      FTxTwoToneIconData('content_paste', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove_circle =
+      FTxTwoToneIconData('remove_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove_circle_outline =
+      FTxTwoToneIconData('remove_circle_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData amp_stories =
+      FTxTwoToneIconData('amp_stories', iconPack: 'mdi');
+  static const FTxTwoToneIconData undo =
+      FTxTwoToneIconData('undo', iconPack: 'mdi');
+  static const FTxTwoToneIconData file_copy =
+      FTxTwoToneIconData('file_copy', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_format =
+      FTxTwoToneIconData('text_format', iconPack: 'mdi');
+  static const FTxTwoToneIconData unarchive =
+      FTxTwoToneIconData('unarchive', iconPack: 'mdi');
+  static const FTxTwoToneIconData clear =
+      FTxTwoToneIconData('clear', iconPack: 'mdi');
+  static const FTxTwoToneIconData markunread =
+      FTxTwoToneIconData('markunread', iconPack: 'mdi');
+  static const FTxTwoToneIconData where_to_vote =
+      FTxTwoToneIconData('where_to_vote', iconPack: 'mdi');
+  static const FTxTwoToneIconData reply_all =
+      FTxTwoToneIconData('reply_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData reply =
+      FTxTwoToneIconData('reply', iconPack: 'mdi');
+  static const FTxTwoToneIconData save_alt =
+      FTxTwoToneIconData('save_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData report_off =
+      FTxTwoToneIconData('report_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData add =
+      FTxTwoToneIconData('add', iconPack: 'mdi');
+  static const FTxTwoToneIconData link =
+      FTxTwoToneIconData('link', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_circle =
+      FTxTwoToneIconData('add_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_box =
+      FTxTwoToneIconData('add_box', iconPack: 'mdi');
+  static const FTxTwoToneIconData gesture =
+      FTxTwoToneIconData('gesture', iconPack: 'mdi');
+  static const FTxTwoToneIconData next_week =
+      FTxTwoToneIconData('next_week', iconPack: 'mdi');
+  static const FTxTwoToneIconData attribution =
+      FTxTwoToneIconData('attribution', iconPack: 'mdi');
+  static const FTxTwoToneIconData waves =
+      FTxTwoToneIconData('waves', iconPack: 'mdi');
+  static const FTxTwoToneIconData ballot =
+      FTxTwoToneIconData('ballot', iconPack: 'mdi');
+  static const FTxTwoToneIconData backspace =
+      FTxTwoToneIconData('backspace', iconPack: 'mdi');
+  static const FTxTwoToneIconData report =
+      FTxTwoToneIconData('report', iconPack: 'mdi');
+  static const FTxTwoToneIconData delete_sweep =
+      FTxTwoToneIconData('delete_sweep', iconPack: 'mdi');
+  static const FTxTwoToneIconData square_foot =
+      FTxTwoToneIconData('square_foot', iconPack: 'mdi');
+  static const FTxTwoToneIconData outlined_flag =
+      FTxTwoToneIconData('outlined_flag', iconPack: 'mdi');
+  static const FTxTwoToneIconData report_gmailerrorred =
+      FTxTwoToneIconData('report_gmailerrorred', iconPack: 'mdi');
+  static const FTxTwoToneIconData save =
+      FTxTwoToneIconData('save', iconPack: 'mdi');
+  static const FTxTwoToneIconData send =
+      FTxTwoToneIconData('send', iconPack: 'mdi');
+  static const FTxTwoToneIconData create =
+      FTxTwoToneIconData('create', iconPack: 'mdi');
+  static const FTxTwoToneIconData low_priority =
+      FTxTwoToneIconData('low_priority', iconPack: 'mdi');
+  static const FTxTwoToneIconData forward =
+      FTxTwoToneIconData('forward', iconPack: 'mdi');
+  static const FTxTwoToneIconData policy =
+      FTxTwoToneIconData('policy', iconPack: 'mdi');
+  static const FTxTwoToneIconData move_to_inbox =
+      FTxTwoToneIconData('move_to_inbox', iconPack: 'mdi');
+  static const FTxTwoToneIconData block =
+      FTxTwoToneIconData('block', iconPack: 'mdi');
+  static const FTxTwoToneIconData assistant_photo =
+      FTxTwoToneIconData('assistant_photo', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_4 =
+      FTxTwoToneIconData('brightness_4', iconPack: 'mdi');
+  static const FTxTwoToneIconData broken_image =
+      FTxTwoToneIconData('broken_image', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_3 =
+      FTxTwoToneIconData('brightness_3', iconPack: 'mdi');
+  static const FTxTwoToneIconData assistant =
+      FTxTwoToneIconData('assistant', iconPack: 'mdi');
+  static const FTxTwoToneIconData grid_off =
+      FTxTwoToneIconData('grid_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData monochrome_photos =
+      FTxTwoToneIconData('monochrome_photos', iconPack: 'mdi');
+  static const FTxTwoToneIconData flip_camera_ios =
+      FTxTwoToneIconData('flip_camera_ios', iconPack: 'mdi');
+  static const FTxTwoToneIconData gradient =
+      FTxTwoToneIconData('gradient', iconPack: 'mdi');
+  static const FTxTwoToneIconData switch_camera =
+      FTxTwoToneIconData('switch_camera', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove_red_eye =
+      FTxTwoToneIconData('remove_red_eye', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_comfy =
+      FTxTwoToneIconData('view_comfy', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_2 =
+      FTxTwoToneIconData('brightness_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData wb_cloudy =
+      FTxTwoToneIconData('wb_cloudy', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_5 =
+      FTxTwoToneIconData('brightness_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData leak_remove =
+      FTxTwoToneIconData('leak_remove', iconPack: 'mdi');
+  static const FTxTwoToneIconData burst_mode =
+      FTxTwoToneIconData('burst_mode', iconPack: 'mdi');
+  static const FTxTwoToneIconData picture_as_pdf =
+      FTxTwoToneIconData('picture_as_pdf', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure =
+      FTxTwoToneIconData('exposure', iconPack: 'mdi');
+  static const FTxTwoToneIconData audiotrack =
+      FTxTwoToneIconData('audiotrack', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_tilt_shift =
+      FTxTwoToneIconData('filter_tilt_shift', iconPack: 'mdi');
+  static const FTxTwoToneIconData adjust =
+      FTxTwoToneIconData('adjust', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera_rear =
+      FTxTwoToneIconData('camera_rear', iconPack: 'mdi');
+  static const FTxTwoToneIconData tag_faces =
+      FTxTwoToneIconData('tag_faces', iconPack: 'mdi');
+  static const FTxTwoToneIconData music_off =
+      FTxTwoToneIconData('music_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_library =
+      FTxTwoToneIconData('photo_library', iconPack: 'mdi');
+  static const FTxTwoToneIconData wb_sunny =
+      FTxTwoToneIconData('wb_sunny', iconPack: 'mdi');
+  static const FTxTwoToneIconData flash_auto =
+      FTxTwoToneIconData('flash_auto', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_16_9 =
+      FTxTwoToneIconData('crop_16_9', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_rotate =
+      FTxTwoToneIconData('crop_rotate', iconPack: 'mdi');
+  static const FTxTwoToneIconData motion_photos_paused =
+      FTxTwoToneIconData('motion_photos_paused', iconPack: 'mdi');
+  static const FTxTwoToneIconData blur_off =
+      FTxTwoToneIconData('blur_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera_front =
+      FTxTwoToneIconData('camera_front', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_none =
+      FTxTwoToneIconData('filter_none', iconPack: 'mdi');
+  static const FTxTwoToneIconData hdr_weak =
+      FTxTwoToneIconData('hdr_weak', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_vintage =
+      FTxTwoToneIconData('filter_vintage', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_6 =
+      FTxTwoToneIconData('looks_6', iconPack: 'mdi');
+  static const FTxTwoToneIconData iso =
+      FTxTwoToneIconData('iso', iconPack: 'mdi');
+  static const FTxTwoToneIconData leak_add =
+      FTxTwoToneIconData('leak_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData shutter_speed =
+      FTxTwoToneIconData('shutter_speed', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_center_focus =
+      FTxTwoToneIconData('filter_center_focus', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure_neg_1 =
+      FTxTwoToneIconData('exposure_neg_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure_plus_1 =
+      FTxTwoToneIconData('exposure_plus_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_filter =
+      FTxTwoToneIconData('photo_filter', iconPack: 'mdi');
+  static const FTxTwoToneIconData timer_3 =
+      FTxTwoToneIconData('timer_3', iconPack: 'mdi');
+  static const FTxTwoToneIconData image_not_supported =
+      FTxTwoToneIconData('image_not_supported', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_frames =
+      FTxTwoToneIconData('filter_frames', iconPack: 'mdi');
+  static const FTxTwoToneIconData dehaze =
+      FTxTwoToneIconData('dehaze', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_5_4 =
+      FTxTwoToneIconData('crop_5_4', iconPack: 'mdi');
+  static const FTxTwoToneIconData movie_creation =
+      FTxTwoToneIconData('movie_creation', iconPack: 'mdi');
+  static const FTxTwoToneIconData control_point =
+      FTxTwoToneIconData('control_point', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_drama =
+      FTxTwoToneIconData('filter_drama', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera =
+      FTxTwoToneIconData('camera', iconPack: 'mdi');
+  static const FTxTwoToneIconData wb_auto =
+      FTxTwoToneIconData('wb_auto', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_5 =
+      FTxTwoToneIconData('filter_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_2 =
+      FTxTwoToneIconData('filter_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_b_and_w =
+      FTxTwoToneIconData('filter_b_and_w', iconPack: 'mdi');
+  static const FTxTwoToneIconData control_point_duplicate =
+      FTxTwoToneIconData('control_point_duplicate', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_3 =
+      FTxTwoToneIconData('filter_3', iconPack: 'mdi');
+  static const FTxTwoToneIconData timer =
+      FTxTwoToneIconData('timer', iconPack: 'mdi');
+  static const FTxTwoToneIconData wb_incandescent =
+      FTxTwoToneIconData('wb_incandescent', iconPack: 'mdi');
+  static const FTxTwoToneIconData straighten =
+      FTxTwoToneIconData('straighten', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_4 =
+      FTxTwoToneIconData('filter_4', iconPack: 'mdi');
+  static const FTxTwoToneIconData panorama_fish_eye =
+      FTxTwoToneIconData('panorama_fish_eye', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop =
+      FTxTwoToneIconData('crop', iconPack: 'mdi');
+  static const FTxTwoToneIconData timelapse =
+      FTxTwoToneIconData('timelapse', iconPack: 'mdi');
+  static const FTxTwoToneIconData color_lens =
+      FTxTwoToneIconData('color_lens', iconPack: 'mdi');
+  static const FTxTwoToneIconData portrait =
+      FTxTwoToneIconData('portrait', iconPack: 'mdi');
+  static const FTxTwoToneIconData flash_off =
+      FTxTwoToneIconData('flash_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData grid_on =
+      FTxTwoToneIconData('grid_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData flip =
+      FTxTwoToneIconData('flip', iconPack: 'mdi');
+  static const FTxTwoToneIconData details =
+      FTxTwoToneIconData('details', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_a_photo =
+      FTxTwoToneIconData('add_a_photo', iconPack: 'mdi');
+  static const FTxTwoToneIconData style =
+      FTxTwoToneIconData('style', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_din =
+      FTxTwoToneIconData('crop_din', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_square =
+      FTxTwoToneIconData('crop_square', iconPack: 'mdi');
+  static const FTxTwoToneIconData nature =
+      FTxTwoToneIconData('nature', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_hdr =
+      FTxTwoToneIconData('filter_hdr', iconPack: 'mdi');
+  static const FTxTwoToneIconData image =
+      FTxTwoToneIconData('image', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_landscape =
+      FTxTwoToneIconData('crop_landscape', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera_alt =
+      FTxTwoToneIconData('camera_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData blur_linear =
+      FTxTwoToneIconData('blur_linear', iconPack: 'mdi');
+  static const FTxTwoToneIconData switch_video =
+      FTxTwoToneIconData('switch_video', iconPack: 'mdi');
+  static const FTxTwoToneIconData blur_circular =
+      FTxTwoToneIconData('blur_circular', iconPack: 'mdi');
+  static const FTxTwoToneIconData edit =
+      FTxTwoToneIconData('edit', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_7 =
+      FTxTwoToneIconData('brightness_7', iconPack: 'mdi');
+  static const FTxTwoToneIconData grain =
+      FTxTwoToneIconData('grain', iconPack: 'mdi');
+  static const FTxTwoToneIconData receipt_long =
+      FTxTwoToneIconData('receipt_long', iconPack: 'mdi');
+  static const FTxTwoToneIconData image_aspect_ratio =
+      FTxTwoToneIconData('image_aspect_ratio', iconPack: 'mdi');
+  static const FTxTwoToneIconData lens =
+      FTxTwoToneIconData('lens', iconPack: 'mdi');
+  static const FTxTwoToneIconData movie_filter =
+      FTxTwoToneIconData('movie_filter', iconPack: 'mdi');
+  static const FTxTwoToneIconData timer_10 =
+      FTxTwoToneIconData('timer_10', iconPack: 'mdi');
+  static const FTxTwoToneIconData panorama_horizontal =
+      FTxTwoToneIconData('panorama_horizontal', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_album =
+      FTxTwoToneIconData('photo_album', iconPack: 'mdi');
+  static const FTxTwoToneIconData loupe =
+      FTxTwoToneIconData('loupe', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks =
+      FTxTwoToneIconData('looks', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_size_select_small =
+      FTxTwoToneIconData('photo_size_select_small', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_6 =
+      FTxTwoToneIconData('brightness_6', iconPack: 'mdi');
+  static const FTxTwoToneIconData navigate_next =
+      FTxTwoToneIconData('navigate_next', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_1 =
+      FTxTwoToneIconData('brightness_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData tune =
+      FTxTwoToneIconData('tune', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_camera =
+      FTxTwoToneIconData('photo_camera', iconPack: 'mdi');
+  static const FTxTwoToneIconData center_focus_weak =
+      FTxTwoToneIconData('center_focus_weak', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_4 =
+      FTxTwoToneIconData('looks_4', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_3 =
+      FTxTwoToneIconData('looks_3', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_portrait =
+      FTxTwoToneIconData('crop_portrait', iconPack: 'mdi');
+  static const FTxTwoToneIconData bedtime =
+      FTxTwoToneIconData('bedtime', iconPack: 'mdi');
+  static const FTxTwoToneIconData rotate_right =
+      FTxTwoToneIconData('rotate_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData hdr_strong =
+      FTxTwoToneIconData('hdr_strong', iconPack: 'mdi');
+  static const FTxTwoToneIconData nature_people =
+      FTxTwoToneIconData('nature_people', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure_neg_2 =
+      FTxTwoToneIconData('exposure_neg_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData compare =
+      FTxTwoToneIconData('compare', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure_plus_2 =
+      FTxTwoToneIconData('exposure_plus_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData panorama =
+      FTxTwoToneIconData('panorama', iconPack: 'mdi');
+  static const FTxTwoToneIconData collections_bookmark =
+      FTxTwoToneIconData('collections_bookmark', iconPack: 'mdi');
+  static const FTxTwoToneIconData hdr_on =
+      FTxTwoToneIconData('hdr_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_9_plus =
+      FTxTwoToneIconData('filter_9_plus', iconPack: 'mdi');
+  static const FTxTwoToneIconData texture =
+      FTxTwoToneIconData('texture', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_photo_alternate =
+      FTxTwoToneIconData('add_photo_alternate', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_5 =
+      FTxTwoToneIconData('looks_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData flash_on =
+      FTxTwoToneIconData('flash_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_size_select_large =
+      FTxTwoToneIconData('photo_size_select_large', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_8 =
+      FTxTwoToneIconData('filter_8', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_3_2 =
+      FTxTwoToneIconData('crop_3_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData brush =
+      FTxTwoToneIconData('brush', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_1 =
+      FTxTwoToneIconData('filter_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData healing =
+      FTxTwoToneIconData('healing', iconPack: 'mdi');
+  static const FTxTwoToneIconData euro =
+      FTxTwoToneIconData('euro', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_6 =
+      FTxTwoToneIconData('filter_6', iconPack: 'mdi');
+  static const FTxTwoToneIconData landscape =
+      FTxTwoToneIconData('landscape', iconPack: 'mdi');
+  static const FTxTwoToneIconData navigate_before =
+      FTxTwoToneIconData('navigate_before', iconPack: 'mdi');
+  static const FTxTwoToneIconData vignette =
+      FTxTwoToneIconData('vignette', iconPack: 'mdi');
+  static const FTxTwoToneIconData image_search =
+      FTxTwoToneIconData('image_search', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter =
+      FTxTwoToneIconData('filter', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_7 =
+      FTxTwoToneIconData('filter_7', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_9 =
+      FTxTwoToneIconData('filter_9', iconPack: 'mdi');
+  static const FTxTwoToneIconData tonality =
+      FTxTwoToneIconData('tonality', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_one =
+      FTxTwoToneIconData('looks_one', iconPack: 'mdi');
+  static const FTxTwoToneIconData center_focus_strong =
+      FTxTwoToneIconData('center_focus_strong', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo_size_select_actual =
+      FTxTwoToneIconData('photo_size_select_actual', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_7_5 =
+      FTxTwoToneIconData('crop_7_5', iconPack: 'mdi');
+  static const FTxTwoToneIconData collections =
+      FTxTwoToneIconData('collections', iconPack: 'mdi');
+  static const FTxTwoToneIconData flip_camera_android =
+      FTxTwoToneIconData('flip_camera_android', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_free =
+      FTxTwoToneIconData('crop_free', iconPack: 'mdi');
+  static const FTxTwoToneIconData motion_photos_pause =
+      FTxTwoToneIconData('motion_photos_pause', iconPack: 'mdi');
+  static const FTxTwoToneIconData exposure_zero =
+      FTxTwoToneIconData('exposure_zero', iconPack: 'mdi');
+  static const FTxTwoToneIconData hdr_off =
+      FTxTwoToneIconData('hdr_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData panorama_wide_angle =
+      FTxTwoToneIconData('panorama_wide_angle', iconPack: 'mdi');
+  static const FTxTwoToneIconData transform =
+      FTxTwoToneIconData('transform', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera_roll =
+      FTxTwoToneIconData('camera_roll', iconPack: 'mdi');
+  static const FTxTwoToneIconData slideshow =
+      FTxTwoToneIconData('slideshow', iconPack: 'mdi');
+  static const FTxTwoToneIconData music_note =
+      FTxTwoToneIconData('music_note', iconPack: 'mdi');
+  static const FTxTwoToneIconData panorama_vertical =
+      FTxTwoToneIconData('panorama_vertical', iconPack: 'mdi');
+  static const FTxTwoToneIconData photo =
+      FTxTwoToneIconData('photo', iconPack: 'mdi');
+  static const FTxTwoToneIconData wb_iridescent =
+      FTxTwoToneIconData('wb_iridescent', iconPack: 'mdi');
+  static const FTxTwoToneIconData colorize =
+      FTxTwoToneIconData('colorize', iconPack: 'mdi');
+  static const FTxTwoToneIconData rotate_left =
+      FTxTwoToneIconData('rotate_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData flare =
+      FTxTwoToneIconData('flare', iconPack: 'mdi');
+  static const FTxTwoToneIconData crop_original =
+      FTxTwoToneIconData('crop_original', iconPack: 'mdi');
+  static const FTxTwoToneIconData timer_off =
+      FTxTwoToneIconData('timer_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData palette =
+      FTxTwoToneIconData('palette', iconPack: 'mdi');
+  static const FTxTwoToneIconData looks_two =
+      FTxTwoToneIconData('looks_two', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_to_photos =
+      FTxTwoToneIconData('add_to_photos', iconPack: 'mdi');
+  static const FTxTwoToneIconData rotate_90_degrees_ccw =
+      FTxTwoToneIconData('rotate_90_degrees_ccw', iconPack: 'mdi');
+  static const FTxTwoToneIconData linked_camera =
+      FTxTwoToneIconData('linked_camera', iconPack: 'mdi');
+  static const FTxTwoToneIconData motion_photos_on =
+      FTxTwoToneIconData('motion_photos_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData blur_on =
+      FTxTwoToneIconData('blur_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_compact =
+      FTxTwoToneIconData('view_compact', iconPack: 'mdi');
+  static const FTxTwoToneIconData indeterminate_check_box =
+      FTxTwoToneIconData('indeterminate_check_box', iconPack: 'mdi');
+  static const FTxTwoToneIconData star_border =
+      FTxTwoToneIconData('star_border', iconPack: 'mdi');
+  static const FTxTwoToneIconData radio_button_unchecked =
+      FTxTwoToneIconData('radio_button_unchecked', iconPack: 'mdi');
+  static const FTxTwoToneIconData check_box_outline_blank =
+      FTxTwoToneIconData('check_box_outline_blank', iconPack: 'mdi');
+  static const FTxTwoToneIconData star_half =
+      FTxTwoToneIconData('star_half', iconPack: 'mdi');
+  static const FTxTwoToneIconData radio_button_checked =
+      FTxTwoToneIconData('radio_button_checked', iconPack: 'mdi');
+  static const FTxTwoToneIconData toggle_on =
+      FTxTwoToneIconData('toggle_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData toggle_off =
+      FTxTwoToneIconData('toggle_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData star =
+      FTxTwoToneIconData('star', iconPack: 'mdi');
+  static const FTxTwoToneIconData star_outline =
+      FTxTwoToneIconData('star_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData check_box =
+      FTxTwoToneIconData('check_box', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_cricket =
+      FTxTwoToneIconData('sports_cricket', iconPack: 'mdi');
+  static const FTxTwoToneIconData thumb_down_alt =
+      FTxTwoToneIconData('thumb_down_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_tennis =
+      FTxTwoToneIconData('sports_tennis', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_rugby =
+      FTxTwoToneIconData('sports_rugby', iconPack: 'mdi');
+  static const FTxTwoToneIconData luggage =
+      FTxTwoToneIconData('luggage', iconPack: 'mdi');
+  static const FTxTwoToneIconData sick =
+      FTxTwoToneIconData('sick', iconPack: 'mdi');
+  static const FTxTwoToneIconData history_edu =
+      FTxTwoToneIconData('history_edu', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_handball =
+      FTxTwoToneIconData('sports_handball', iconPack: 'mdi');
+  static const FTxTwoToneIconData fireplace =
+      FTxTwoToneIconData('fireplace', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_hockey =
+      FTxTwoToneIconData('sports_hockey', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_outline =
+      FTxTwoToneIconData('person_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData public_off =
+      FTxTwoToneIconData('public_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData plus_one =
+      FTxTwoToneIconData('plus_one', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_volleyball =
+      FTxTwoToneIconData('sports_volleyball', iconPack: 'mdi');
+  static const FTxTwoToneIconData reduce_capacity =
+      FTxTwoToneIconData('reduce_capacity', iconPack: 'mdi');
+  static const FTxTwoToneIconData six_ft_apart =
+      FTxTwoToneIconData('6_ft_apart', iconPack: 'mdi');
+  static const FTxTwoToneIconData group_add =
+      FTxTwoToneIconData('group_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData party_mode =
+      FTxTwoToneIconData('party_mode', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_events =
+      FTxTwoToneIconData('emoji_events', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_symbols =
+      FTxTwoToneIconData('emoji_symbols', iconPack: 'mdi');
+  static const FTxTwoToneIconData notifications_paused =
+      FTxTwoToneIconData('notifications_paused', iconPack: 'mdi');
+  static const FTxTwoToneIconData group =
+      FTxTwoToneIconData('group', iconPack: 'mdi');
+  static const FTxTwoToneIconData person =
+      FTxTwoToneIconData('person', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_golf =
+      FTxTwoToneIconData('sports_golf', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_remove_alt_1 =
+      FTxTwoToneIconData('person_remove_alt_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_people =
+      FTxTwoToneIconData('emoji_people', iconPack: 'mdi');
+  static const FTxTwoToneIconData psychology =
+      FTxTwoToneIconData('psychology', iconPack: 'mdi');
+  static const FTxTwoToneIconData elderly =
+      FTxTwoToneIconData('elderly', iconPack: 'mdi');
+  static const FTxTwoToneIconData science =
+      FTxTwoToneIconData('science', iconPack: 'mdi');
+  static const FTxTwoToneIconData sanitizer =
+      FTxTwoToneIconData('sanitizer', iconPack: 'mdi');
+  static const FTxTwoToneIconData single_bed =
+      FTxTwoToneIconData('single_bed', iconPack: 'mdi');
+  static const FTxTwoToneIconData whatshot =
+      FTxTwoToneIconData('whatshot', iconPack: 'mdi');
+  static const FTxTwoToneIconData self_improvement =
+      FTxTwoToneIconData('self_improvement', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_very_dissatisfied =
+      FTxTwoToneIconData('sentiment_very_dissatisfied', iconPack: 'mdi');
+  static const FTxTwoToneIconData groups =
+      FTxTwoToneIconData('groups', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_mma =
+      FTxTwoToneIconData('sports_mma', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_add =
+      FTxTwoToneIconData('person_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports =
+      FTxTwoToneIconData('sports', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_very_satisfied =
+      FTxTwoToneIconData('sentiment_very_satisfied', iconPack: 'mdi');
+  static const FTxTwoToneIconData mood_bad =
+      FTxTwoToneIconData('mood_bad', iconPack: 'mdi');
+  static const FTxTwoToneIconData location_city =
+      FTxTwoToneIconData('location_city', iconPack: 'mdi');
+  static const FTxTwoToneIconData coronavirus =
+      FTxTwoToneIconData('coronavirus', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_dissatisfied =
+      FTxTwoToneIconData('sentiment_dissatisfied', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_remove =
+      FTxTwoToneIconData('person_remove', iconPack: 'mdi');
+  static const FTxTwoToneIconData outdoor_grill =
+      FTxTwoToneIconData('outdoor_grill', iconPack: 'mdi');
+  static const FTxTwoToneIconData notifications_none =
+      FTxTwoToneIconData('notifications_none', iconPack: 'mdi');
+  static const FTxTwoToneIconData architecture =
+      FTxTwoToneIconData('architecture', iconPack: 'mdi');
+  static const FTxTwoToneIconData military_tech =
+      FTxTwoToneIconData('military_tech', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_nature =
+      FTxTwoToneIconData('emoji_nature', iconPack: 'mdi');
+  static const FTxTwoToneIconData public =
+      FTxTwoToneIconData('public', iconPack: 'mdi');
+  static const FTxTwoToneIconData facebook =
+      FTxTwoToneIconData('facebook', iconPack: 'mdi');
+  static const FTxTwoToneIconData connect_without_contact =
+      FTxTwoToneIconData('connect_without_contact', iconPack: 'mdi');
+  static const FTxTwoToneIconData people_alt =
+      FTxTwoToneIconData('people_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData king_bed =
+      FTxTwoToneIconData('king_bed', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_satisfied =
+      FTxTwoToneIconData('sentiment_satisfied', iconPack: 'mdi');
+  static const FTxTwoToneIconData precision_manufacturing =
+      FTxTwoToneIconData('precision_manufacturing', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_kabaddi =
+      FTxTwoToneIconData('sports_kabaddi', iconPack: 'mdi');
+  static const FTxTwoToneIconData people =
+      FTxTwoToneIconData('people', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_esports =
+      FTxTwoToneIconData('sports_esports', iconPack: 'mdi');
+  static const FTxTwoToneIconData construction =
+      FTxTwoToneIconData('construction', iconPack: 'mdi');
+  static const FTxTwoToneIconData thumb_up_alt =
+      FTxTwoToneIconData('thumb_up_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_emotions =
+      FTxTwoToneIconData('emoji_emotions', iconPack: 'mdi');
+  static const FTxTwoToneIconData clean_hands =
+      FTxTwoToneIconData('clean_hands', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_baseball =
+      FTxTwoToneIconData('sports_baseball', iconPack: 'mdi');
+  static const FTxTwoToneIconData follow_the_signs =
+      FTxTwoToneIconData('follow_the_signs', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_neutral =
+      FTxTwoToneIconData('sentiment_neutral', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_luggage =
+      FTxTwoToneIconData('no_luggage', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_soccer =
+      FTxTwoToneIconData('sports_soccer', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_football =
+      FTxTwoToneIconData('sports_football', iconPack: 'mdi');
+  static const FTxTwoToneIconData notifications_off =
+      FTxTwoToneIconData('notifications_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_add_alt_1 =
+      FTxTwoToneIconData('person_add_alt_1', iconPack: 'mdi');
+  static const FTxTwoToneIconData mood =
+      FTxTwoToneIconData('mood', iconPack: 'mdi');
+  static const FTxTwoToneIconData pages =
+      FTxTwoToneIconData('pages', iconPack: 'mdi');
+  static const FTxTwoToneIconData school =
+      FTxTwoToneIconData('school', iconPack: 'mdi');
+  static const FTxTwoToneIconData domain =
+      FTxTwoToneIconData('domain', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_objects =
+      FTxTwoToneIconData('emoji_objects', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_food_beverage =
+      FTxTwoToneIconData('emoji_food_beverage', iconPack: 'mdi');
+  static const FTxTwoToneIconData engineering =
+      FTxTwoToneIconData('engineering', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_transportation =
+      FTxTwoToneIconData('emoji_transportation', iconPack: 'mdi');
+  static const FTxTwoToneIconData notifications =
+      FTxTwoToneIconData('notifications', iconPack: 'mdi');
+  static const FTxTwoToneIconData masks =
+      FTxTwoToneIconData('masks', iconPack: 'mdi');
+  static const FTxTwoToneIconData deck =
+      FTxTwoToneIconData('deck', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_motorsports =
+      FTxTwoToneIconData('sports_motorsports', iconPack: 'mdi');
+  static const FTxTwoToneIconData cake =
+      FTxTwoToneIconData('cake', iconPack: 'mdi');
+  static const FTxTwoToneIconData emoji_flags =
+      FTxTwoToneIconData('emoji_flags', iconPack: 'mdi');
+  static const FTxTwoToneIconData poll =
+      FTxTwoToneIconData('poll', iconPack: 'mdi');
+  static const FTxTwoToneIconData sports_basketball =
+      FTxTwoToneIconData('sports_basketball', iconPack: 'mdi');
+  static const FTxTwoToneIconData people_outline =
+      FTxTwoToneIconData('people_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData nights_stay =
+      FTxTwoToneIconData('nights_stay', iconPack: 'mdi');
+  static const FTxTwoToneIconData share =
+      FTxTwoToneIconData('share', iconPack: 'mdi');
+  static const FTxTwoToneIconData notifications_active =
+      FTxTwoToneIconData('notifications_active', iconPack: 'mdi');
+  static const FTxTwoToneIconData question_answer =
+      FTxTwoToneIconData('question_answer', iconPack: 'mdi');
+  static const FTxTwoToneIconData gavel =
+      FTxTwoToneIconData('gavel', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_shopping_cart =
+      FTxTwoToneIconData('add_shopping_cart', iconPack: 'mdi');
+  static const FTxTwoToneIconData shopping_bag =
+      FTxTwoToneIconData('shopping_bag', iconPack: 'mdi');
+  static const FTxTwoToneIconData delete_outline =
+      FTxTwoToneIconData('delete_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData highlight_alt =
+      FTxTwoToneIconData('highlight_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData search_off =
+      FTxTwoToneIconData('search_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData remove_shopping_cart =
+      FTxTwoToneIconData('remove_shopping_cart', iconPack: 'mdi');
+  static const FTxTwoToneIconData https =
+      FTxTwoToneIconData('https', iconPack: 'mdi');
+  static const FTxTwoToneIconData swap_horiz =
+      FTxTwoToneIconData('swap_horiz', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_applications =
+      FTxTwoToneIconData('settings_applications', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings =
+      FTxTwoToneIconData('settings', iconPack: 'mdi');
+  static const FTxTwoToneIconData home =
+      FTxTwoToneIconData('home', iconPack: 'mdi');
+  static const FTxTwoToneIconData thumb_down =
+      FTxTwoToneIconData('thumb_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData trending_up =
+      FTxTwoToneIconData('trending_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData plagiarism =
+      FTxTwoToneIconData('plagiarism', iconPack: 'mdi');
+  static const FTxTwoToneIconData app_blocking =
+      FTxTwoToneIconData('app_blocking', iconPack: 'mdi');
+  static const FTxTwoToneIconData reorder =
+      FTxTwoToneIconData('reorder', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_stream =
+      FTxTwoToneIconData('view_stream', iconPack: 'mdi');
+  static const FTxTwoToneIconData build_circle =
+      FTxTwoToneIconData('build_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData addchart =
+      FTxTwoToneIconData('addchart', iconPack: 'mdi');
+  static const FTxTwoToneIconData disabled_by_default =
+      FTxTwoToneIconData('disabled_by_default', iconPack: 'mdi');
+  static const FTxTwoToneIconData g_translate =
+      FTxTwoToneIconData('g_translate', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_module =
+      FTxTwoToneIconData('view_module', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_list =
+      FTxTwoToneIconData('view_list', iconPack: 'mdi');
+  static const FTxTwoToneIconData help_outline =
+      FTxTwoToneIconData('help_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_phone =
+      FTxTwoToneIconData('settings_phone', iconPack: 'mdi');
+  static const FTxTwoToneIconData credit_card =
+      FTxTwoToneIconData('credit_card', iconPack: 'mdi');
+  static const FTxTwoToneIconData contactless =
+      FTxTwoToneIconData('contactless', iconPack: 'mdi');
+  static const FTxTwoToneIconData toc =
+      FTxTwoToneIconData('toc', iconPack: 'mdi');
+  static const FTxTwoToneIconData upgrade =
+      FTxTwoToneIconData('upgrade', iconPack: 'mdi');
+  static const FTxTwoToneIconData drag_indicator =
+      FTxTwoToneIconData('drag_indicator', iconPack: 'mdi');
+  static const FTxTwoToneIconData schedule =
+      FTxTwoToneIconData('schedule', iconPack: 'mdi');
+  static const FTxTwoToneIconData highlight_off =
+      FTxTwoToneIconData('highlight_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData contact_support =
+      FTxTwoToneIconData('contact_support', iconPack: 'mdi');
+  static const FTxTwoToneIconData pregnant_woman =
+      FTxTwoToneIconData('pregnant_woman', iconPack: 'mdi');
+  static const FTxTwoToneIconData tab_unselected =
+      FTxTwoToneIconData('tab_unselected', iconPack: 'mdi');
+  static const FTxTwoToneIconData watch_later =
+      FTxTwoToneIconData('watch_later', iconPack: 'mdi');
+  static const FTxTwoToneIconData room =
+      FTxTwoToneIconData('room', iconPack: 'mdi');
+  static const FTxTwoToneIconData star_rate =
+      FTxTwoToneIconData('star_rate', iconPack: 'mdi');
+  static const FTxTwoToneIconData published_with_changes =
+      FTxTwoToneIconData('published_with_changes', iconPack: 'mdi');
+  static const FTxTwoToneIconData grading =
+      FTxTwoToneIconData('grading', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_data_setting =
+      FTxTwoToneIconData('perm_data_setting', iconPack: 'mdi');
+  static const FTxTwoToneIconData pageview =
+      FTxTwoToneIconData('pageview', iconPack: 'mdi');
+  static const FTxTwoToneIconData bookmark =
+      FTxTwoToneIconData('bookmark', iconPack: 'mdi');
+  static const FTxTwoToneIconData check_circle =
+      FTxTwoToneIconData('check_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData fingerprint =
+      FTxTwoToneIconData('fingerprint', iconPack: 'mdi');
+  static const FTxTwoToneIconData extension =
+      FTxTwoToneIconData('extension', iconPack: 'mdi');
+  static const FTxTwoToneIconData visibility_off =
+      FTxTwoToneIconData('visibility_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData rowing =
+      FTxTwoToneIconData('rowing', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_identity =
+      FTxTwoToneIconData('perm_identity', iconPack: 'mdi');
+  static const FTxTwoToneIconData alarm_on =
+      FTxTwoToneIconData('alarm_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData vertical_split =
+      FTxTwoToneIconData('vertical_split', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_brightness =
+      FTxTwoToneIconData('settings_brightness', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_input_svideo =
+      FTxTwoToneIconData('settings_input_svideo', iconPack: 'mdi');
+  static const FTxTwoToneIconData fact_check =
+      FTxTwoToneIconData('fact_check', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_input_antenna =
+      FTxTwoToneIconData('settings_input_antenna', iconPack: 'mdi');
+  static const FTxTwoToneIconData not_started =
+      FTxTwoToneIconData('not_started', iconPack: 'mdi');
+  static const FTxTwoToneIconData contact_page =
+      FTxTwoToneIconData('contact_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_voice =
+      FTxTwoToneIconData('settings_voice', iconPack: 'mdi');
+  static const FTxTwoToneIconData update =
+      FTxTwoToneIconData('update', iconPack: 'mdi');
+  static const FTxTwoToneIconData face_unlock =
+      FTxTwoToneIconData('face_unlock', iconPack: 'mdi');
+  static const FTxTwoToneIconData label_off =
+      FTxTwoToneIconData('label_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData delete =
+      FTxTwoToneIconData('delete', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_column =
+      FTxTwoToneIconData('view_column', iconPack: 'mdi');
+  static const FTxTwoToneIconData offline_bolt =
+      FTxTwoToneIconData('offline_bolt', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_array =
+      FTxTwoToneIconData('view_array', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_contact_calendar =
+      FTxTwoToneIconData('perm_contact_calendar', iconPack: 'mdi');
+  static const FTxTwoToneIconData unpublished =
+      FTxTwoToneIconData('unpublished', iconPack: 'mdi');
+  static const FTxTwoToneIconData visibility =
+      FTxTwoToneIconData('visibility', iconPack: 'mdi');
+  static const FTxTwoToneIconData note_add =
+      FTxTwoToneIconData('note_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData face =
+      FTxTwoToneIconData('face', iconPack: 'mdi');
+  static const FTxTwoToneIconData verified =
+      FTxTwoToneIconData('verified', iconPack: 'mdi');
+  static const FTxTwoToneIconData today =
+      FTxTwoToneIconData('today', iconPack: 'mdi');
+  static const FTxTwoToneIconData subtitles_off =
+      FTxTwoToneIconData('subtitles_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData flaky =
+      FTxTwoToneIconData('flaky', iconPack: 'mdi');
+  static const FTxTwoToneIconData translate =
+      FTxTwoToneIconData('translate', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_ethernet =
+      FTxTwoToneIconData('settings_ethernet', iconPack: 'mdi');
+  static const FTxTwoToneIconData lock_open =
+      FTxTwoToneIconData('lock_open', iconPack: 'mdi');
+  static const FTxTwoToneIconData input =
+      FTxTwoToneIconData('input', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_cell =
+      FTxTwoToneIconData('settings_cell', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_bluetooth =
+      FTxTwoToneIconData('settings_bluetooth', iconPack: 'mdi');
+  static const FTxTwoToneIconData trending_flat =
+      FTxTwoToneIconData('trending_flat', iconPack: 'mdi');
+  static const FTxTwoToneIconData swap_vertical_circle =
+      FTxTwoToneIconData('swap_vertical_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData pets =
+      FTxTwoToneIconData('pets', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment_ind =
+      FTxTwoToneIconData('assignment_ind', iconPack: 'mdi');
+  static const FTxTwoToneIconData outbond =
+      FTxTwoToneIconData('outbond', iconPack: 'mdi');
+  static const FTxTwoToneIconData launch =
+      FTxTwoToneIconData('launch', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_circle_down =
+      FTxTwoToneIconData('arrow_circle_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData supervisor_account =
+      FTxTwoToneIconData('supervisor_account', iconPack: 'mdi');
+  static const FTxTwoToneIconData payment =
+      FTxTwoToneIconData('payment', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotate_vertical =
+      FTxTwoToneIconData('text_rotate_vertical', iconPack: 'mdi');
+  static const FTxTwoToneIconData picture_in_picture_alt =
+      FTxTwoToneIconData('picture_in_picture_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData shop_two =
+      FTxTwoToneIconData('shop_two', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment_returned =
+      FTxTwoToneIconData('assignment_returned', iconPack: 'mdi');
+  static const FTxTwoToneIconData wysiwyg =
+      FTxTwoToneIconData('wysiwyg', iconPack: 'mdi');
+  static const FTxTwoToneIconData system_update_alt =
+      FTxTwoToneIconData('system_update_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData picture_in_picture =
+      FTxTwoToneIconData('picture_in_picture', iconPack: 'mdi');
+  static const FTxTwoToneIconData compare_arrows =
+      FTxTwoToneIconData('compare_arrows', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_device_information =
+      FTxTwoToneIconData('perm_device_information', iconPack: 'mdi');
+  static const FTxTwoToneIconData source =
+      FTxTwoToneIconData('source', iconPack: 'mdi');
+  static const FTxTwoToneIconData pending_actions =
+      FTxTwoToneIconData('pending_actions', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_overscan =
+      FTxTwoToneIconData('settings_overscan', iconPack: 'mdi');
+  static const FTxTwoToneIconData open_in_full =
+      FTxTwoToneIconData('open_in_full', iconPack: 'mdi');
+  static const FTxTwoToneIconData theaters =
+      FTxTwoToneIconData('theaters', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_remote =
+      FTxTwoToneIconData('settings_remote', iconPack: 'mdi');
+  static const FTxTwoToneIconData swap_vert =
+      FTxTwoToneIconData('swap_vert', iconPack: 'mdi');
+  static const FTxTwoToneIconData shop =
+      FTxTwoToneIconData('shop', iconPack: 'mdi');
+  static const FTxTwoToneIconData calendar_view_day =
+      FTxTwoToneIconData('calendar_view_day', iconPack: 'mdi');
+  static const FTxTwoToneIconData thumb_up =
+      FTxTwoToneIconData('thumb_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData flip_to_front =
+      FTxTwoToneIconData('flip_to_front', iconPack: 'mdi');
+  static const FTxTwoToneIconData subject =
+      FTxTwoToneIconData('subject', iconPack: 'mdi');
+  static const FTxTwoToneIconData flip_to_back =
+      FTxTwoToneIconData('flip_to_back', iconPack: 'mdi');
+  static const FTxTwoToneIconData done_outline =
+      FTxTwoToneIconData('done_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData lock =
+      FTxTwoToneIconData('lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData code =
+      FTxTwoToneIconData('code', iconPack: 'mdi');
+  static const FTxTwoToneIconData stars =
+      FTxTwoToneIconData('stars', iconPack: 'mdi');
+  static const FTxTwoToneIconData label =
+      FTxTwoToneIconData('label', iconPack: 'mdi');
+  static const FTxTwoToneIconData lightbulb_outline =
+      FTxTwoToneIconData('lightbulb_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_backup_restore =
+      FTxTwoToneIconData('settings_backup_restore', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_quilt =
+      FTxTwoToneIconData('view_quilt', iconPack: 'mdi');
+  static const FTxTwoToneIconData redeem =
+      FTxTwoToneIconData('redeem', iconPack: 'mdi');
+  static const FTxTwoToneIconData polymer =
+      FTxTwoToneIconData('polymer', iconPack: 'mdi');
+  static const FTxTwoToneIconData find_replace =
+      FTxTwoToneIconData('find_replace', iconPack: 'mdi');
+  static const FTxTwoToneIconData event_seat =
+      FTxTwoToneIconData('event_seat', iconPack: 'mdi');
+  static const FTxTwoToneIconData spellcheck =
+      FTxTwoToneIconData('spellcheck', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi_protected_setup =
+      FTxTwoToneIconData('wifi_protected_setup', iconPack: 'mdi');
+  static const FTxTwoToneIconData admin_panel_settings =
+      FTxTwoToneIconData('admin_panel_settings', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment =
+      FTxTwoToneIconData('assignment', iconPack: 'mdi');
+  static const FTxTwoToneIconData favorite =
+      FTxTwoToneIconData('favorite', iconPack: 'mdi');
+  static const FTxTwoToneIconData language =
+      FTxTwoToneIconData('language', iconPack: 'mdi');
+  static const FTxTwoToneIconData cached =
+      FTxTwoToneIconData('cached', iconPack: 'mdi');
+  static const FTxTwoToneIconData label_important =
+      FTxTwoToneIconData('label_important', iconPack: 'mdi');
+  static const FTxTwoToneIconData leaderboard =
+      FTxTwoToneIconData('leaderboard', iconPack: 'mdi');
+  static const FTxTwoToneIconData markunread_mailbox =
+      FTxTwoToneIconData('markunread_mailbox', iconPack: 'mdi');
+  static const FTxTwoToneIconData thumbs_up_down =
+      FTxTwoToneIconData('thumbs_up_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData horizontal_split =
+      FTxTwoToneIconData('horizontal_split', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_right_alt =
+      FTxTwoToneIconData('arrow_right_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData loyalty =
+      FTxTwoToneIconData('loyalty', iconPack: 'mdi');
+  static const FTxTwoToneIconData bug_report =
+      FTxTwoToneIconData('bug_report', iconPack: 'mdi');
+  static const FTxTwoToneIconData pan_tool =
+      FTxTwoToneIconData('pan_tool', iconPack: 'mdi');
+  static const FTxTwoToneIconData work_off =
+      FTxTwoToneIconData('work_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData autorenew =
+      FTxTwoToneIconData('autorenew', iconPack: 'mdi');
+  static const FTxTwoToneIconData assessment =
+      FTxTwoToneIconData('assessment', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment_late =
+      FTxTwoToneIconData('assignment_late', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_input_composite =
+      FTxTwoToneIconData('settings_input_composite', iconPack: 'mdi');
+  static const FTxTwoToneIconData tab =
+      FTxTwoToneIconData('tab', iconPack: 'mdi');
+  static const FTxTwoToneIconData done_all =
+      FTxTwoToneIconData('done_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData mediation =
+      FTxTwoToneIconData('mediation', iconPack: 'mdi');
+  static const FTxTwoToneIconData turned_in =
+      FTxTwoToneIconData('turned_in', iconPack: 'mdi');
+  static const FTxTwoToneIconData eco =
+      FTxTwoToneIconData('eco', iconPack: 'mdi');
+  static const FTxTwoToneIconData work_outline =
+      FTxTwoToneIconData('work_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData print =
+      FTxTwoToneIconData('print', iconPack: 'mdi');
+  static const FTxTwoToneIconData grade =
+      FTxTwoToneIconData('grade', iconPack: 'mdi');
+  static const FTxTwoToneIconData supervised_user_circle =
+      FTxTwoToneIconData('supervised_user_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData feedback =
+      FTxTwoToneIconData('feedback', iconPack: 'mdi');
+  static const FTxTwoToneIconData explore =
+      FTxTwoToneIconData('explore', iconPack: 'mdi');
+  static const FTxTwoToneIconData query_builder =
+      FTxTwoToneIconData('query_builder', iconPack: 'mdi');
+  static const FTxTwoToneIconData rule =
+      FTxTwoToneIconData('rule', iconPack: 'mdi');
+  static const FTxTwoToneIconData search =
+      FTxTwoToneIconData('search', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_media =
+      FTxTwoToneIconData('perm_media', iconPack: 'mdi');
+  static const FTxTwoToneIconData help_center =
+      FTxTwoToneIconData('help_center', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_scan_wifi =
+      FTxTwoToneIconData('perm_scan_wifi', iconPack: 'mdi');
+  static const FTxTwoToneIconData info =
+      FTxTwoToneIconData('info', iconPack: 'mdi');
+  static const FTxTwoToneIconData dashboard =
+      FTxTwoToneIconData('dashboard', iconPack: 'mdi');
+  static const FTxTwoToneIconData trending_down =
+      FTxTwoToneIconData('trending_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData donut_small =
+      FTxTwoToneIconData('donut_small', iconPack: 'mdi');
+  static const FTxTwoToneIconData bookmark_border =
+      FTxTwoToneIconData('bookmark_border', iconPack: 'mdi');
+  static const FTxTwoToneIconData outlet =
+      FTxTwoToneIconData('outlet', iconPack: 'mdi');
+  static const FTxTwoToneIconData hourglass_full =
+      FTxTwoToneIconData('hourglass_full', iconPack: 'mdi');
+  static const FTxTwoToneIconData zoom_out =
+      FTxTwoToneIconData('zoom_out', iconPack: 'mdi');
+  static const FTxTwoToneIconData group_work =
+      FTxTwoToneIconData('group_work', iconPack: 'mdi');
+  static const FTxTwoToneIconData turned_in_not =
+      FTxTwoToneIconData('turned_in_not', iconPack: 'mdi');
+  static const FTxTwoToneIconData arrow_circle_up =
+      FTxTwoToneIconData('arrow_circle_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData privacy_tip =
+      FTxTwoToneIconData('privacy_tip', iconPack: 'mdi');
+  static const FTxTwoToneIconData voice_over_off =
+      FTxTwoToneIconData('voice_over_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData receipt =
+      FTxTwoToneIconData('receipt', iconPack: 'mdi');
+  static const FTxTwoToneIconData hourglass_disabled =
+      FTxTwoToneIconData('hourglass_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData quickreply =
+      FTxTwoToneIconData('quickreply', iconPack: 'mdi');
+  static const FTxTwoToneIconData eject =
+      FTxTwoToneIconData('eject', iconPack: 'mdi');
+  static const FTxTwoToneIconData card_membership =
+      FTxTwoToneIconData('card_membership', iconPack: 'mdi');
+  static const FTxTwoToneIconData verified_user =
+      FTxTwoToneIconData('verified_user', iconPack: 'mdi');
+  static const FTxTwoToneIconData close_fullscreen =
+      FTxTwoToneIconData('close_fullscreen', iconPack: 'mdi');
+  static const FTxTwoToneIconData alarm_add =
+      FTxTwoToneIconData('alarm_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData done =
+      FTxTwoToneIconData('done', iconPack: 'mdi');
+  static const FTxTwoToneIconData label_outline =
+      FTxTwoToneIconData('label_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData bookmarks =
+      FTxTwoToneIconData('bookmarks', iconPack: 'mdi');
+  static const FTxTwoToneIconData explore_off =
+      FTxTwoToneIconData('explore_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData track_changes =
+      FTxTwoToneIconData('track_changes', iconPack: 'mdi');
+  static const FTxTwoToneIconData description =
+      FTxTwoToneIconData('description', iconPack: 'mdi');
+  static const FTxTwoToneIconData touch_app =
+      FTxTwoToneIconData('touch_app', iconPack: 'mdi');
+  static const FTxTwoToneIconData support =
+      FTxTwoToneIconData('support', iconPack: 'mdi');
+  static const FTxTwoToneIconData opacity =
+      FTxTwoToneIconData('opacity', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_input_component =
+      FTxTwoToneIconData('settings_input_component', iconPack: 'mdi');
+  static const FTxTwoToneIconData book_online =
+      FTxTwoToneIconData('book_online', iconPack: 'mdi');
+  static const FTxTwoToneIconData dynamic_form =
+      FTxTwoToneIconData('dynamic_form', iconPack: 'mdi');
+  static const FTxTwoToneIconData get_app =
+      FTxTwoToneIconData('get_app', iconPack: 'mdi');
+  static const FTxTwoToneIconData speaker_notes_off =
+      FTxTwoToneIconData('speaker_notes_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData http =
+      FTxTwoToneIconData('http', iconPack: 'mdi');
+  static const FTxTwoToneIconData important_devices =
+      FTxTwoToneIconData('important_devices', iconPack: 'mdi');
+  static const FTxTwoToneIconData flight_takeoff =
+      FTxTwoToneIconData('flight_takeoff', iconPack: 'mdi');
+  static const FTxTwoToneIconData check_circle_outline =
+      FTxTwoToneIconData('check_circle_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotate_up =
+      FTxTwoToneIconData('text_rotate_up', iconPack: 'mdi');
+  static const FTxTwoToneIconData work =
+      FTxTwoToneIconData('work', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_power =
+      FTxTwoToneIconData('settings_power', iconPack: 'mdi');
+  static const FTxTwoToneIconData list =
+      FTxTwoToneIconData('list', iconPack: 'mdi');
+  static const FTxTwoToneIconData android =
+      FTxTwoToneIconData('android', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_input_hdmi =
+      FTxTwoToneIconData('settings_input_hdmi', iconPack: 'mdi');
+  static const FTxTwoToneIconData favorite_border =
+      FTxTwoToneIconData('favorite_border', iconPack: 'mdi');
+  static const FTxTwoToneIconData card_travel =
+      FTxTwoToneIconData('card_travel', iconPack: 'mdi');
+  static const FTxTwoToneIconData history =
+      FTxTwoToneIconData('history', iconPack: 'mdi');
+  static const FTxTwoToneIconData accessibility_new =
+      FTxTwoToneIconData('accessibility_new', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_week =
+      FTxTwoToneIconData('view_week', iconPack: 'mdi');
+  static const FTxTwoToneIconData book =
+      FTxTwoToneIconData('book', iconPack: 'mdi');
+  static const FTxTwoToneIconData smart_button =
+      FTxTwoToneIconData('smart_button', iconPack: 'mdi');
+  static const FTxTwoToneIconData not_accessible =
+      FTxTwoToneIconData('not_accessible', iconPack: 'mdi');
+  static const FTxTwoToneIconData commute =
+      FTxTwoToneIconData('commute', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_phone_msg =
+      FTxTwoToneIconData('perm_phone_msg', iconPack: 'mdi');
+  static const FTxTwoToneIconData class_ =
+      FTxTwoToneIconData('class', iconPack: 'mdi');
+  static const FTxTwoToneIconData tour =
+      FTxTwoToneIconData('tour', iconPack: 'mdi');
+  static const FTxTwoToneIconData sticky_note_2 =
+      FTxTwoToneIconData('sticky_note_2', iconPack: 'mdi');
+  static const FTxTwoToneIconData speaker_notes =
+      FTxTwoToneIconData('speaker_notes', iconPack: 'mdi');
+  static const FTxTwoToneIconData api =
+      FTxTwoToneIconData('api', iconPack: 'mdi');
+  static const FTxTwoToneIconData invert_colors =
+      FTxTwoToneIconData('invert_colors', iconPack: 'mdi');
+  static const FTxTwoToneIconData open_in_browser =
+      FTxTwoToneIconData('open_in_browser', iconPack: 'mdi');
+  static const FTxTwoToneIconData hourglass_empty =
+      FTxTwoToneIconData('hourglass_empty', iconPack: 'mdi');
+  static const FTxTwoToneIconData backup_table =
+      FTxTwoToneIconData('backup_table', iconPack: 'mdi');
+  static const FTxTwoToneIconData exit_to_app =
+      FTxTwoToneIconData('exit_to_app', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotation_angleup =
+      FTxTwoToneIconData('text_rotation_angleup', iconPack: 'mdi');
+  static const FTxTwoToneIconData open_in_new =
+      FTxTwoToneIconData('open_in_new', iconPack: 'mdi');
+  static const FTxTwoToneIconData lock_outline =
+      FTxTwoToneIconData('lock_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData preview =
+      FTxTwoToneIconData('preview', iconPack: 'mdi');
+  static const FTxTwoToneIconData calendar_today =
+      FTxTwoToneIconData('calendar_today', iconPack: 'mdi');
+  static const FTxTwoToneIconData three_d_rotation =
+      FTxTwoToneIconData('3d_rotation', iconPack: 'mdi');
+  static const FTxTwoToneIconData history_toggle_off =
+      FTxTwoToneIconData('history_toggle_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData account_box =
+      FTxTwoToneIconData('account_box', iconPack: 'mdi');
+  static const FTxTwoToneIconData account_balance_wallet =
+      FTxTwoToneIconData('account_balance_wallet', iconPack: 'mdi');
+  static const FTxTwoToneIconData copyright =
+      FTxTwoToneIconData('copyright', iconPack: 'mdi');
+  static const FTxTwoToneIconData filter_alt =
+      FTxTwoToneIconData('filter_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData anchor =
+      FTxTwoToneIconData('anchor', iconPack: 'mdi');
+  static const FTxTwoToneIconData change_history =
+      FTxTwoToneIconData('change_history', iconPack: 'mdi');
+  static const FTxTwoToneIconData power_settings_new =
+      FTxTwoToneIconData('power_settings_new', iconPack: 'mdi');
+  static const FTxTwoToneIconData card_giftcard =
+      FTxTwoToneIconData('card_giftcard', iconPack: 'mdi');
+  static const FTxTwoToneIconData find_in_page =
+      FTxTwoToneIconData('find_in_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotation_down =
+      FTxTwoToneIconData('text_rotation_down', iconPack: 'mdi');
+  static const FTxTwoToneIconData build =
+      FTxTwoToneIconData('build', iconPack: 'mdi');
+  static const FTxTwoToneIconData rounded_corner =
+      FTxTwoToneIconData('rounded_corner', iconPack: 'mdi');
+  static const FTxTwoToneIconData alarm =
+      FTxTwoToneIconData('alarm', iconPack: 'mdi');
+  static const FTxTwoToneIconData accessible =
+      FTxTwoToneIconData('accessible', iconPack: 'mdi');
+  static const FTxTwoToneIconData play_for_work =
+      FTxTwoToneIconData('play_for_work', iconPack: 'mdi');
+  static const FTxTwoToneIconData zoom_in =
+      FTxTwoToneIconData('zoom_in', iconPack: 'mdi');
+  static const FTxTwoToneIconData article =
+      FTxTwoToneIconData('article', iconPack: 'mdi');
+  static const FTxTwoToneIconData account_circle =
+      FTxTwoToneIconData('account_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData maximize =
+      FTxTwoToneIconData('maximize', iconPack: 'mdi');
+  static const FTxTwoToneIconData date_range =
+      FTxTwoToneIconData('date_range', iconPack: 'mdi');
+  static const FTxTwoToneIconData model_training =
+      FTxTwoToneIconData('model_training', iconPack: 'mdi');
+  static const FTxTwoToneIconData label_important_outline =
+      FTxTwoToneIconData('label_important_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotation_angledown =
+      FTxTwoToneIconData('text_rotation_angledown', iconPack: 'mdi');
+  static const FTxTwoToneIconData info_outline =
+      FTxTwoToneIconData('info_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_rotation_none =
+      FTxTwoToneIconData('text_rotation_none', iconPack: 'mdi');
+  static const FTxTwoToneIconData cancel_schedule_send =
+      FTxTwoToneIconData('cancel_schedule_send', iconPack: 'mdi');
+  static const FTxTwoToneIconData youtube_searched_for =
+      FTxTwoToneIconData('youtube_searched_for', iconPack: 'mdi');
+  static const FTxTwoToneIconData donut_large =
+      FTxTwoToneIconData('donut_large', iconPack: 'mdi');
+  static const FTxTwoToneIconData line_style =
+      FTxTwoToneIconData('line_style', iconPack: 'mdi');
+  static const FTxTwoToneIconData restore_from_trash =
+      FTxTwoToneIconData('restore_from_trash', iconPack: 'mdi');
+  static const FTxTwoToneIconData sync_alt =
+      FTxTwoToneIconData('sync_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData backup =
+      FTxTwoToneIconData('backup', iconPack: 'mdi');
+  static const FTxTwoToneIconData announcement =
+      FTxTwoToneIconData('announcement', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment_turned_in =
+      FTxTwoToneIconData('assignment_turned_in', iconPack: 'mdi');
+  static const FTxTwoToneIconData dns =
+      FTxTwoToneIconData('dns', iconPack: 'mdi');
+  static const FTxTwoToneIconData record_voice_over =
+      FTxTwoToneIconData('record_voice_over', iconPack: 'mdi');
+  static const FTxTwoToneIconData integration_instructions =
+      FTxTwoToneIconData('integration_instructions', iconPack: 'mdi');
+  static const FTxTwoToneIconData camera_enhance =
+      FTxTwoToneIconData('camera_enhance', iconPack: 'mdi');
+  static const FTxTwoToneIconData accessibility =
+      FTxTwoToneIconData('accessibility', iconPack: 'mdi');
+  static const FTxTwoToneIconData all_inbox =
+      FTxTwoToneIconData('all_inbox', iconPack: 'mdi');
+  static const FTxTwoToneIconData timeline =
+      FTxTwoToneIconData('timeline', iconPack: 'mdi');
+  static const FTxTwoToneIconData restore =
+      FTxTwoToneIconData('restore', iconPack: 'mdi');
+  static const FTxTwoToneIconData toll =
+      FTxTwoToneIconData('toll', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_sidebar =
+      FTxTwoToneIconData('view_sidebar', iconPack: 'mdi');
+  static const FTxTwoToneIconData perm_camera_mic =
+      FTxTwoToneIconData('perm_camera_mic', iconPack: 'mdi');
+  static const FTxTwoToneIconData online_prediction =
+      FTxTwoToneIconData('online_prediction', iconPack: 'mdi');
+  static const FTxTwoToneIconData shopping_cart =
+      FTxTwoToneIconData('shopping_cart', iconPack: 'mdi');
+  static const FTxTwoToneIconData event =
+      FTxTwoToneIconData('event', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_headline =
+      FTxTwoToneIconData('view_headline', iconPack: 'mdi');
+  static const FTxTwoToneIconData minimize =
+      FTxTwoToneIconData('minimize', iconPack: 'mdi');
+  static const FTxTwoToneIconData accessible_forward =
+      FTxTwoToneIconData('accessible_forward', iconPack: 'mdi');
+  static const FTxTwoToneIconData aspect_ratio =
+      FTxTwoToneIconData('aspect_ratio', iconPack: 'mdi');
+  static const FTxTwoToneIconData euro_symbol =
+      FTxTwoToneIconData('euro_symbol', iconPack: 'mdi');
+  static const FTxTwoToneIconData delete_forever =
+      FTxTwoToneIconData('delete_forever', iconPack: 'mdi');
+  static const FTxTwoToneIconData restore_page =
+      FTxTwoToneIconData('restore_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData login =
+      FTxTwoToneIconData('login', iconPack: 'mdi');
+  static const FTxTwoToneIconData chrome_reader_mode =
+      FTxTwoToneIconData('chrome_reader_mode', iconPack: 'mdi');
+  static const FTxTwoToneIconData alarm_off =
+      FTxTwoToneIconData('alarm_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData batch_prediction =
+      FTxTwoToneIconData('batch_prediction', iconPack: 'mdi');
+  static const FTxTwoToneIconData report_problem =
+      FTxTwoToneIconData('report_problem', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_carousel =
+      FTxTwoToneIconData('view_carousel', iconPack: 'mdi');
+  static const FTxTwoToneIconData next_plan =
+      FTxTwoToneIconData('next_plan', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_day =
+      FTxTwoToneIconData('view_day', iconPack: 'mdi');
+  static const FTxTwoToneIconData assignment_return =
+      FTxTwoToneIconData('assignment_return', iconPack: 'mdi');
+  static const FTxTwoToneIconData table_view =
+      FTxTwoToneIconData('table_view', iconPack: 'mdi');
+  static const FTxTwoToneIconData flight_land =
+      FTxTwoToneIconData('flight_land', iconPack: 'mdi');
+  static const FTxTwoToneIconData line_weight =
+      FTxTwoToneIconData('line_weight', iconPack: 'mdi');
+  static const FTxTwoToneIconData help =
+      FTxTwoToneIconData('help', iconPack: 'mdi');
+  static const FTxTwoToneIconData request_page =
+      FTxTwoToneIconData('request_page', iconPack: 'mdi');
+  static const FTxTwoToneIconData offline_pin =
+      FTxTwoToneIconData('offline_pin', iconPack: 'mdi');
+  static const FTxTwoToneIconData analytics =
+      FTxTwoToneIconData('analytics', iconPack: 'mdi');
+  static const FTxTwoToneIconData view_agenda =
+      FTxTwoToneIconData('view_agenda', iconPack: 'mdi');
+  static const FTxTwoToneIconData open_with =
+      FTxTwoToneIconData('open_with', iconPack: 'mdi');
+  static const FTxTwoToneIconData pending =
+      FTxTwoToneIconData('pending', iconPack: 'mdi');
+  static const FTxTwoToneIconData shopping_basket =
+      FTxTwoToneIconData('shopping_basket', iconPack: 'mdi');
+  static const FTxTwoToneIconData store =
+      FTxTwoToneIconData('store', iconPack: 'mdi');
+  static const FTxTwoToneIconData account_balance =
+      FTxTwoToneIconData('account_balance', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_task =
+      FTxTwoToneIconData('add_task', iconPack: 'mdi');
+  static const FTxTwoToneIconData swap_horizontal_circle =
+      FTxTwoToneIconData('swap_horizontal_circle', iconPack: 'mdi');
+  static const FTxTwoToneIconData gif =
+      FTxTwoToneIconData('gif', iconPack: 'mdi');
+  static const FTxTwoToneIconData comment_bank =
+      FTxTwoToneIconData('comment_bank', iconPack: 'mdi');
+  static const FTxTwoToneIconData all_out =
+      FTxTwoToneIconData('all_out', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_1_bar_lock =
+      FTxTwoToneIconData('signal_wifi_1_bar_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData bluetooth_searching =
+      FTxTwoToneIconData('bluetooth_searching', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_off =
+      FTxTwoToneIconData('signal_wifi_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData access_alarm =
+      FTxTwoToneIconData('access_alarm', iconPack: 'mdi');
+  static const FTxTwoToneIconData location_disabled =
+      FTxTwoToneIconData('location_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_high =
+      FTxTwoToneIconData('brightness_high', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_full =
+      FTxTwoToneIconData('battery_full', iconPack: 'mdi');
+  static const FTxTwoToneIconData location_searching =
+      FTxTwoToneIconData('location_searching', iconPack: 'mdi');
+  static const FTxTwoToneIconData access_alarms =
+      FTxTwoToneIconData('access_alarms', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_low =
+      FTxTwoToneIconData('brightness_low', iconPack: 'mdi');
+  static const FTxTwoToneIconData sd_storage =
+      FTxTwoToneIconData('sd_storage', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_auto =
+      FTxTwoToneIconData('brightness_auto', iconPack: 'mdi');
+  static const FTxTwoToneIconData airplanemode_active =
+      FTxTwoToneIconData('airplanemode_active', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_30 =
+      FTxTwoToneIconData('battery_charging_30', iconPack: 'mdi');
+  static const FTxTwoToneIconData network_wifi =
+      FTxTwoToneIconData('network_wifi', iconPack: 'mdi');
+  static const FTxTwoToneIconData data_usage =
+      FTxTwoToneIconData('data_usage', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_4_bar =
+      FTxTwoToneIconData('signal_cellular_4_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData gps_not_fixed =
+      FTxTwoToneIconData('gps_not_fixed', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_null =
+      FTxTwoToneIconData('signal_cellular_null', iconPack: 'mdi');
+  static const FTxTwoToneIconData settings_system_daydream =
+      FTxTwoToneIconData('settings_system_daydream', iconPack: 'mdi');
+  static const FTxTwoToneIconData screen_lock_portrait =
+      FTxTwoToneIconData('screen_lock_portrait', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_90 =
+      FTxTwoToneIconData('battery_charging_90', iconPack: 'mdi');
+  static const FTxTwoToneIconData graphic_eq =
+      FTxTwoToneIconData('graphic_eq', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_1_bar =
+      FTxTwoToneIconData('signal_cellular_1_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData screen_rotation =
+      FTxTwoToneIconData('screen_rotation', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_0_bar =
+      FTxTwoToneIconData('signal_cellular_0_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData mobile_friendly =
+      FTxTwoToneIconData('mobile_friendly', iconPack: 'mdi');
+  static const FTxTwoToneIconData gps_off =
+      FTxTwoToneIconData('gps_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_30 =
+      FTxTwoToneIconData('battery_30', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_full =
+      FTxTwoToneIconData('battery_charging_full', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_2_bar =
+      FTxTwoToneIconData('signal_cellular_2_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_3_bar =
+      FTxTwoToneIconData('signal_cellular_3_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData bluetooth_connected =
+      FTxTwoToneIconData('bluetooth_connected', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi_tethering =
+      FTxTwoToneIconData('wifi_tethering', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_90 =
+      FTxTwoToneIconData('battery_90', iconPack: 'mdi');
+  static const FTxTwoToneIconData storage =
+      FTxTwoToneIconData('storage', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_connected_no_internet_3_bar =
+      FTxTwoToneIconData('signal_cellular_connected_no_internet_3_bar',
           iconPack: 'mdi');
-  static const FxTwoToneIconData add_to_home_screen =
-      FxTwoToneIconData('add_to_home_screen', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_20 =
-      FxTwoToneIconData('battery_20', iconPack: 'mdi');
-  static const FxTwoToneIconData usb =
-      FxTwoToneIconData('usb', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_80 =
-      FxTwoToneIconData('battery_80', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_connected_no_internet_2_bar =
-      FxTwoToneIconData('signal_cellular_connected_no_internet_2_bar',
+  static const FTxTwoToneIconData add_to_home_screen =
+      FTxTwoToneIconData('add_to_home_screen', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_20 =
+      FTxTwoToneIconData('battery_20', iconPack: 'mdi');
+  static const FTxTwoToneIconData usb =
+      FTxTwoToneIconData('usb', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_80 =
+      FTxTwoToneIconData('battery_80', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_connected_no_internet_2_bar =
+      FTxTwoToneIconData('signal_cellular_connected_no_internet_2_bar',
           iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_connected_no_internet_0_bar =
-      FxTwoToneIconData('signal_cellular_connected_no_internet_0_bar',
+  static const FTxTwoToneIconData signal_cellular_connected_no_internet_0_bar =
+      FTxTwoToneIconData('signal_cellular_connected_no_internet_0_bar',
           iconPack: 'mdi');
-  static const FxTwoToneIconData thermostat =
-      FxTwoToneIconData('thermostat', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_connected_no_internet_1_bar =
-      FxTwoToneIconData('signal_cellular_connected_no_internet_1_bar',
+  static const FTxTwoToneIconData thermostat =
+      FTxTwoToneIconData('thermostat', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_connected_no_internet_1_bar =
+      FTxTwoToneIconData('signal_cellular_connected_no_internet_1_bar',
           iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_20 =
-      FxTwoToneIconData('battery_charging_20', iconPack: 'mdi');
-  static const FxTwoToneIconData gps_fixed =
-      FxTwoToneIconData('gps_fixed', iconPack: 'mdi');
-  static const FxTwoToneIconData add_alarm =
-      FxTwoToneIconData('add_alarm', iconPack: 'mdi');
-  static const FxTwoToneIconData nfc =
-      FxTwoToneIconData('nfc', iconPack: 'mdi');
-  static const FxTwoToneIconData bluetooth =
-      FxTwoToneIconData('bluetooth', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_unknown =
-      FxTwoToneIconData('battery_unknown', iconPack: 'mdi');
-  static const FxTwoToneIconData screen_lock_landscape =
-      FxTwoToneIconData('screen_lock_landscape', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_connected_no_internet_4_bar =
-      FxTwoToneIconData('signal_cellular_connected_no_internet_4_bar',
+  static const FTxTwoToneIconData battery_charging_20 =
+      FTxTwoToneIconData('battery_charging_20', iconPack: 'mdi');
+  static const FTxTwoToneIconData gps_fixed =
+      FTxTwoToneIconData('gps_fixed', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_alarm =
+      FTxTwoToneIconData('add_alarm', iconPack: 'mdi');
+  static const FTxTwoToneIconData nfc =
+      FTxTwoToneIconData('nfc', iconPack: 'mdi');
+  static const FTxTwoToneIconData bluetooth =
+      FTxTwoToneIconData('bluetooth', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_unknown =
+      FTxTwoToneIconData('battery_unknown', iconPack: 'mdi');
+  static const FTxTwoToneIconData screen_lock_landscape =
+      FTxTwoToneIconData('screen_lock_landscape', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_connected_no_internet_4_bar =
+      FTxTwoToneIconData('signal_cellular_connected_no_internet_4_bar',
           iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_80 =
-      FxTwoToneIconData('battery_charging_80', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_2_bar_lock =
-      FxTwoToneIconData('signal_wifi_2_bar_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_3_bar_lock =
-      FxTwoToneIconData('signal_wifi_3_bar_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData brightness_medium =
-      FxTwoToneIconData('brightness_medium', iconPack: 'mdi');
-  static const FxTwoToneIconData wallpaper =
-      FxTwoToneIconData('wallpaper', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_no_sim =
-      FxTwoToneIconData('signal_cellular_no_sim', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_50 =
-      FxTwoToneIconData('battery_charging_50', iconPack: 'mdi');
-  static const FxTwoToneIconData access_time =
-      FxTwoToneIconData('access_time', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_1_bar =
-      FxTwoToneIconData('signal_wifi_1_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData developer_mode =
-      FxTwoToneIconData('developer_mode', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_0_bar =
-      FxTwoToneIconData('signal_wifi_0_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData mobile_off =
-      FxTwoToneIconData('mobile_off', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_2_bar =
-      FxTwoToneIconData('signal_wifi_2_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_charging_60 =
-      FxTwoToneIconData('battery_charging_60', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_4_bar_lock =
-      FxTwoToneIconData('signal_wifi_4_bar_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi_lock =
-      FxTwoToneIconData('wifi_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_3_bar =
-      FxTwoToneIconData('signal_wifi_3_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData network_cell =
-      FxTwoToneIconData('network_cell', iconPack: 'mdi');
-  static const FxTwoToneIconData airplanemode_inactive =
-      FxTwoToneIconData('airplanemode_inactive', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_50 =
-      FxTwoToneIconData('battery_50', iconPack: 'mdi');
-  static const FxTwoToneIconData bluetooth_disabled =
-      FxTwoToneIconData('bluetooth_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData screen_lock_rotation =
-      FxTwoToneIconData('screen_lock_rotation', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_alt =
-      FxTwoToneIconData('signal_cellular_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData widgets =
-      FxTwoToneIconData('widgets', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_wifi_4_bar =
-      FxTwoToneIconData('signal_wifi_4_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData signal_cellular_off =
-      FxTwoToneIconData('signal_cellular_off', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_60 =
-      FxTwoToneIconData('battery_60', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_std =
-      FxTwoToneIconData('battery_std', iconPack: 'mdi');
-  static const FxTwoToneIconData devices =
-      FxTwoToneIconData('devices', iconPack: 'mdi');
-  static const FxTwoToneIconData battery_alert =
-      FxTwoToneIconData('battery_alert', iconPack: 'mdi');
-  static const FxTwoToneIconData ad_units =
-      FxTwoToneIconData('ad_units', iconPack: 'mdi');
-  static const FxTwoToneIconData dvr =
-      FxTwoToneIconData('dvr', iconPack: 'mdi');
-  static const FxTwoToneIconData qr_code_scanner =
-      FxTwoToneIconData('qr_code_scanner', iconPack: 'mdi');
-  static const FxTwoToneIconData alternate_email =
-      FxTwoToneIconData('alternate_email', iconPack: 'mdi');
-  static const FxTwoToneIconData rss_feed =
-      FxTwoToneIconData('rss_feed', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_enabled =
-      FxTwoToneIconData('phone_enabled', iconPack: 'mdi');
-  static const FxTwoToneIconData person_search =
-      FxTwoToneIconData('person_search', iconPack: 'mdi');
-  static const FxTwoToneIconData ring_volume =
-      FxTwoToneIconData('ring_volume', iconPack: 'mdi');
-  static const FxTwoToneIconData import_contacts =
-      FxTwoToneIconData('import_contacts', iconPack: 'mdi');
-  static const FxTwoToneIconData list_alt =
-      FxTwoToneIconData('list_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData stay_primary_portrait =
-      FxTwoToneIconData('stay_primary_portrait', iconPack: 'mdi');
-  static const FxTwoToneIconData import_export =
-      FxTwoToneIconData('import_export', iconPack: 'mdi');
-  static const FxTwoToneIconData sentiment_satisfied_alt =
-      FxTwoToneIconData('sentiment_satisfied_alt', iconPack: 'mdi');
-  static const FxTwoToneIconData mark_chat_unread =
-      FxTwoToneIconData('mark_chat_unread', iconPack: 'mdi');
-  static const FxTwoToneIconData chat =
-      FxTwoToneIconData('chat', iconPack: 'mdi');
-  static const FxTwoToneIconData mobile_screen_share =
-      FxTwoToneIconData('mobile_screen_share', iconPack: 'mdi');
-  static const FxTwoToneIconData mark_email_read =
-      FxTwoToneIconData('mark_email_read', iconPack: 'mdi');
-  static const FxTwoToneIconData forward_to_inbox =
-      FxTwoToneIconData('forward_to_inbox', iconPack: 'mdi');
-  static const FxTwoToneIconData contact_phone =
-      FxTwoToneIconData('contact_phone', iconPack: 'mdi');
-  static const FxTwoToneIconData domain_disabled =
-      FxTwoToneIconData('domain_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData comment =
-      FxTwoToneIconData('comment', iconPack: 'mdi');
-  static const FxTwoToneIconData stay_current_portrait =
-      FxTwoToneIconData('stay_current_portrait', iconPack: 'mdi');
-  static const FxTwoToneIconData mail_outline =
-      FxTwoToneIconData('mail_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData cancel_presentation =
-      FxTwoToneIconData('cancel_presentation', iconPack: 'mdi');
-  static const FxTwoToneIconData nat =
-      FxTwoToneIconData('nat', iconPack: 'mdi');
-  static const FxTwoToneIconData contacts =
-      FxTwoToneIconData('contacts', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink_ring =
-      FxTwoToneIconData('phonelink_ring', iconPack: 'mdi');
-  static const FxTwoToneIconData chat_bubble =
-      FxTwoToneIconData('chat_bubble', iconPack: 'mdi');
-  static const FxTwoToneIconData desktop_access_disabled =
-      FxTwoToneIconData('desktop_access_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData mark_chat_read =
-      FxTwoToneIconData('mark_chat_read', iconPack: 'mdi');
-  static const FxTwoToneIconData live_help =
-      FxTwoToneIconData('live_help', iconPack: 'mdi');
-  static const FxTwoToneIconData business =
-      FxTwoToneIconData('business', iconPack: 'mdi');
-  static const FxTwoToneIconData stay_primary_landscape =
-      FxTwoToneIconData('stay_primary_landscape', iconPack: 'mdi');
-  static const FxTwoToneIconData contact_mail =
-      FxTwoToneIconData('contact_mail', iconPack: 'mdi');
-  static const FxTwoToneIconData read_more =
-      FxTwoToneIconData('read_more', iconPack: 'mdi');
-  static const FxTwoToneIconData phone_disabled =
-      FxTwoToneIconData('phone_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData message =
-      FxTwoToneIconData('message', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink_erase =
-      FxTwoToneIconData('phonelink_erase', iconPack: 'mdi');
-  static const FxTwoToneIconData unsubscribe =
-      FxTwoToneIconData('unsubscribe', iconPack: 'mdi');
-  static const FxTwoToneIconData no_sim =
-      FxTwoToneIconData('no_sim', iconPack: 'mdi');
-  static const FxTwoToneIconData invert_colors_off =
-      FxTwoToneIconData('invert_colors_off', iconPack: 'mdi');
-  static const FxTwoToneIconData screen_share =
-      FxTwoToneIconData('screen_share', iconPack: 'mdi');
-  static const FxTwoToneIconData more_time =
-      FxTwoToneIconData('more_time', iconPack: 'mdi');
-  static const FxTwoToneIconData print_disabled =
-      FxTwoToneIconData('print_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData stay_current_landscape =
-      FxTwoToneIconData('stay_current_landscape', iconPack: 'mdi');
-  static const FxTwoToneIconData hourglass_bottom =
-      FxTwoToneIconData('hourglass_bottom', iconPack: 'mdi');
-  static const FxTwoToneIconData portable_wifi_off =
-      FxTwoToneIconData('portable_wifi_off', iconPack: 'mdi');
-  static const FxTwoToneIconData chat_bubble_outline =
-      FxTwoToneIconData('chat_bubble_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData pause_presentation =
-      FxTwoToneIconData('pause_presentation', iconPack: 'mdi');
-  static const FxTwoToneIconData dialer_sip =
-      FxTwoToneIconData('dialer_sip', iconPack: 'mdi');
-  static const FxTwoToneIconData forum =
-      FxTwoToneIconData('forum', iconPack: 'mdi');
-  static const FxTwoToneIconData add_ic_call =
-      FxTwoToneIconData('add_ic_call', iconPack: 'mdi');
-  static const FxTwoToneIconData domain_verification =
-      FxTwoToneIconData('domain_verification', iconPack: 'mdi');
-  static const FxTwoToneIconData call =
-      FxTwoToneIconData('call', iconPack: 'mdi');
-  static const FxTwoToneIconData speaker_phone =
-      FxTwoToneIconData('speaker_phone', iconPack: 'mdi');
-  static const FxTwoToneIconData clear_all =
-      FxTwoToneIconData('clear_all', iconPack: 'mdi');
-  static const FxTwoToneIconData wifi_calling =
-      FxTwoToneIconData('wifi_calling', iconPack: 'mdi');
-  static const FxTwoToneIconData call_missed_outgoing =
-      FxTwoToneIconData('call_missed_outgoing', iconPack: 'mdi');
-  static const FxTwoToneIconData phone =
-      FxTwoToneIconData('phone', iconPack: 'mdi');
-  static const FxTwoToneIconData call_made =
-      FxTwoToneIconData('call_made', iconPack: 'mdi');
-  static const FxTwoToneIconData call_end =
-      FxTwoToneIconData('call_end', iconPack: 'mdi');
-  static const FxTwoToneIconData swap_calls =
-      FxTwoToneIconData('swap_calls', iconPack: 'mdi');
-  static const FxTwoToneIconData call_received =
-      FxTwoToneIconData('call_received', iconPack: 'mdi');
-  static const FxTwoToneIconData dialpad =
-      FxTwoToneIconData('dialpad', iconPack: 'mdi');
-  static const FxTwoToneIconData voicemail =
-      FxTwoToneIconData('voicemail', iconPack: 'mdi');
-  static const FxTwoToneIconData call_merge =
-      FxTwoToneIconData('call_merge', iconPack: 'mdi');
-  static const FxTwoToneIconData location_off =
-      FxTwoToneIconData('location_off', iconPack: 'mdi');
-  static const FxTwoToneIconData mark_email_unread =
-      FxTwoToneIconData('mark_email_unread', iconPack: 'mdi');
-  static const FxTwoToneIconData person_add_disabled =
-      FxTwoToneIconData('person_add_disabled', iconPack: 'mdi');
-  static const FxTwoToneIconData call_missed =
-      FxTwoToneIconData('call_missed', iconPack: 'mdi');
-  static const FxTwoToneIconData qr_code =
-      FxTwoToneIconData('qr_code', iconPack: 'mdi');
-  static const FxTwoToneIconData hourglass_top =
-      FxTwoToneIconData('hourglass_top', iconPack: 'mdi');
-  static const FxTwoToneIconData vpn_key =
-      FxTwoToneIconData('vpn_key', iconPack: 'mdi');
-  static const FxTwoToneIconData present_to_all =
-      FxTwoToneIconData('present_to_all', iconPack: 'mdi');
-  static const FxTwoToneIconData duo =
-      FxTwoToneIconData('duo', iconPack: 'mdi');
-  static const FxTwoToneIconData email =
-      FxTwoToneIconData('email', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink_setup =
-      FxTwoToneIconData('phonelink_setup', iconPack: 'mdi');
-  static const FxTwoToneIconData cell_wifi =
-      FxTwoToneIconData('cell_wifi', iconPack: 'mdi');
-  static const FxTwoToneIconData stop_screen_share =
-      FxTwoToneIconData('stop_screen_share', iconPack: 'mdi');
-  static const FxTwoToneIconData phonelink_lock =
-      FxTwoToneIconData('phonelink_lock', iconPack: 'mdi');
-  static const FxTwoToneIconData call_split =
-      FxTwoToneIconData('call_split', iconPack: 'mdi');
-  static const FxTwoToneIconData location_on =
-      FxTwoToneIconData('location_on', iconPack: 'mdi');
-  static const FxTwoToneIconData textsms =
-      FxTwoToneIconData('textsms', iconPack: 'mdi');
-  static const FxTwoToneIconData format_paint =
-      FxTwoToneIconData('format_paint', iconPack: 'mdi');
-  static const FxTwoToneIconData monetization_on =
-      FxTwoToneIconData('monetization_on', iconPack: 'mdi');
-  static const FxTwoToneIconData format_underlined =
-      FxTwoToneIconData('format_underlined', iconPack: 'mdi');
-  static const FxTwoToneIconData format_italic =
-      FxTwoToneIconData('format_italic', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_photo =
-      FxTwoToneIconData('insert_photo', iconPack: 'mdi');
-  static const FxTwoToneIconData format_list_bulleted =
-      FxTwoToneIconData('format_list_bulleted', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_emoticon =
-      FxTwoToneIconData('insert_emoticon', iconPack: 'mdi');
-  static const FxTwoToneIconData format_shapes =
-      FxTwoToneIconData('format_shapes', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_invitation =
-      FxTwoToneIconData('insert_invitation', iconPack: 'mdi');
-  static const FxTwoToneIconData add_comment =
-      FxTwoToneIconData('add_comment', iconPack: 'mdi');
-  static const FxTwoToneIconData border_bottom =
-      FxTwoToneIconData('border_bottom', iconPack: 'mdi');
-  static const FxTwoToneIconData post_add =
-      FxTwoToneIconData('post_add', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_chart_outlined =
-      FxTwoToneIconData('insert_chart_outlined', iconPack: 'mdi');
-  static const FxTwoToneIconData mode_comment =
-      FxTwoToneIconData('mode_comment', iconPack: 'mdi');
-  static const FxTwoToneIconData table_chart =
-      FxTwoToneIconData('table_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData format_color_reset =
-      FxTwoToneIconData('format_color_reset', iconPack: 'mdi');
-  static const FxTwoToneIconData border_vertical =
-      FxTwoToneIconData('border_vertical', iconPack: 'mdi');
-  static const FxTwoToneIconData pie_chart_outline =
-      FxTwoToneIconData('pie_chart_outline', iconPack: 'mdi');
-  static const FxTwoToneIconData mode =
-      FxTwoToneIconData('mode', iconPack: 'mdi');
-  static const FxTwoToneIconData subscript =
-      FxTwoToneIconData('subscript', iconPack: 'mdi');
-  static const FxTwoToneIconData bar_chart =
-      FxTwoToneIconData('bar_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData pie_chart =
-      FxTwoToneIconData('pie_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData stacked_line_chart =
-      FxTwoToneIconData('stacked_line_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData title =
-      FxTwoToneIconData('title', iconPack: 'mdi');
-  static const FxTwoToneIconData highlight =
-      FxTwoToneIconData('highlight', iconPack: 'mdi');
-  static const FxTwoToneIconData format_textdirection_l_to_r =
-      FxTwoToneIconData('format_textdirection_l_to_r', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_drive_file =
-      FxTwoToneIconData('insert_drive_file', iconPack: 'mdi');
-  static const FxTwoToneIconData border_clear =
-      FxTwoToneIconData('border_clear', iconPack: 'mdi');
-  static const FxTwoToneIconData height =
-      FxTwoToneIconData('height', iconPack: 'mdi');
-  static const FxTwoToneIconData format_quote =
-      FxTwoToneIconData('format_quote', iconPack: 'mdi');
-  static const FxTwoToneIconData vertical_align_top =
-      FxTwoToneIconData('vertical_align_top', iconPack: 'mdi');
-  static const FxTwoToneIconData format_list_numbered =
-      FxTwoToneIconData('format_list_numbered', iconPack: 'mdi');
-  static const FxTwoToneIconData format_color_fill =
-      FxTwoToneIconData('format_color_fill', iconPack: 'mdi');
-  static const FxTwoToneIconData bubble_chart =
-      FxTwoToneIconData('bubble_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData vertical_align_center =
-      FxTwoToneIconData('vertical_align_center', iconPack: 'mdi');
-  static const FxTwoToneIconData drag_handle =
-      FxTwoToneIconData('drag_handle', iconPack: 'mdi');
-  static const FxTwoToneIconData border_left =
-      FxTwoToneIconData('border_left', iconPack: 'mdi');
-  static const FxTwoToneIconData format_indent_decrease =
-      FxTwoToneIconData('format_indent_decrease', iconPack: 'mdi');
-  static const FxTwoToneIconData format_align_left =
-      FxTwoToneIconData('format_align_left', iconPack: 'mdi');
-  static const FxTwoToneIconData format_align_justify =
-      FxTwoToneIconData('format_align_justify', iconPack: 'mdi');
-  static const FxTwoToneIconData format_indent_increase =
-      FxTwoToneIconData('format_indent_increase', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_comment =
-      FxTwoToneIconData('insert_comment', iconPack: 'mdi');
-  static const FxTwoToneIconData space_bar =
-      FxTwoToneIconData('space_bar', iconPack: 'mdi');
-  static const FxTwoToneIconData format_clear =
-      FxTwoToneIconData('format_clear', iconPack: 'mdi');
-  static const FxTwoToneIconData scatter_plot =
-      FxTwoToneIconData('scatter_plot', iconPack: 'mdi');
-  static const FxTwoToneIconData text_fields =
-      FxTwoToneIconData('text_fields', iconPack: 'mdi');
-  static const FxTwoToneIconData border_top =
-      FxTwoToneIconData('border_top', iconPack: 'mdi');
-  static const FxTwoToneIconData score =
-      FxTwoToneIconData('score', iconPack: 'mdi');
-  static const FxTwoToneIconData publish =
-      FxTwoToneIconData('publish', iconPack: 'mdi');
-  static const FxTwoToneIconData border_color =
-      FxTwoToneIconData('border_color', iconPack: 'mdi');
-  static const FxTwoToneIconData notes =
-      FxTwoToneIconData('notes', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_link =
-      FxTwoToneIconData('insert_link', iconPack: 'mdi');
-  static const FxTwoToneIconData short_text =
-      FxTwoToneIconData('short_text', iconPack: 'mdi');
-  static const FxTwoToneIconData border_outer =
-      FxTwoToneIconData('border_outer', iconPack: 'mdi');
-  static const FxTwoToneIconData format_align_right =
-      FxTwoToneIconData('format_align_right', iconPack: 'mdi');
-  static const FxTwoToneIconData format_color_text =
-      FxTwoToneIconData('format_color_text', iconPack: 'mdi');
-  static const FxTwoToneIconData format_textdirection_r_to_l =
-      FxTwoToneIconData('format_textdirection_r_to_l', iconPack: 'mdi');
-  static const FxTwoToneIconData format_align_center =
-      FxTwoToneIconData('format_align_center', iconPack: 'mdi');
-  static const FxTwoToneIconData format_bold =
-      FxTwoToneIconData('format_bold', iconPack: 'mdi');
-  static const FxTwoToneIconData border_style =
-      FxTwoToneIconData('border_style', iconPack: 'mdi');
-  static const FxTwoToneIconData merge_type =
-      FxTwoToneIconData('merge_type', iconPack: 'mdi');
-  static const FxTwoToneIconData insert_chart =
-      FxTwoToneIconData('insert_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData border_horizontal =
-      FxTwoToneIconData('border_horizontal', iconPack: 'mdi');
-  static const FxTwoToneIconData attach_file =
-      FxTwoToneIconData('attach_file', iconPack: 'mdi');
-  static const FxTwoToneIconData strikethrough_s =
-      FxTwoToneIconData('strikethrough_s', iconPack: 'mdi');
-  static const FxTwoToneIconData superscript =
-      FxTwoToneIconData('superscript', iconPack: 'mdi');
-  static const FxTwoToneIconData wrap_text =
-      FxTwoToneIconData('wrap_text', iconPack: 'mdi');
-  static const FxTwoToneIconData functions =
-      FxTwoToneIconData('functions', iconPack: 'mdi');
-  static const FxTwoToneIconData table_rows =
-      FxTwoToneIconData('table_rows', iconPack: 'mdi');
-  static const FxTwoToneIconData border_right =
-      FxTwoToneIconData('border_right', iconPack: 'mdi');
-  static const FxTwoToneIconData format_size =
-      FxTwoToneIconData('format_size', iconPack: 'mdi');
-  static const FxTwoToneIconData attach_money =
-      FxTwoToneIconData('attach_money', iconPack: 'mdi');
-  static const FxTwoToneIconData format_strikethrough =
-      FxTwoToneIconData('format_strikethrough', iconPack: 'mdi');
-  static const FxTwoToneIconData money_off_csred =
-      FxTwoToneIconData('money_off_csred', iconPack: 'mdi');
-  static const FxTwoToneIconData money_off =
-      FxTwoToneIconData('money_off', iconPack: 'mdi');
-  static const FxTwoToneIconData horizontal_rule =
-      FxTwoToneIconData('horizontal_rule', iconPack: 'mdi');
-  static const FxTwoToneIconData multiline_chart =
-      FxTwoToneIconData('multiline_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData format_line_spacing =
-      FxTwoToneIconData('format_line_spacing', iconPack: 'mdi');
-  static const FxTwoToneIconData vertical_align_bottom =
-      FxTwoToneIconData('vertical_align_bottom', iconPack: 'mdi');
-  static const FxTwoToneIconData show_chart =
-      FxTwoToneIconData('show_chart', iconPack: 'mdi');
-  static const FxTwoToneIconData linear_scale =
-      FxTwoToneIconData('linear_scale', iconPack: 'mdi');
-  static const FxTwoToneIconData border_all =
-      FxTwoToneIconData('border_all', iconPack: 'mdi');
-  static const FxTwoToneIconData border_inner =
-      FxTwoToneIconData('border_inner', iconPack: 'mdi');
-  static const FxTwoToneIconData format_list_numbered_rtl =
-      FxTwoToneIconData('format_list_numbered_rtl', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_80 =
+      FTxTwoToneIconData('battery_charging_80', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_2_bar_lock =
+      FTxTwoToneIconData('signal_wifi_2_bar_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_3_bar_lock =
+      FTxTwoToneIconData('signal_wifi_3_bar_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData brightness_medium =
+      FTxTwoToneIconData('brightness_medium', iconPack: 'mdi');
+  static const FTxTwoToneIconData wallpaper =
+      FTxTwoToneIconData('wallpaper', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_no_sim =
+      FTxTwoToneIconData('signal_cellular_no_sim', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_50 =
+      FTxTwoToneIconData('battery_charging_50', iconPack: 'mdi');
+  static const FTxTwoToneIconData access_time =
+      FTxTwoToneIconData('access_time', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_1_bar =
+      FTxTwoToneIconData('signal_wifi_1_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData developer_mode =
+      FTxTwoToneIconData('developer_mode', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_0_bar =
+      FTxTwoToneIconData('signal_wifi_0_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData mobile_off =
+      FTxTwoToneIconData('mobile_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_2_bar =
+      FTxTwoToneIconData('signal_wifi_2_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_charging_60 =
+      FTxTwoToneIconData('battery_charging_60', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_4_bar_lock =
+      FTxTwoToneIconData('signal_wifi_4_bar_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi_lock =
+      FTxTwoToneIconData('wifi_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_3_bar =
+      FTxTwoToneIconData('signal_wifi_3_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData network_cell =
+      FTxTwoToneIconData('network_cell', iconPack: 'mdi');
+  static const FTxTwoToneIconData airplanemode_inactive =
+      FTxTwoToneIconData('airplanemode_inactive', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_50 =
+      FTxTwoToneIconData('battery_50', iconPack: 'mdi');
+  static const FTxTwoToneIconData bluetooth_disabled =
+      FTxTwoToneIconData('bluetooth_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData screen_lock_rotation =
+      FTxTwoToneIconData('screen_lock_rotation', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_alt =
+      FTxTwoToneIconData('signal_cellular_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData widgets =
+      FTxTwoToneIconData('widgets', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_wifi_4_bar =
+      FTxTwoToneIconData('signal_wifi_4_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData signal_cellular_off =
+      FTxTwoToneIconData('signal_cellular_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_60 =
+      FTxTwoToneIconData('battery_60', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_std =
+      FTxTwoToneIconData('battery_std', iconPack: 'mdi');
+  static const FTxTwoToneIconData devices =
+      FTxTwoToneIconData('devices', iconPack: 'mdi');
+  static const FTxTwoToneIconData battery_alert =
+      FTxTwoToneIconData('battery_alert', iconPack: 'mdi');
+  static const FTxTwoToneIconData ad_units =
+      FTxTwoToneIconData('ad_units', iconPack: 'mdi');
+  static const FTxTwoToneIconData dvr =
+      FTxTwoToneIconData('dvr', iconPack: 'mdi');
+  static const FTxTwoToneIconData qr_code_scanner =
+      FTxTwoToneIconData('qr_code_scanner', iconPack: 'mdi');
+  static const FTxTwoToneIconData alternate_email =
+      FTxTwoToneIconData('alternate_email', iconPack: 'mdi');
+  static const FTxTwoToneIconData rss_feed =
+      FTxTwoToneIconData('rss_feed', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_enabled =
+      FTxTwoToneIconData('phone_enabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_search =
+      FTxTwoToneIconData('person_search', iconPack: 'mdi');
+  static const FTxTwoToneIconData ring_volume =
+      FTxTwoToneIconData('ring_volume', iconPack: 'mdi');
+  static const FTxTwoToneIconData import_contacts =
+      FTxTwoToneIconData('import_contacts', iconPack: 'mdi');
+  static const FTxTwoToneIconData list_alt =
+      FTxTwoToneIconData('list_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData stay_primary_portrait =
+      FTxTwoToneIconData('stay_primary_portrait', iconPack: 'mdi');
+  static const FTxTwoToneIconData import_export =
+      FTxTwoToneIconData('import_export', iconPack: 'mdi');
+  static const FTxTwoToneIconData sentiment_satisfied_alt =
+      FTxTwoToneIconData('sentiment_satisfied_alt', iconPack: 'mdi');
+  static const FTxTwoToneIconData mark_chat_unread =
+      FTxTwoToneIconData('mark_chat_unread', iconPack: 'mdi');
+  static const FTxTwoToneIconData chat =
+      FTxTwoToneIconData('chat', iconPack: 'mdi');
+  static const FTxTwoToneIconData mobile_screen_share =
+      FTxTwoToneIconData('mobile_screen_share', iconPack: 'mdi');
+  static const FTxTwoToneIconData mark_email_read =
+      FTxTwoToneIconData('mark_email_read', iconPack: 'mdi');
+  static const FTxTwoToneIconData forward_to_inbox =
+      FTxTwoToneIconData('forward_to_inbox', iconPack: 'mdi');
+  static const FTxTwoToneIconData contact_phone =
+      FTxTwoToneIconData('contact_phone', iconPack: 'mdi');
+  static const FTxTwoToneIconData domain_disabled =
+      FTxTwoToneIconData('domain_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData comment =
+      FTxTwoToneIconData('comment', iconPack: 'mdi');
+  static const FTxTwoToneIconData stay_current_portrait =
+      FTxTwoToneIconData('stay_current_portrait', iconPack: 'mdi');
+  static const FTxTwoToneIconData mail_outline =
+      FTxTwoToneIconData('mail_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData cancel_presentation =
+      FTxTwoToneIconData('cancel_presentation', iconPack: 'mdi');
+  static const FTxTwoToneIconData nat =
+      FTxTwoToneIconData('nat', iconPack: 'mdi');
+  static const FTxTwoToneIconData contacts =
+      FTxTwoToneIconData('contacts', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink_ring =
+      FTxTwoToneIconData('phonelink_ring', iconPack: 'mdi');
+  static const FTxTwoToneIconData chat_bubble =
+      FTxTwoToneIconData('chat_bubble', iconPack: 'mdi');
+  static const FTxTwoToneIconData desktop_access_disabled =
+      FTxTwoToneIconData('desktop_access_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData mark_chat_read =
+      FTxTwoToneIconData('mark_chat_read', iconPack: 'mdi');
+  static const FTxTwoToneIconData live_help =
+      FTxTwoToneIconData('live_help', iconPack: 'mdi');
+  static const FTxTwoToneIconData business =
+      FTxTwoToneIconData('business', iconPack: 'mdi');
+  static const FTxTwoToneIconData stay_primary_landscape =
+      FTxTwoToneIconData('stay_primary_landscape', iconPack: 'mdi');
+  static const FTxTwoToneIconData contact_mail =
+      FTxTwoToneIconData('contact_mail', iconPack: 'mdi');
+  static const FTxTwoToneIconData read_more =
+      FTxTwoToneIconData('read_more', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone_disabled =
+      FTxTwoToneIconData('phone_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData message =
+      FTxTwoToneIconData('message', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink_erase =
+      FTxTwoToneIconData('phonelink_erase', iconPack: 'mdi');
+  static const FTxTwoToneIconData unsubscribe =
+      FTxTwoToneIconData('unsubscribe', iconPack: 'mdi');
+  static const FTxTwoToneIconData no_sim =
+      FTxTwoToneIconData('no_sim', iconPack: 'mdi');
+  static const FTxTwoToneIconData invert_colors_off =
+      FTxTwoToneIconData('invert_colors_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData screen_share =
+      FTxTwoToneIconData('screen_share', iconPack: 'mdi');
+  static const FTxTwoToneIconData more_time =
+      FTxTwoToneIconData('more_time', iconPack: 'mdi');
+  static const FTxTwoToneIconData print_disabled =
+      FTxTwoToneIconData('print_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData stay_current_landscape =
+      FTxTwoToneIconData('stay_current_landscape', iconPack: 'mdi');
+  static const FTxTwoToneIconData hourglass_bottom =
+      FTxTwoToneIconData('hourglass_bottom', iconPack: 'mdi');
+  static const FTxTwoToneIconData portable_wifi_off =
+      FTxTwoToneIconData('portable_wifi_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData chat_bubble_outline =
+      FTxTwoToneIconData('chat_bubble_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData pause_presentation =
+      FTxTwoToneIconData('pause_presentation', iconPack: 'mdi');
+  static const FTxTwoToneIconData dialer_sip =
+      FTxTwoToneIconData('dialer_sip', iconPack: 'mdi');
+  static const FTxTwoToneIconData forum =
+      FTxTwoToneIconData('forum', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_ic_call =
+      FTxTwoToneIconData('add_ic_call', iconPack: 'mdi');
+  static const FTxTwoToneIconData domain_verification =
+      FTxTwoToneIconData('domain_verification', iconPack: 'mdi');
+  static const FTxTwoToneIconData call =
+      FTxTwoToneIconData('call', iconPack: 'mdi');
+  static const FTxTwoToneIconData speaker_phone =
+      FTxTwoToneIconData('speaker_phone', iconPack: 'mdi');
+  static const FTxTwoToneIconData clear_all =
+      FTxTwoToneIconData('clear_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData wifi_calling =
+      FTxTwoToneIconData('wifi_calling', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_missed_outgoing =
+      FTxTwoToneIconData('call_missed_outgoing', iconPack: 'mdi');
+  static const FTxTwoToneIconData phone =
+      FTxTwoToneIconData('phone', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_made =
+      FTxTwoToneIconData('call_made', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_end =
+      FTxTwoToneIconData('call_end', iconPack: 'mdi');
+  static const FTxTwoToneIconData swap_calls =
+      FTxTwoToneIconData('swap_calls', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_received =
+      FTxTwoToneIconData('call_received', iconPack: 'mdi');
+  static const FTxTwoToneIconData dialpad =
+      FTxTwoToneIconData('dialpad', iconPack: 'mdi');
+  static const FTxTwoToneIconData voicemail =
+      FTxTwoToneIconData('voicemail', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_merge =
+      FTxTwoToneIconData('call_merge', iconPack: 'mdi');
+  static const FTxTwoToneIconData location_off =
+      FTxTwoToneIconData('location_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData mark_email_unread =
+      FTxTwoToneIconData('mark_email_unread', iconPack: 'mdi');
+  static const FTxTwoToneIconData person_add_disabled =
+      FTxTwoToneIconData('person_add_disabled', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_missed =
+      FTxTwoToneIconData('call_missed', iconPack: 'mdi');
+  static const FTxTwoToneIconData qr_code =
+      FTxTwoToneIconData('qr_code', iconPack: 'mdi');
+  static const FTxTwoToneIconData hourglass_top =
+      FTxTwoToneIconData('hourglass_top', iconPack: 'mdi');
+  static const FTxTwoToneIconData vpn_key =
+      FTxTwoToneIconData('vpn_key', iconPack: 'mdi');
+  static const FTxTwoToneIconData present_to_all =
+      FTxTwoToneIconData('present_to_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData duo =
+      FTxTwoToneIconData('duo', iconPack: 'mdi');
+  static const FTxTwoToneIconData email =
+      FTxTwoToneIconData('email', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink_setup =
+      FTxTwoToneIconData('phonelink_setup', iconPack: 'mdi');
+  static const FTxTwoToneIconData cell_wifi =
+      FTxTwoToneIconData('cell_wifi', iconPack: 'mdi');
+  static const FTxTwoToneIconData stop_screen_share =
+      FTxTwoToneIconData('stop_screen_share', iconPack: 'mdi');
+  static const FTxTwoToneIconData phonelink_lock =
+      FTxTwoToneIconData('phonelink_lock', iconPack: 'mdi');
+  static const FTxTwoToneIconData call_split =
+      FTxTwoToneIconData('call_split', iconPack: 'mdi');
+  static const FTxTwoToneIconData location_on =
+      FTxTwoToneIconData('location_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData textsms =
+      FTxTwoToneIconData('textsms', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_paint =
+      FTxTwoToneIconData('format_paint', iconPack: 'mdi');
+  static const FTxTwoToneIconData monetization_on =
+      FTxTwoToneIconData('monetization_on', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_underlined =
+      FTxTwoToneIconData('format_underlined', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_italic =
+      FTxTwoToneIconData('format_italic', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_photo =
+      FTxTwoToneIconData('insert_photo', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_list_bulleted =
+      FTxTwoToneIconData('format_list_bulleted', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_emoticon =
+      FTxTwoToneIconData('insert_emoticon', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_shapes =
+      FTxTwoToneIconData('format_shapes', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_invitation =
+      FTxTwoToneIconData('insert_invitation', iconPack: 'mdi');
+  static const FTxTwoToneIconData add_comment =
+      FTxTwoToneIconData('add_comment', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_bottom =
+      FTxTwoToneIconData('border_bottom', iconPack: 'mdi');
+  static const FTxTwoToneIconData post_add =
+      FTxTwoToneIconData('post_add', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_chart_outlined =
+      FTxTwoToneIconData('insert_chart_outlined', iconPack: 'mdi');
+  static const FTxTwoToneIconData mode_comment =
+      FTxTwoToneIconData('mode_comment', iconPack: 'mdi');
+  static const FTxTwoToneIconData table_chart =
+      FTxTwoToneIconData('table_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_color_reset =
+      FTxTwoToneIconData('format_color_reset', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_vertical =
+      FTxTwoToneIconData('border_vertical', iconPack: 'mdi');
+  static const FTxTwoToneIconData pie_chart_outline =
+      FTxTwoToneIconData('pie_chart_outline', iconPack: 'mdi');
+  static const FTxTwoToneIconData mode =
+      FTxTwoToneIconData('mode', iconPack: 'mdi');
+  static const FTxTwoToneIconData subscript =
+      FTxTwoToneIconData('subscript', iconPack: 'mdi');
+  static const FTxTwoToneIconData bar_chart =
+      FTxTwoToneIconData('bar_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData pie_chart =
+      FTxTwoToneIconData('pie_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData stacked_line_chart =
+      FTxTwoToneIconData('stacked_line_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData title =
+      FTxTwoToneIconData('title', iconPack: 'mdi');
+  static const FTxTwoToneIconData highlight =
+      FTxTwoToneIconData('highlight', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_textdirection_l_to_r =
+      FTxTwoToneIconData('format_textdirection_l_to_r', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_drive_file =
+      FTxTwoToneIconData('insert_drive_file', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_clear =
+      FTxTwoToneIconData('border_clear', iconPack: 'mdi');
+  static const FTxTwoToneIconData height =
+      FTxTwoToneIconData('height', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_quote =
+      FTxTwoToneIconData('format_quote', iconPack: 'mdi');
+  static const FTxTwoToneIconData vertical_align_top =
+      FTxTwoToneIconData('vertical_align_top', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_list_numbered =
+      FTxTwoToneIconData('format_list_numbered', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_color_fill =
+      FTxTwoToneIconData('format_color_fill', iconPack: 'mdi');
+  static const FTxTwoToneIconData bubble_chart =
+      FTxTwoToneIconData('bubble_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData vertical_align_center =
+      FTxTwoToneIconData('vertical_align_center', iconPack: 'mdi');
+  static const FTxTwoToneIconData drag_handle =
+      FTxTwoToneIconData('drag_handle', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_left =
+      FTxTwoToneIconData('border_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_indent_decrease =
+      FTxTwoToneIconData('format_indent_decrease', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_align_left =
+      FTxTwoToneIconData('format_align_left', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_align_justify =
+      FTxTwoToneIconData('format_align_justify', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_indent_increase =
+      FTxTwoToneIconData('format_indent_increase', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_comment =
+      FTxTwoToneIconData('insert_comment', iconPack: 'mdi');
+  static const FTxTwoToneIconData space_bar =
+      FTxTwoToneIconData('space_bar', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_clear =
+      FTxTwoToneIconData('format_clear', iconPack: 'mdi');
+  static const FTxTwoToneIconData scatter_plot =
+      FTxTwoToneIconData('scatter_plot', iconPack: 'mdi');
+  static const FTxTwoToneIconData text_fields =
+      FTxTwoToneIconData('text_fields', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_top =
+      FTxTwoToneIconData('border_top', iconPack: 'mdi');
+  static const FTxTwoToneIconData score =
+      FTxTwoToneIconData('score', iconPack: 'mdi');
+  static const FTxTwoToneIconData publish =
+      FTxTwoToneIconData('publish', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_color =
+      FTxTwoToneIconData('border_color', iconPack: 'mdi');
+  static const FTxTwoToneIconData notes =
+      FTxTwoToneIconData('notes', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_link =
+      FTxTwoToneIconData('insert_link', iconPack: 'mdi');
+  static const FTxTwoToneIconData short_text =
+      FTxTwoToneIconData('short_text', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_outer =
+      FTxTwoToneIconData('border_outer', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_align_right =
+      FTxTwoToneIconData('format_align_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_color_text =
+      FTxTwoToneIconData('format_color_text', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_textdirection_r_to_l =
+      FTxTwoToneIconData('format_textdirection_r_to_l', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_align_center =
+      FTxTwoToneIconData('format_align_center', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_bold =
+      FTxTwoToneIconData('format_bold', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_style =
+      FTxTwoToneIconData('border_style', iconPack: 'mdi');
+  static const FTxTwoToneIconData merge_type =
+      FTxTwoToneIconData('merge_type', iconPack: 'mdi');
+  static const FTxTwoToneIconData insert_chart =
+      FTxTwoToneIconData('insert_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_horizontal =
+      FTxTwoToneIconData('border_horizontal', iconPack: 'mdi');
+  static const FTxTwoToneIconData attach_file =
+      FTxTwoToneIconData('attach_file', iconPack: 'mdi');
+  static const FTxTwoToneIconData strikethrough_s =
+      FTxTwoToneIconData('strikethrough_s', iconPack: 'mdi');
+  static const FTxTwoToneIconData superscript =
+      FTxTwoToneIconData('superscript', iconPack: 'mdi');
+  static const FTxTwoToneIconData wrap_text =
+      FTxTwoToneIconData('wrap_text', iconPack: 'mdi');
+  static const FTxTwoToneIconData functions =
+      FTxTwoToneIconData('functions', iconPack: 'mdi');
+  static const FTxTwoToneIconData table_rows =
+      FTxTwoToneIconData('table_rows', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_right =
+      FTxTwoToneIconData('border_right', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_size =
+      FTxTwoToneIconData('format_size', iconPack: 'mdi');
+  static const FTxTwoToneIconData attach_money =
+      FTxTwoToneIconData('attach_money', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_strikethrough =
+      FTxTwoToneIconData('format_strikethrough', iconPack: 'mdi');
+  static const FTxTwoToneIconData money_off_csred =
+      FTxTwoToneIconData('money_off_csred', iconPack: 'mdi');
+  static const FTxTwoToneIconData money_off =
+      FTxTwoToneIconData('money_off', iconPack: 'mdi');
+  static const FTxTwoToneIconData horizontal_rule =
+      FTxTwoToneIconData('horizontal_rule', iconPack: 'mdi');
+  static const FTxTwoToneIconData multiline_chart =
+      FTxTwoToneIconData('multiline_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_line_spacing =
+      FTxTwoToneIconData('format_line_spacing', iconPack: 'mdi');
+  static const FTxTwoToneIconData vertical_align_bottom =
+      FTxTwoToneIconData('vertical_align_bottom', iconPack: 'mdi');
+  static const FTxTwoToneIconData show_chart =
+      FTxTwoToneIconData('show_chart', iconPack: 'mdi');
+  static const FTxTwoToneIconData linear_scale =
+      FTxTwoToneIconData('linear_scale', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_all =
+      FTxTwoToneIconData('border_all', iconPack: 'mdi');
+  static const FTxTwoToneIconData border_inner =
+      FTxTwoToneIconData('border_inner', iconPack: 'mdi');
+  static const FTxTwoToneIconData format_list_numbered_rtl =
+      FTxTwoToneIconData('format_list_numbered_rtl', iconPack: 'mdi');
 }

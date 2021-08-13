@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxDistanceUtils] - gives different functions that can be used for calculating or formatting distance
+/// [FTxDistanceUtils] - gives different functions that can be used for calculating or formatting distance
 
 import 'dart:math';
 
-class FxLatLng {
+class FTxLatLng {
   final double latitude, longitude;
 
-  FxLatLng(this.latitude, this.longitude);
+  FTxLatLng(this.latitude, this.longitude);
 }
 
-class FxDistanceUtils {
+class FTxDistanceUtils {
   static String formatDistance(double distance) {
     if (distance > 1000) {
       distance = distance / 1000;
@@ -34,7 +34,7 @@ class FxDistanceUtils {
   }
 
   static double calculateDistanceBetweenTwoLtnLng(
-      FxLatLng origin, FxLatLng destination) {
+      FTxLatLng origin, FTxLatLng destination) {
     double lat1 = origin.latitude;
     double lon1 = origin.longitude;
     double lat2 = destination.latitude;

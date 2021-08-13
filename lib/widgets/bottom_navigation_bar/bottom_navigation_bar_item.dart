@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-class FxBottomNavigationBarItem{
-
+class FTxBottomNavigationBarItem {
   final String? title;
 
   final TextStyle? activeTitleStyle;
@@ -21,8 +20,8 @@ class FxBottomNavigationBarItem{
   final Widget? activeIcon;
   final Widget? page;
 
-
-  FxBottomNavigationBarItem({required this.page,
+  FTxBottomNavigationBarItem(
+      {required this.page,
       this.title,
       this.activeTitleStyle,
       this.titleStyle,
@@ -38,6 +37,4 @@ class FxBottomNavigationBarItem{
       this.activeIconColor,
       this.iconSize,
       this.activeIconSize});
-
-
 }

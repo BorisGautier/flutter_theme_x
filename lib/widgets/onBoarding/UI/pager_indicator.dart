@@ -7,10 +7,10 @@ import 'dart:ui';
 import 'pages.dart';
 import 'package:flutter/material.dart';
 
-class FxPagerIndicator extends StatelessWidget {
+class FTxPagerIndicator extends StatelessWidget {
   final PagerIndicatorViewModel? viewModel;
 
-  FxPagerIndicator({
+  FTxPagerIndicator({
     this.viewModel,
   });
 
@@ -69,7 +69,8 @@ class FxPagerIndicator extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Opacity(
-                opacity: (viewModel!.activeIndex == viewModel!.pages.length - 1 &&
+                opacity: (viewModel!.activeIndex ==
+                            viewModel!.pages.length - 1 &&
                         viewModel!.slideDirection == SlideDirection.leftToRight
                     ? viewModel!.slidePercent!
                     : (viewModel!.activeIndex == viewModel!.pages.length - 2 &&
@@ -93,7 +94,8 @@ class FxPagerIndicator extends StatelessWidget {
                 ),
               ),
               Opacity(
-                opacity: (viewModel!.activeIndex == viewModel!.pages.length - 2 &&
+                opacity: (viewModel!.activeIndex ==
+                            viewModel!.pages.length - 2 &&
                         viewModel!.slideDirection == SlideDirection.rightToLeft
                     ? viewModel!.slidePercent!
                     : (viewModel!.activeIndex == viewModel!.pages.length - 1 &&
@@ -148,7 +150,6 @@ class PageBubble extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return new Container(
       margin: EdgeInsets.only(right: 2),
       width: lerpDouble(25.0, 75.0, viewModel!.activePercent!),

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxStringValidator] - validates a string for different purposes like name, number, email, etc.
+/// [FTxStringValidator] - validates a string for different purposes like name, number, email, etc.
 
-class FxStringValidator {
+class FTxStringValidator {
   static bool isFirstCapital(String string) {
     if (string.codeUnitAt(0) >= 65 && string.codeUnitAt(0) <= 90) {
       return true;

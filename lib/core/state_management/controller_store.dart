@@ -1,9 +1,9 @@
 import 'package:flutter_theme_x/core/state_management/controller.dart';
 
-class FxControllerStore {
-  static final Map<String, FxController> _controllers = {};
+class FTxControllerStore {
+  static final Map<String, FTxController> _controllers = {};
 
-  T putOrFind<T extends FxController>(T controller,
+  T putOrFind<T extends FTxController>(T controller,
       {String? tag, bool save = true}) {
     String key = tag ?? controller.getTag();
 
@@ -12,11 +12,12 @@ class FxControllerStore {
       controller.save = save;
       return controller;
     } else {
-      return FxControllerStore().put(controller, tag: tag, save: save);
+      return FTxControllerStore().put(controller, tag: tag, save: save);
     }
   }
 
-  T put<T extends FxController>(T controller, {String? tag, bool save = true}) {
+  T put<T extends FTxController>(T controller,
+      {String? tag, bool save = true}) {
     String key = tag ?? controller.getTag();
 
     _controllers[key] = controller;
@@ -25,7 +26,7 @@ class FxControllerStore {
     return controller;
   }
 
-  void delete<T extends FxController>(T controller, {String? tag}) {
+  void delete<T extends FTxController>(T controller, {String? tag}) {
     String key = tag ?? controller.getTag();
 
     _controllers.remove(key);

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxCardMonthInputFormatter] - formats the string as per the credit card expiry date format
+/// [FTxCardMonthInputFormatter] - formats the string as per the credit card expiry date format
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class FxCardMonthInputFormatter extends TextInputFormatter {
+class FTxCardMonthInputFormatter extends TextInputFormatter {
   @override
   TextEditingValue formatEditUpdate(
       TextEditingValue oldValue, TextEditingValue newValue) {

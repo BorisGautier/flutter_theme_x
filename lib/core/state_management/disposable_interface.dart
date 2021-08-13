@@ -1,12 +1,9 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
 import 'lifecycle.dart';
 
-abstract class DisposableInterface extends FxLifeCycle
-    {
+abstract class DisposableInterface extends FTxLifeCycle {
   /// Called immediately after the widget is allocated in memory.
   /// You might use this to initialize something for the controller.
   @override
@@ -21,7 +18,7 @@ abstract class DisposableInterface extends FxLifeCycle
   /// async request.
   @override
   void onReady() {
-     super.onReady();
+    super.onReady();
   }
 
   /// Called before [onDelete] method. [onClose] might be used to
@@ -32,7 +29,6 @@ abstract class DisposableInterface extends FxLifeCycle
   /// Might be useful as well to persist some data on disk.
   @override
   void dispose() {
-     super.dispose();
+    super.dispose();
   }
-
 }

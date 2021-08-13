@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxTimeUtils] - provides different functions for formatting time
+/// [FTxTimeUtils] - provides different functions for formatting time
 
-class FxTimeUtils {
+class FTxTimeUtils {
   static String getTextFromSeconds(
       {int time = 0,
       bool withZeros = true,

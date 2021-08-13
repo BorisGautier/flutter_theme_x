@@ -2,32 +2,32 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxRoutes] - able to create add and map routes.
+/// [FTxRoutes] - able to create add and map routes.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/core/routes/middlewares/middleware.dart';
 import 'route.dart';
 
-class FxRoutes {
-  static List<FxRoute> _routes = [];
+class FTxRoutes {
+  static List<FTxRoute> _routes = [];
 
-  static void create(List<FxRoute> routes) {
+  static void create(List<FTxRoute> routes) {
     _routes = [];
     _routes.addAll(routes);
   }
 
-  static void add(FxRoute route) {
+  static void add(FTxRoute route) {
     _routes.add(route);
   }
 
-  static void addAll(List<FxRoute> routes) {
+  static void addAll(List<FTxRoute> routes) {
     _routes.addAll(routes);
   }
 
   static Map<String, WidgetBuilder> getMapped() {
     Map<String, WidgetBuilder> routesMap = {};
 
-    for (FxRoute route in _routes) {
+    for (FTxRoute route in _routes) {
       routesMap[route.name] = route.widgetBuilder;
     }
 
@@ -39,11 +39,11 @@ class FxRoutes {
     String routeName, {
     Object? arguments,
   }) async {
-    FxRoute? fxRoute = getRouteFromName(routeName);
+    FTxRoute? fxRoute = getRouteFromName(routeName);
     if (fxRoute == null) throw ("This route is not implemented");
 
     if (fxRoute.middlewares != null) {
-      for (FxMiddleware middleware in fxRoute.middlewares!) {
+      for (FTxMiddleware middleware in fxRoute.middlewares!) {
         String redirectedRouteName = await middleware.handle(routeName);
         if (redirectedRouteName.compareTo(routeName) != 0) {
           return pushNamed(context, redirectedRouteName, arguments: arguments);
@@ -54,8 +54,8 @@ class FxRoutes {
     return Navigator.of(context).pushNamed<T>(routeName, arguments: arguments);
   }
 
-  static FxRoute? getRouteFromName(String routeName) {
-    for (FxRoute route in _routes) {
+  static FTxRoute? getRouteFromName(String routeName) {
+    for (FTxRoute route in _routes) {
       if (route.name.compareTo(routeName) == 0) return route;
     }
     return null;

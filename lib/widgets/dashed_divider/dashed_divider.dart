@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxDashedDivider] - Provides a dashed line to the screen for the given width and height.
+/// [FTxDashedDivider] - Provides a dashed line to the screen for the given width and height.
 
 import 'package:flutter/material.dart';
 
-class FxDashedDivider extends StatelessWidget {
+class FTxDashedDivider extends StatelessWidget {
   final double height;
   final Color color;
   final double dashWidth;
   final double dashSpace;
 
-  const FxDashedDivider(
+  const FTxDashedDivider(
       {this.height = 1,
       this.color = Colors.black,
       this.dashWidth = 10,

@@ -8,14 +8,14 @@ export 'widgets/app_bar/app_bar.dart';
 class FlutterThemeX {
   // entry point of the package
   init() {
-    FxAppThemeNotifier().init();
+    FTxAppThemeNotifier().init();
   }
 
   static enableLog() {
-    FxLog.enable();
+    FTxLog.enable();
   }
 
   static disableLog() {
-    FxLog.disable();
+    FTxLog.disable();
   }
 }

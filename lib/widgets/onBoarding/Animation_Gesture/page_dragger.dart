@@ -9,23 +9,23 @@ import 'dart:ui';
 import 'package:flutter_theme_x/widgets/onBoarding/UI/pager_indicator.dart';
 import 'package:flutter/material.dart';
 
-class FxPageDragger extends StatefulWidget {
+class FTxPageDragger extends StatefulWidget {
   final canDragLeftToRight;
   final canDragRightToLeft;
 
   final StreamController<SlideUpdate>? slideUpdateStream;
 
-  FxPageDragger({
+  FTxPageDragger({
     this.canDragLeftToRight,
     this.canDragRightToLeft,
     this.slideUpdateStream,
   });
 
   @override
-  _FxPageDraggerState createState() => _FxPageDraggerState();
+  _FTxPageDraggerState createState() => _FTxPageDraggerState();
 }
 
-class _FxPageDraggerState extends State<FxPageDragger> {
+class _FTxPageDraggerState extends State<FTxPageDragger> {
   static const FULL_TRANSITION_PX = 300.0;
 
   Offset? dragStart;

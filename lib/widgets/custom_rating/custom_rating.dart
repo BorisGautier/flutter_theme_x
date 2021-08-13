@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxCustomRating] - able to give customisable rating widget with custom features.
+/// [FTxCustomRating] - able to give customisable rating widget with custom features.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/utils/color_utils.dart';
 
 typedef void OnRatingChange(int rating);
 
-class FxCustomRating extends StatefulWidget {
+class FTxCustomRating extends StatefulWidget {
   final int initialRating = 3;
   final double? starSize, starSpacing;
   final List<Color>? starColors;
   final Color inactiveStarColor;
   final OnRatingChange onRatingChange;
 
-  const FxCustomRating(
+  const FTxCustomRating(
       {Key? key,
       this.starSize = 24,
       this.starSpacing = 8,
@@ -26,10 +26,10 @@ class FxCustomRating extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FxCustomRatingState createState() => _FxCustomRatingState();
+  _FTxCustomRatingState createState() => _FTxCustomRatingState();
 }
 
-class _FxCustomRatingState extends State<FxCustomRating> {
+class _FTxCustomRatingState extends State<FTxCustomRating> {
   late int rating;
   late List<Color> starColors;
 
@@ -41,7 +41,7 @@ class _FxCustomRatingState extends State<FxCustomRating> {
   }
 
   buildStar() {
-    starColors = widget.starColors ?? FxColorUtils.getColorByRating();
+    starColors = widget.starColors ?? FTxColorUtils.getColorByRating();
     List<Widget> list = [];
     for (int i = 1; i < 6; i++) {
       list.add(InkWell(

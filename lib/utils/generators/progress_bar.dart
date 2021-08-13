@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxProgressBar] - builds a widget for showing linear progress for anything.
+/// [FTxProgressBar] - builds a widget for showing linear progress for anything.
 
 import 'package:flutter/material.dart';
 
-class FxProgressBar {
+class FTxProgressBar {
   static Widget buildProgress(
       {Color? activeColor,
       Color? inactiveColor,

@@ -4,8 +4,8 @@
 
 /// There are mainly 2 types of container .
 ///
-/// [FxContainer.bordered] - provides border to the container.
-/// [FxContainer.rounded] - provides rounded shape to the container for the given height and width of the container.
+/// [FTxContainer.bordered] - provides border to the container.
+/// [FTxContainer.rounded] - provides rounded shape to the container for the given height and width of the container.
 
 import 'dart:ui';
 
@@ -14,7 +14,7 @@ import 'package:flutter_theme_x/themes/app_theme.dart';
 import '../../utils/spacing.dart';
 import 'package:flutter/material.dart';
 
-class FxContainer extends StatelessWidget {
+class FTxContainer extends StatelessWidget {
   final Widget child;
   final BorderRadius? borderRadius;
   final double? borderRadiusAll, paddingAll, marginAll;
@@ -29,7 +29,7 @@ class FxContainer extends StatelessWidget {
   final GestureTapCallback? onTap;
   final Color? splashColor;
 
-  const FxContainer(
+  const FTxContainer(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -50,7 +50,7 @@ class FxContainer extends StatelessWidget {
       this.splashColor})
       : super(key: key);
 
-  const FxContainer.none(
+  const FTxContainer.none(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -71,7 +71,7 @@ class FxContainer extends StatelessWidget {
       this.splashColor})
       : super(key: key);
 
-  const FxContainer.bordered(
+  const FTxContainer.bordered(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -92,7 +92,7 @@ class FxContainer extends StatelessWidget {
       this.splashColor})
       : super(key: key);
 
-  const FxContainer.roundBordered(
+  const FTxContainer.roundBordered(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -113,7 +113,7 @@ class FxContainer extends StatelessWidget {
       this.splashColor})
       : super(key: key);
 
-  const FxContainer.rounded(
+  const FTxContainer.rounded(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -148,9 +148,9 @@ class FxContainer extends StatelessWidget {
         width: width,
         height: height,
         alignment: alignment,
-        margin: margin ?? FxSpacing.all(marginAll ?? 0),
+        margin: margin ?? FTxSpacing.all(marginAll ?? 0),
         decoration: BoxDecoration(
-            color: color ?? FxAppTheme.customTheme.bgLayer2,
+            color: color ?? FTxAppTheme.customTheme.bgLayer2,
             shape: shape,
             borderRadius: shape == BoxShape.rectangle
                 ? borderRadius ??
@@ -158,9 +158,9 @@ class FxContainer extends StatelessWidget {
                 : null,
             border: bordered
                 ? border ??
-                    Border.all(color: FxAppTheme.customTheme.border2, width: 1)
+                    Border.all(color: FTxAppTheme.customTheme.border2, width: 1)
                 : null),
-        padding: padding ?? FxSpacing.all(paddingAll ?? 16),
+        padding: padding ?? FTxSpacing.all(paddingAll ?? 16),
         clipBehavior: clipBehavior ?? Clip.none,
         child: child,
       ),

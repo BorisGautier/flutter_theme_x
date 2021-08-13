@@ -1,5 +1,4 @@
-class FxNetworkUtil{
-
+class FTxNetworkUtil {
   static String formatUrl(String url) {
     if (url[url.length - 1] == "/") return url.substring(0, url.length - 1);
     return url;
@@ -11,5 +10,4 @@ class FxNetworkUtil{
     }
     return Uri.parse(url);
   }
-
 }

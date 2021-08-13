@@ -1,5 +1,3 @@
-abstract class FxMiddleware{
-
+abstract class FTxMiddleware {
   Future<String> handle(String routeName);
-
 }

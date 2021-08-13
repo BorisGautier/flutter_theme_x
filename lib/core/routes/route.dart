@@ -7,10 +7,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/core/routes/middlewares/middleware.dart';
 
-class FxRoute {
+class FTxRoute {
   String name;
   WidgetBuilder widgetBuilder;
-  List<FxMiddleware>? middlewares;
+  List<FTxMiddleware>? middlewares;
 
-  FxRoute({required this.name, required this.widgetBuilder, this.middlewares});
+  FTxRoute({required this.name, required this.widgetBuilder, this.middlewares});
 }

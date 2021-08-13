@@ -4,8 +4,8 @@
 
 /// There are mainly 2 types of bottomNavigationbar implemented using material Widgets.
 ///
-/// [FxBottomNavigationBarType.normal] -  In this, the bottom items/Icons can be highlighted in a normal way.
-/// [FxBottomNavigationBarType.containered] -  In this, the bottom items/Icons are kept in a container with text accompanied  by the icons.
+/// [FTxBottomNavigationBarType.normal] -  In this, the bottom items/Icons can be highlighted in a normal way.
+/// [FTxBottomNavigationBarType.containered] -  In this, the bottom items/Icons are kept in a container with text accompanied  by the icons.
 ///
 
 import 'package:flutter/material.dart';
@@ -16,18 +16,18 @@ import 'package:flutter_theme_x/widgets/container/container.dart';
 
 import 'bottom_navigation_bar_item.dart';
 
-enum FxBottomNavigationBarType {
+enum FTxBottomNavigationBarType {
   normal,
   containered,
 }
 
-class FxBottomNavigationBar extends StatefulWidget {
-  final List<FxBottomNavigationBarItem>? itemList;
+class FTxBottomNavigationBar extends StatefulWidget {
+  final List<FTxBottomNavigationBarItem>? itemList;
   final Duration? animationDuration;
   final Color? indicatorColor;
   final double? indicatorSize;
   final Decoration? indicatorDecoration;
-  final FxBottomNavigationBarType? fxBottomNavigationBarType;
+  final FTxBottomNavigationBarType? fxBottomNavigationBarType;
   final bool showLabel;
   final bool? showActiveLabel;
   final Color? activeContainerColor;
@@ -48,7 +48,7 @@ class FxBottomNavigationBar extends StatefulWidget {
   final double? iconSize;
   final double? activeIconSize;
 
-  FxBottomNavigationBar(
+  FTxBottomNavigationBar(
       {required this.itemList,
       this.animationDuration,
       this.indicatorColor,
@@ -76,19 +76,19 @@ class FxBottomNavigationBar extends StatefulWidget {
       this.containerShape});
 
   @override
-  _FxBottomNavigationBarState createState() => _FxBottomNavigationBarState();
+  _FTxBottomNavigationBarState createState() => _FTxBottomNavigationBarState();
 }
 
-class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
+class _FTxBottomNavigationBarState extends State<FTxBottomNavigationBar>
     with SingleTickerProviderStateMixin {
-  late List<FxBottomNavigationBarItem>? itemList;
+  late List<FTxBottomNavigationBarItem>? itemList;
   late int _currentIndex;
   late Duration? animationDuration;
   late TabController? _tabController;
   late Color? indicatorColor;
   late double? indicatorSize;
   late Decoration? indicatorDecoration;
-  late FxBottomNavigationBarType? fxBottomNavigationBarType;
+  late FTxBottomNavigationBarType? fxBottomNavigationBarType;
   late bool showLabel;
   late bool showActiveLabel;
   late Color? activeContainerColor;
@@ -149,9 +149,9 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
   }
 
   Widget getItem(int index) {
-    FxBottomNavigationBarItem item = itemList![index];
+    FTxBottomNavigationBarItem item = itemList![index];
 
-    if (fxBottomNavigationBarType == FxBottomNavigationBarType.normal) {
+    if (fxBottomNavigationBarType == FTxBottomNavigationBarType.normal) {
       return Container(
         child: (_currentIndex == index)
             ? Wrap(
@@ -165,22 +165,22 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
                         size: activeIconSize ?? item.activeIconSize ?? 14,
                         color: activeIconColor ??
                             item.activeIconColor ??
-                            FxAppTheme.theme.primaryColor,
+                            FTxAppTheme.theme.primaryColor,
                       ),
                   widget.labelDirection == Axis.horizontal
-                      ? FxSpacing.width(
+                      ? FTxSpacing.width(
                           showActiveLabel ? widget.labelSpacing : 0)
-                      : FxSpacing.height(
+                      : FTxSpacing.height(
                           showActiveLabel ? widget.labelSpacing : 0),
                   showActiveLabel
                       ? Text(
                           item.title!,
                           style: activeTitleStyle ??
                               item.activeTitleStyle ??
-                              FxTextStyle.caption(
+                              FTxTextStyle.caption(
                                   color: activeTitleColor ??
                                       item.activeTitleColor ??
-                                      FxAppTheme.theme.primaryColor,
+                                      FTxAppTheme.theme.primaryColor,
                                   fontSize:
                                       activeTitleSize ?? item.activeTitleSize),
                         )
@@ -198,20 +198,21 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
                         size: iconSize ?? item.iconSize ?? 14,
                         color: iconColor ??
                             item.iconColor ??
-                            FxAppTheme.theme.colorScheme.onBackground,
+                            FTxAppTheme.theme.colorScheme.onBackground,
                       ),
                   widget.labelDirection == Axis.horizontal
-                      ? FxSpacing.width(showLabel ? widget.labelSpacing : 0)
-                      : FxSpacing.height(showLabel ? widget.labelSpacing : 0),
+                      ? FTxSpacing.width(showLabel ? widget.labelSpacing : 0)
+                      : FTxSpacing.height(showLabel ? widget.labelSpacing : 0),
                   showLabel
                       ? Text(
                           item.title!,
                           style: titleStyle ??
                               item.titleStyle ??
-                              FxTextStyle.caption(
+                              FTxTextStyle.caption(
                                   color: titleColor ??
                                       item.titleColor ??
-                                      FxAppTheme.theme.colorScheme.onBackground,
+                                      FTxAppTheme
+                                          .theme.colorScheme.onBackground,
                                   fontSize: widget.titleSize ?? item.titleSize),
                         )
                       : Container(),
@@ -228,12 +229,12 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
           size: activeIconSize ?? item.activeIconSize ?? 24,
           color: activeIconColor ??
               item.activeIconColor ??
-              FxAppTheme.theme.primaryColor,
+              FTxAppTheme.theme.primaryColor,
         );
       }
 
       return (_currentIndex == index)
-          ? FxContainer(
+          ? FTxContainer(
               paddingAll: 8,
               shape: containerShape ?? BoxShape.rectangle,
               color: activeContainerColor,
@@ -241,16 +242,16 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   iconWidget,
-                  FxSpacing.width(showActiveLabel ? 8 : 0),
+                  FTxSpacing.width(showActiveLabel ? 8 : 0),
                   showActiveLabel
                       ? Text(
                           item.title!,
                           style: activeTitleStyle ??
                               item.activeTitleStyle ??
-                              FxTextStyle.caption(
+                              FTxTextStyle.caption(
                                   color: activeTitleColor ??
                                       item.activeTitleColor ??
-                                      FxAppTheme.theme.primaryColor,
+                                      FTxAppTheme.theme.primaryColor,
                                   fontSize:
                                       activeTitleSize ?? item.activeTitleSize),
                         )
@@ -264,7 +265,7 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
                 size: iconSize ?? item.iconSize ?? 24,
                 color: iconColor ??
                     item.iconColor ??
-                    FxAppTheme.theme.colorScheme.onBackground.withAlpha(150),
+                    FTxAppTheme.theme.colorScheme.onBackground.withAlpha(150),
               );
     }
   }
@@ -301,17 +302,17 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
   @override
   Widget build(BuildContext context) {
     // animationDuration=widget.animationDuration!;
-    indicatorColor = widget.indicatorColor ?? FxAppTheme.theme.primaryColor;
+    indicatorColor = widget.indicatorColor ?? FTxAppTheme.theme.primaryColor;
     indicatorSize = widget.indicatorSize;
     indicatorDecoration = widget.indicatorDecoration;
     fxBottomNavigationBarType =
-        widget.fxBottomNavigationBarType ?? FxBottomNavigationBarType.normal;
+        widget.fxBottomNavigationBarType ?? FTxBottomNavigationBarType.normal;
     showLabel = widget.showLabel;
     showActiveLabel = widget.showActiveLabel ?? true;
     activeContainerColor = widget.activeContainerColor ??
-        FxAppTheme.theme.primaryColor.withAlpha(100);
+        FTxAppTheme.theme.primaryColor.withAlpha(100);
     backgroundColor =
-        widget.backgroundColor ?? FxAppTheme.theme.backgroundColor;
+        widget.backgroundColor ?? FTxAppTheme.theme.backgroundColor;
     activeTitleStyle = widget.activeTitleStyle;
     titleStyle = widget.titleStyle;
     activeTitleColor = widget.activeTitleColor;
@@ -334,7 +335,7 @@ class _FxBottomNavigationBarState extends State<FxBottomNavigationBar>
           ),
         ),
         Container(
-          padding: FxSpacing.all(16),
+          padding: FTxSpacing.all(16),
           decoration: containerDecoration ??
               BoxDecoration(
                 color: backgroundColor,

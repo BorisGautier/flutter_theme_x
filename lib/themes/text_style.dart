@@ -7,7 +7,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxTextStyle] - gives 13 different type of styles to the text on the basis of size
+/// [FTxTextStyle] - gives 13 different type of styles to the text on the basis of size
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +15,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'app_theme.dart';
 
-enum FxTextSize {
+enum FTxTextSize {
   h1,
   h2,
   h3,
@@ -31,7 +31,7 @@ enum FxTextSize {
   overline
 }
 
-class FxTextStyle {
+class FTxTextStyle {
   static Function _fontFamily = GoogleFonts.ibmPlexSans;
 
   static Map<int, FontWeight> _defaultFontWeight = {
@@ -46,36 +46,36 @@ class FxTextStyle {
     900: FontWeight.w800,
   };
 
-  static Map<FxTextSize, double> _defaultTextSize = {
-    FxTextSize.h1: 102,
-    FxTextSize.h2: 64,
-    FxTextSize.h3: 51,
-    FxTextSize.h4: 36,
-    FxTextSize.h5: 25,
-    FxTextSize.h6: 21,
-    FxTextSize.sh1: 17,
-    FxTextSize.sh2: 15,
-    FxTextSize.b1: 16,
-    FxTextSize.b2: 14,
-    FxTextSize.button: 13,
-    FxTextSize.caption: 12,
-    FxTextSize.overline: 10,
+  static Map<FTxTextSize, double> _defaultTextSize = {
+    FTxTextSize.h1: 102,
+    FTxTextSize.h2: 64,
+    FTxTextSize.h3: 51,
+    FTxTextSize.h4: 36,
+    FTxTextSize.h5: 25,
+    FTxTextSize.h6: 21,
+    FTxTextSize.sh1: 17,
+    FTxTextSize.sh2: 15,
+    FTxTextSize.b1: 16,
+    FTxTextSize.b2: 14,
+    FTxTextSize.button: 13,
+    FTxTextSize.caption: 12,
+    FTxTextSize.overline: 10,
   };
 
-  static Map<FxTextSize, double> _defaultLetterSpacing = {
-    FxTextSize.h1: -0.2,
-    FxTextSize.h2: -0.15,
-    FxTextSize.h3: 0,
-    FxTextSize.h4: 0,
-    FxTextSize.h5: 0,
-    FxTextSize.h6: 0,
-    FxTextSize.sh1: 0.15,
-    FxTextSize.sh2: 0.15,
-    FxTextSize.b1: 0.15,
-    FxTextSize.b2: 0.15,
-    FxTextSize.button: 0.15,
-    FxTextSize.caption: 0.15,
-    FxTextSize.overline: 0.15,
+  static Map<FTxTextSize, double> _defaultLetterSpacing = {
+    FTxTextSize.h1: -0.2,
+    FTxTextSize.h2: -0.15,
+    FTxTextSize.h3: 0,
+    FTxTextSize.h4: 0,
+    FTxTextSize.h5: 0,
+    FTxTextSize.h6: 0,
+    FTxTextSize.sh1: 0.15,
+    FTxTextSize.sh2: 0.15,
+    FTxTextSize.b1: 0.15,
+    FTxTextSize.b2: 0.15,
+    FTxTextSize.button: 0.15,
+    FTxTextSize.caption: 0.15,
+    FTxTextSize.overline: 0.15,
   };
 
   static TextStyle getStyle(
@@ -94,7 +94,7 @@ class FxTextStyle {
     Color? finalColor;
     if (color == null) {
       Color themeColor =
-          FxAppTheme.getThemeFromThemeMode().colorScheme.onBackground;
+          FTxAppTheme.getThemeFromThemeMode().colorScheme.onBackground;
       finalColor = xMuted
           ? themeColor.withAlpha(160)
           : (muted ? themeColor.withAlpha(200) : themeColor);
@@ -126,12 +126,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h1],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h1],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h1] ?? -0.2,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h1] ?? -0.2,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -151,12 +151,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h2],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h2],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h2] ?? -0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h2] ?? -0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -176,12 +176,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h3],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h3],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h3] ?? -0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h3] ?? -0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -201,12 +201,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h4],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h4],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h4] ?? 0,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h4] ?? 0,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -226,12 +226,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h5],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h5],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h5] ?? 0,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h5] ?? 0,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -251,12 +251,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.h6],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.h6],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.h6] ?? 0,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.h6] ?? 0,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -276,12 +276,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.sh1],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.sh1],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.sh1] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.sh1] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -301,12 +301,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.sh2],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.sh2],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.sh2] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.sh2] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -326,12 +326,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.b1],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.b1],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.b1] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.b1] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -351,12 +351,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.b2],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.b2],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.b2] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.b2] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -376,12 +376,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.button],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.button],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.button] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.button] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -401,12 +401,12 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.caption],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.caption],
         color: color,
         height: height,
         muted: muted,
         letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.caption] ?? 0.15,
+            letterSpacing ?? _defaultLetterSpacing[FTxTextSize.caption] ?? 0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -426,12 +426,13 @@ class FxTextStyle {
       double wordSpacing = 0,
       double? fontSize}) {
     return getStyle(
-        fontSize: fontSize ?? _defaultTextSize[FxTextSize.overline],
+        fontSize: fontSize ?? _defaultTextSize[FTxTextSize.overline],
         color: color,
         height: height,
         muted: muted,
-        letterSpacing:
-            letterSpacing ?? _defaultLetterSpacing[FxTextSize.overline] ?? 0.15,
+        letterSpacing: letterSpacing ??
+            _defaultLetterSpacing[FTxTextSize.overline] ??
+            0.15,
         fontWeight: fontWeight,
         decoration: decoration,
         textStyle: textStyle,
@@ -440,20 +441,20 @@ class FxTextStyle {
   }
 
   static void changeFontFamily(Function fontFamily) {
-    FxTextStyle._fontFamily = fontFamily;
+    FTxTextStyle._fontFamily = fontFamily;
   }
 
   static void changeDefaultFontWeight(Map<int, FontWeight> defaultFontWeight) {
-    FxTextStyle._defaultFontWeight = defaultFontWeight;
+    FTxTextStyle._defaultFontWeight = defaultFontWeight;
   }
 
-  static void changeDefaultTextSize(Map<FxTextSize, double> defaultTextSize) {
-    FxTextStyle._defaultTextSize = defaultTextSize;
+  static void changeDefaultTextSize(Map<FTxTextSize, double> defaultTextSize) {
+    FTxTextStyle._defaultTextSize = defaultTextSize;
   }
 
-  static Map<FxTextSize, double> get defaultTextSize => _defaultTextSize;
+  static Map<FTxTextSize, double> get defaultTextSize => _defaultTextSize;
 
-  static Map<FxTextSize, double> get defaultLetterSpacing =>
+  static Map<FTxTextSize, double> get defaultLetterSpacing =>
       _defaultLetterSpacing;
 
   static Map<int, FontWeight> get defaultFontWeight => _defaultFontWeight;

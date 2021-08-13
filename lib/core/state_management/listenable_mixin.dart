@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 
 typedef Disposer = void Function();
 
-typedef FxStateUpdate = void Function();
+typedef FTxStateUpdate = void Function();
 
 mixin ListNotifierMixin on ListenableMixin {
-
-  List<FxStateUpdate?>? _updaters = <FxStateUpdate?>[];
-
+  List<FTxStateUpdate?>? _updaters = <FTxStateUpdate?>[];
 
   @protected
   void refresh() {
@@ -25,7 +23,6 @@ mixin ListNotifierMixin on ListenableMixin {
     }
   }
 
-
   bool _debugAssertNotDisposed() {
     assert(() {
       if (_updaters == null) {
@@ -36,7 +33,6 @@ mixin ListNotifierMixin on ListenableMixin {
     }());
     return true;
   }
-
 
   bool get hasListeners {
     assert(_debugAssertNotDisposed());
@@ -61,14 +57,14 @@ mixin ListNotifierMixin on ListenableMixin {
   }
 
   @override
-  Disposer addListener(FxStateUpdate listener) {
+  Disposer addListener(FTxStateUpdate listener) {
     assert(_debugAssertNotDisposed());
     _updaters!.add(listener);
     return () => _updaters!.remove(listener);
   }
 
   /// To dispose an [id] from future updates(), this ids are registered
-  /// by [FxBuilder] or similar, so is a way to unlink the state change with
+  /// by [FTxBuilder] or similar, so is a way to unlink the state change with
   /// the Widget from the Controller.
 
 }

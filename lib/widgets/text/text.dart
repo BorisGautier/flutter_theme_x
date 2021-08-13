@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_theme_x/themes/text_style.dart';
 
-class FxText extends StatelessWidget {
+class FTxText extends StatelessWidget {
   //Key
 
   final Key? key;
@@ -23,7 +23,7 @@ class FxText extends StatelessWidget {
   final double? height;
   final double wordSpacing;
   final double? fontSize;
-  final FxTextSize fxTextSize;
+  final FTxTextSize fxTextSize;
 
   //Text Style
   final TextAlign? textAlign;
@@ -38,7 +38,7 @@ class FxText extends StatelessWidget {
   final double? textScaleFactor;
   final TextWidthBasis? textWidthBasis;
 
-  FxText(this.text,
+  FTxText(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -49,7 +49,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.b1,
+      this.fxTextSize = FTxTextSize.b1,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -63,7 +63,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h1(this.text,
+  FTxText.h1(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -74,7 +74,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h1,
+      this.fxTextSize = FTxTextSize.h1,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -88,7 +88,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h2(this.text,
+  FTxText.h2(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -99,7 +99,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h2,
+      this.fxTextSize = FTxTextSize.h2,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -113,7 +113,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h3(this.text,
+  FTxText.h3(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -124,7 +124,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h3,
+      this.fxTextSize = FTxTextSize.h3,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -138,7 +138,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h4(this.text,
+  FTxText.h4(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -149,7 +149,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h4,
+      this.fxTextSize = FTxTextSize.h4,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -163,7 +163,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h5(this.text,
+  FTxText.h5(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -174,7 +174,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h5,
+      this.fxTextSize = FTxTextSize.h5,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -188,7 +188,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.h6(this.text,
+  FTxText.h6(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -199,7 +199,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.h6,
+      this.fxTextSize = FTxTextSize.h6,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -213,7 +213,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.sh1(this.text,
+  FTxText.sh1(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -224,7 +224,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.sh1,
+      this.fxTextSize = FTxTextSize.sh1,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -238,7 +238,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.sh2(this.text,
+  FTxText.sh2(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -249,7 +249,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.sh2,
+      this.fxTextSize = FTxTextSize.sh2,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -263,7 +263,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.b1(this.text,
+  FTxText.b1(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -274,7 +274,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.b1,
+      this.fxTextSize = FTxTextSize.b1,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -288,7 +288,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.b2(this.text,
+  FTxText.b2(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -299,7 +299,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.b2,
+      this.fxTextSize = FTxTextSize.b2,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -313,7 +313,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.button(this.text,
+  FTxText.button(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -324,7 +324,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.button,
+      this.fxTextSize = FTxTextSize.button,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -338,7 +338,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.caption(this.text,
+  FTxText.caption(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -349,7 +349,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.caption,
+      this.fxTextSize = FTxTextSize.caption,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -363,7 +363,7 @@ class FxText extends StatelessWidget {
       this.textScaleFactor,
       this.textWidthBasis});
 
-  FxText.overline(this.text,
+  FTxText.overline(this.text,
       {this.textStyle,
       this.fontWeight = 500,
       this.muted = false,
@@ -374,7 +374,7 @@ class FxText extends StatelessWidget {
       this.height,
       this.wordSpacing = 0,
       this.fontSize,
-      this.fxTextSize = FxTextSize.overline,
+      this.fxTextSize = FTxTextSize.overline,
       this.key,
       this.textAlign,
       this.maxLines,
@@ -392,19 +392,19 @@ class FxText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: FxTextStyle.getStyle(
+      style: FTxTextStyle.getStyle(
         textStyle: textStyle,
         color: color,
         fontWeight: fontWeight,
         muted: muted,
         letterSpacing: letterSpacing ??
-            FxTextStyle.defaultLetterSpacing[fxTextSize] ??
+            FTxTextStyle.defaultLetterSpacing[fxTextSize] ??
             0.15,
         height: height,
         xMuted: xMuted,
         decoration: decoration,
         wordSpacing: wordSpacing,
-        fontSize: fontSize ?? FxTextStyle.defaultTextSize[fxTextSize],
+        fontSize: fontSize ?? FTxTextStyle.defaultTextSize[fxTextSize],
       ),
       textAlign: textAlign,
       maxLines: maxLines,

@@ -5,11 +5,11 @@
 
 import 'package:flutter/material.dart';
 
-class FxSinglePage extends StatelessWidget {
+class FTxSinglePage extends StatelessWidget {
   final PageViewModel? viewModel;
   final double? percentVisible;
 
-  FxSinglePage({
+  FTxSinglePage({
     this.viewModel,
     this.percentVisible = 1.0,
   });
@@ -25,10 +25,9 @@ class FxSinglePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 new Transform(
-                  transform: new Matrix4.translationValues(
-                      0.0, 50.0 * (1.0 - percentVisible!), 0.0),
-                  child: viewModel!.content
-                ),
+                    transform: new Matrix4.translationValues(
+                        0.0, 50.0 * (1.0 - percentVisible!), 0.0),
+                    child: viewModel!.content),
               ]),
         ));
   }
@@ -38,10 +37,8 @@ class PageViewModel {
   final Color color;
   final Widget content;
 
-
   PageViewModel(
     this.color,
     this.content,
-
   );
 }

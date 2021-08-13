@@ -4,16 +4,16 @@
 
 /// Three types of button implemented from Material Button.
 
-/// [FxButtonType.elevated] - gives elevation to the button along with some height and shadow.
-/// [FxButtonType.outlined] - gives outline to the button
-/// [FxButtonType.text] - able to build text button
+/// [FTxButtonType.elevated] - gives elevation to the button along with some height and shadow.
+/// [FTxButtonType.outlined] - gives outline to the button
+/// [FTxButtonType.text] - able to build text button
 
 import 'package:flutter/material.dart';
 
-enum FxButtonType { elevated, outlined, text }
+enum FTxButtonType { elevated, outlined, text }
 
-class FxButton extends StatelessWidget {
-  final FxButtonType? buttonType;
+class FTxButton extends StatelessWidget {
+  final FTxButtonType? buttonType;
 
   final ButtonStyle? style;
 
@@ -48,7 +48,7 @@ class FxButton extends StatelessWidget {
 
   final Widget child;
 
-  FxButton(
+  FTxButton(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -59,7 +59,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.msShadowColor,
       this.msSide,
@@ -73,7 +73,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.rounded(
+  FTxButton.rounded(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -84,7 +84,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 4,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.block = false,
       this.msSide,
@@ -98,7 +98,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.small(
+  FTxButton.small(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -109,7 +109,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.block = false,
       this.msSide,
@@ -123,7 +123,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.medium(
+  FTxButton.medium(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -136,7 +136,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.msSide,
       this.disabled = false,
@@ -148,7 +148,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.text(
+  FTxButton.text(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -161,7 +161,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.text,
+      this.buttonType = FTxButtonType.text,
       this.style,
       this.msSide,
       this.disabled = false,
@@ -173,7 +173,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.block(
+  FTxButton.block(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -186,7 +186,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.msSide,
       this.disabled = false,
@@ -198,7 +198,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.outlined(
+  FTxButton.outlined(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -210,7 +210,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.outlined,
+      this.buttonType = FTxButtonType.outlined,
       this.style,
       this.msSide,
       this.block = false,
@@ -223,7 +223,7 @@ class FxButton extends StatelessWidget {
       this.shadowColor,
       this.splashColor});
 
-  FxButton.large(
+  FTxButton.large(
       {required this.onPressed,
       required this.child,
       this.msPadding,
@@ -235,7 +235,7 @@ class FxButton extends StatelessWidget {
       this.borderRadiusAll = 0,
       this.msBackgroundColor,
       this.backgroundColor = Colors.blue,
-      this.buttonType = FxButtonType.elevated,
+      this.buttonType = FTxButtonType.elevated,
       this.style,
       this.disabled = false,
       this.msSide,
@@ -252,7 +252,7 @@ class FxButton extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget button;
 
-    if (buttonType == FxButtonType.outlined) {
+    if (buttonType == FTxButtonType.outlined) {
       button = OutlinedButton(
         onPressed: onPressed,
         child: child,
@@ -282,7 +282,7 @@ class FxButton extends StatelessWidget {
                       borderRadius: BorderRadius.circular(borderRadiusAll ?? 0),
                     ))),
       );
-    } else if (buttonType == FxButtonType.elevated) {
+    } else if (buttonType == FTxButtonType.elevated) {
       button = ElevatedButton(
           style: style ??
               ButtonStyle(

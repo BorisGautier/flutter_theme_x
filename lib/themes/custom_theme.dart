@@ -7,14 +7,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxCustomTheme] - provides the different properties for the custom theme.
+/// [FTxCustomTheme] - provides the different properties for the custom theme.
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-enum FxCustomThemeType { light, dark }
+enum FTxCustomThemeType { light, dark }
 
-class FxCustomTheme {
+class FTxCustomTheme {
   final Color bgLayer1,
       bgLayer2,
       border1,
@@ -33,7 +33,7 @@ class FxCustomTheme {
 
   final Color lightBlack, red, green, yellow, orange, blue, purple, pink, brown;
 
-  FxCustomTheme({
+  FTxCustomTheme({
     this.border1 = const Color(0xffeeeeee),
     this.border2 = const Color(0xffe6e6e6),
     this.bgLayer1 = const Color(0xfff0f0f0),
@@ -62,7 +62,7 @@ class FxCustomTheme {
     this.brown = const Color(0xffA52A2A),
   });
 
-  static FxCustomTheme lightCustomAppTheme = FxCustomTheme(
+  static FTxCustomTheme lightCustomAppTheme = FTxCustomTheme(
     bgLayer1: Color(0xfff6f6f6),
     bgLayer2: Color(0xffffffff),
     disabledColor: Color(0xff636363),
@@ -78,7 +78,7 @@ class FxCustomTheme {
     onError: Color(0xffffffff),
   );
 
-  static FxCustomTheme darkCustomAppTheme = FxCustomTheme(
+  static FTxCustomTheme darkCustomAppTheme = FTxCustomTheme(
       bgLayer1: Color(0xff1b1b1b),
       bgLayer2: Color(0xff252525),
       border1: Color(0xff303030),
@@ -95,30 +95,30 @@ class FxCustomTheme {
       colorError: Color(0xfff0323c),
       onError: Color(0xffffffff));
 
-  static FxCustomThemeType defaultThemeType = FxCustomThemeType.light;
+  static FTxCustomThemeType defaultThemeType = FTxCustomThemeType.light;
 
-  static FxCustomTheme getCustomAppTheme({FxCustomThemeType? themeType}) {
+  static FTxCustomTheme getCustomAppTheme({FTxCustomThemeType? themeType}) {
     if (themeType == null) {
       themeType = defaultThemeType;
     }
 
     switch (themeType) {
-      case FxCustomThemeType.light:
+      case FTxCustomThemeType.light:
         return lightCustomAppTheme;
       default:
         return darkCustomAppTheme;
     }
   }
 
-  static void changeLightTheme(FxCustomTheme themeData) {
+  static void changeLightTheme(FTxCustomTheme themeData) {
     lightCustomAppTheme = themeData;
   }
 
-  static void changeDarkTheme(FxCustomTheme themeData) {
+  static void changeDarkTheme(FTxCustomTheme themeData) {
     darkCustomAppTheme = themeData;
   }
 
-  static void changeThemeType(FxCustomThemeType? themeType) {
+  static void changeThemeType(FTxCustomThemeType? themeType) {
     defaultThemeType = themeType!;
   }
 }

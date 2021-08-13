@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxTextLiquidFill] - builds a widget for text which gets build having a watery effect.
+/// [FTxTextLiquidFill] - builds a widget for text which gets build having a watery effect.
 
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-class FxTextLiquidFill extends StatefulWidget {
+class FTxTextLiquidFill extends StatefulWidget {
   final TextStyle? textStyle;
   final Duration? loadDuration;
   final Duration? waveDuration;
@@ -17,7 +17,7 @@ class FxTextLiquidFill extends StatefulWidget {
   final Color? boxBackgroundColor;
   final Color? waveColor;
 
-  FxTextLiquidFill(
+  FTxTextLiquidFill(
       {Key? key,
       required this.text,
       this.textStyle,
@@ -30,10 +30,10 @@ class FxTextLiquidFill extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FxTextLiquidFillState createState() => new _FxTextLiquidFillState();
+  _FTxTextLiquidFillState createState() => new _FTxTextLiquidFillState();
 }
 
-class _FxTextLiquidFillState extends State<FxTextLiquidFill>
+class _FTxTextLiquidFillState extends State<FTxTextLiquidFill>
     with TickerProviderStateMixin {
   AnimationController? _waveController, _loadController;
   Duration? _waveDuration, _loadDuration;

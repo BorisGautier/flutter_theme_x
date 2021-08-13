@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxDottedLine] - gives a dotted line.
+/// [FTxDottedLine] - gives a dotted line.
 
 import 'dart:ui';
 
@@ -12,27 +12,27 @@ bool _isEmpty(double? d) {
   return d == null || d == 0.0;
 }
 
-class FxDottedLineCorner {
+class FTxDottedLineCorner {
   final double leftTopCorner;
   final double rightTopCorner;
   final double rightBottomCorner;
   final double leftBottomCorner;
 
-  const FxDottedLineCorner({
+  const FTxDottedLineCorner({
     this.leftTopCorner = 0,
     this.rightTopCorner = 0,
     this.rightBottomCorner = 0,
     this.leftBottomCorner = 0,
   });
 
-  FxDottedLineCorner.all(double radius)
+  FTxDottedLineCorner.all(double radius)
       : leftTopCorner = radius,
         rightTopCorner = radius,
         rightBottomCorner = radius,
         leftBottomCorner = radius;
 }
 
-class FxDottedLine extends StatefulWidget {
+class FTxDottedLine extends StatefulWidget {
   final Color color;
 
   final double? height;
@@ -45,11 +45,11 @@ class FxDottedLine extends StatefulWidget {
 
   final double space;
 
-  final FxDottedLineCorner? corner;
+  final FTxDottedLineCorner? corner;
 
   final Widget? child;
 
-  FxDottedLine({
+  FTxDottedLine({
     Key? key,
     this.color = Colors.black,
     this.height,
@@ -64,10 +64,10 @@ class FxDottedLine extends StatefulWidget {
   }
 
   @override
-  _FxDottedLineState createState() => _FxDottedLineState();
+  _FTxDottedLineState createState() => _FTxDottedLineState();
 }
 
-class _FxDottedLineState extends State<FxDottedLine> {
+class _FTxDottedLineState extends State<FTxDottedLine> {
   double? childWidth;
   double? childHeight;
   GlobalKey childKey = GlobalKey();
@@ -147,7 +147,7 @@ class _DottedLinePainter extends CustomPainter {
   double? space;
   late double strokeWidth;
   late bool isShape;
-  FxDottedLineCorner? corner;
+  FTxDottedLineCorner? corner;
   Radius topLeft = Radius.zero;
   Radius topRight = Radius.zero;
   Radius bottomRight = Radius.zero;

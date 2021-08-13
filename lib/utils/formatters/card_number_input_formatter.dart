@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxCardNumberInputFormatter] - formats the given string as per the credit card number format.
+/// [FTxCardNumberInputFormatter] - formats the given string as per the credit card number format.
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class FxCardNumberInputFormatter extends TextInputFormatter {
+class FTxCardNumberInputFormatter extends TextInputFormatter {
   @override
   TextEditingValue formatEditUpdate(
       TextEditingValue oldValue, TextEditingValue newValue) {

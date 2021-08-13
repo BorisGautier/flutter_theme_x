@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxShadow] - provides custom shadow to the widget
+/// [FTxShadow] - provides custom shadow to the widget
 
 import 'package:flutter/material.dart';
 
-enum FxShadowPosition {
+enum FTxShadowPosition {
   topLeft,
   top,
   topRight,
@@ -18,20 +18,20 @@ enum FxShadowPosition {
   bottomRight
 }
 
-class FxShadow {
+class FTxShadow {
   late int alpha;
   late double elevation, spreadRadius, blurRadius;
   Offset? offset;
-  FxShadowPosition? position;
+  FTxShadowPosition? position;
   Color? color;
   bool? darkShadow;
 
-  FxShadow(
+  FTxShadow(
       {double elevation = 8,
       double? spreadRadius,
       double? blurRadius,
       Offset? offset,
-      FxShadowPosition position = FxShadowPosition.bottom,
+      FTxShadowPosition position = FTxShadowPosition.bottom,
       int? alpha,
       Color? color,
       bool darkShadow = false}) {
@@ -46,31 +46,31 @@ class FxShadow {
 
     if (offset == null) {
       switch (position) {
-        case FxShadowPosition.topLeft:
+        case FTxShadowPosition.topLeft:
           this.offset = Offset(-elevation, -elevation);
           break;
-        case FxShadowPosition.top:
+        case FTxShadowPosition.top:
           this.offset = Offset(0, -elevation);
           break;
-        case FxShadowPosition.topRight:
+        case FTxShadowPosition.topRight:
           this.offset = Offset(elevation, -elevation);
           break;
-        case FxShadowPosition.centerLeft:
+        case FTxShadowPosition.centerLeft:
           this.offset = Offset(-elevation, elevation * 0.25);
           break;
-        case FxShadowPosition.center:
+        case FTxShadowPosition.center:
           this.offset = Offset(0, 0);
           break;
-        case FxShadowPosition.centerRight:
+        case FTxShadowPosition.centerRight:
           this.offset = Offset(elevation, elevation * 0.25);
           break;
-        case FxShadowPosition.bottomLeft:
+        case FTxShadowPosition.bottomLeft:
           this.offset = Offset(-elevation, elevation);
           break;
-        case FxShadowPosition.bottom:
+        case FTxShadowPosition.bottom:
           this.offset = Offset(0, elevation);
           break;
-        case FxShadowPosition.bottomRight:
+        case FTxShadowPosition.bottomRight:
           this.offset = Offset(elevation, elevation);
           break;
       }
@@ -79,6 +79,6 @@ class FxShadow {
 
   @override
   String toString() {
-    return 'FxShadow{alpha: $alpha, elevation: $elevation, spreadRadius: $spreadRadius, blurRadius: $blurRadius, offset: $offset, position: $position, color: $color, darkShadow: $darkShadow}';
+    return 'FTxShadow{alpha: $alpha, elevation: $elevation, spreadRadius: $spreadRadius, blurRadius: $blurRadius, offset: $offset, position: $position, color: $color, darkShadow: $darkShadow}';
   }
 }

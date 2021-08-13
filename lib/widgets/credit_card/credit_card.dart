@@ -4,7 +4,7 @@
 
 ///
 
-/// [FxCreditCard] - customisable credit card with all the necessary details in it.
+/// [FTxCreditCard] - customisable credit card with all the necessary details in it.
 
 import 'dart:math';
 
@@ -22,13 +22,13 @@ typedef void OnCreditCardDateChanged(String creditCardDate);
 typedef void OnCreditCardNameChanged(String creditCardName);
 typedef void OnCreditCardCVVChanged(String creditCardCVV);
 
-class FxCreditCard extends StatefulWidget {
+class FTxCreditCard extends StatefulWidget {
   final OnCreditCardNumberChanged onCreditCardNumberChanged;
   final OnCreditCardDateChanged onCreditCardDateChanged;
   final OnCreditCardNameChanged onCreditCardNameChanged;
   final OnCreditCardCVVChanged onCreditCardCVVChanged;
 
-  const FxCreditCard(
+  const FTxCreditCard(
       {Key? key,
       required this.onCreditCardNumberChanged,
       required this.onCreditCardDateChanged,
@@ -37,10 +37,10 @@ class FxCreditCard extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FxCreditCardState createState() => _FxCreditCardState();
+  _FTxCreditCardState createState() => _FTxCreditCardState();
 }
 
-class _FxCreditCardState extends State<FxCreditCard>
+class _FTxCreditCardState extends State<FTxCreditCard>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   bool isFront = true;
@@ -154,22 +154,22 @@ class _FxCreditCardState extends State<FxCreditCard>
 
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: FxAppTheme.customTheme.bgLayer2,
+        backgroundColor: FTxAppTheme.customTheme.bgLayer2,
         appBar: AppBar(
-          backgroundColor: FxAppTheme.customTheme.bgLayer2,
+          backgroundColor: FTxAppTheme.customTheme.bgLayer2,
           elevation: 0,
           leading: IconButton(
             onPressed: () => Navigator.of(context).pop(),
             icon: Icon(Icons.chevron_left),
           ),
-          title: FxText.sh1("Add Card", fontWeight: 600),
+          title: FTxText.sh1("Add Card", fontWeight: 600),
           actions: <Widget>[
             InkWell(
                 onTap: () {
                   Navigator.pop(context);
                 },
                 child: Container(
-                    margin: FxSpacing.right(24), child: Icon(Icons.check)))
+                    margin: FTxSpacing.right(24), child: Icon(Icons.check)))
           ],
         ),
         body: Container(
@@ -195,17 +195,17 @@ class _FxCreditCardState extends State<FxCreditCard>
                         child: isFront
                             ? Container(
                                 height: 210,
-                                margin: FxSpacing.xy(8, 24),
+                                margin: FTxSpacing.xy(8, 24),
                                 decoration: BoxDecoration(
                                   border: Border.all(
                                       width: 0.7,
-                                      color:
-                                          FxAppTheme.theme.colorScheme.surface),
+                                      color: FTxAppTheme
+                                          .theme.colorScheme.surface),
                                   color: creditCardColor,
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(8)),
                                 ),
-                                padding: FxSpacing.all(24),
+                                padding: FTxSpacing.all(24),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment:
@@ -214,18 +214,18 @@ class _FxCreditCardState extends State<FxCreditCard>
                                     Container(
                                       alignment: Alignment.topRight,
                                       child: Container(
-                                        padding: FxSpacing.xy(8, 4),
+                                        padding: FTxSpacing.xy(8, 4),
                                         decoration: BoxDecoration(
                                             color: Colors.white,
                                             borderRadius: BorderRadius.all(
                                                 Radius.circular(4))),
-                                        child: FxText.sh1("VISA",
+                                        child: FTxText.sh1("VISA",
                                             fontWeight: 700,
                                             color: creditCardColor),
                                       ),
                                     ),
-                                    FxTextField(
-                                      contentPadding: FxSpacing.all(0),
+                                    FTxTextField(
+                                      contentPadding: FTxSpacing.all(0),
                                       scrollPadding: EdgeInsets.all(0),
                                       cursorColor: Colors.white,
                                       enabledBorderColor: Colors.transparent,
@@ -245,12 +245,12 @@ class _FxCreditCardState extends State<FxCreditCard>
                                       focusNode: creditNumberFocusNode,
                                       inputFormatters: [
                                         LengthLimitingTextInputFormatter(19),
-                                        FxCardNumberInputFormatter()
+                                        FTxCardNumberInputFormatter()
                                       ],
                                     ),
-                                    FxSpacing.height(6),
-                                    FxTextField(
-                                      contentPadding: FxSpacing.all(0),
+                                    FTxSpacing.height(6),
+                                    FTxTextField(
+                                      contentPadding: FTxSpacing.all(0),
                                       scrollPadding: EdgeInsets.all(0),
                                       cursorColor: Colors.white,
                                       enabledBorderColor: Colors.transparent,
@@ -268,13 +268,13 @@ class _FxCreditCardState extends State<FxCreditCard>
                                           TextCapitalization.sentences,
                                       focusNode: creditDateFocusNode,
                                       inputFormatters: [
-                                        FxCardMonthInputFormatter(),
+                                        FTxCardMonthInputFormatter(),
                                         LengthLimitingTextInputFormatter(5),
                                       ],
                                     ),
-                                    FxSpacing.height(6),
-                                    FxTextField(
-                                      contentPadding: FxSpacing.all(0),
+                                    FTxSpacing.height(6),
+                                    FTxTextField(
+                                      contentPadding: FTxSpacing.all(0),
                                       scrollPadding: EdgeInsets.all(0),
                                       cursorColor: Colors.white,
                                       enabledBorderColor: Colors.transparent,
@@ -299,18 +299,18 @@ class _FxCreditCardState extends State<FxCreditCard>
                               )
                             : Container(
                                 height: 210,
-                                margin: FxSpacing.xy(8, 24),
+                                margin: FTxSpacing.xy(8, 24),
                                 decoration: BoxDecoration(
                                   border: Border.all(
                                       width: 0.7,
-                                      color:
-                                          FxAppTheme.theme.colorScheme.surface),
+                                      color: FTxAppTheme
+                                          .theme.colorScheme.surface),
                                   color: creditCardColor,
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(8)),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: FxAppTheme
+                                      color: FTxAppTheme
                                           .theme.cardTheme.shadowColor!
                                           .withAlpha(28),
                                       blurRadius: 3,
@@ -319,7 +319,7 @@ class _FxCreditCardState extends State<FxCreditCard>
                                   ],
                                 ),
                                 child: Container(
-                                  padding: FxSpacing.y(24),
+                                  padding: FTxSpacing.y(24),
                                   child: Column(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
@@ -340,10 +340,10 @@ class _FxCreditCardState extends State<FxCreditCard>
                                             width: 100,
                                             height: 28,
                                             color: Colors.white,
-                                            padding: FxSpacing.left(8),
+                                            padding: FTxSpacing.left(8),
                                             alignment: Alignment.centerLeft,
-                                            child: FxTextField(
-                                              contentPadding: FxSpacing.all(0),
+                                            child: FTxTextField(
+                                              contentPadding: FTxSpacing.all(0),
                                               scrollPadding: EdgeInsets.all(0),
                                               keyboardType:
                                                   TextInputType.number,
@@ -370,15 +370,15 @@ class _FxCreditCardState extends State<FxCreditCard>
                                         ],
                                       ),
                                       Container(
-                                        margin: FxSpacing.right(24),
+                                        margin: FTxSpacing.right(24),
                                         alignment: Alignment.topRight,
                                         child: Container(
-                                          padding: FxSpacing.xy(8, 4),
+                                          padding: FTxSpacing.xy(8, 4),
                                           decoration: BoxDecoration(
                                               color: Colors.white,
                                               borderRadius: BorderRadius.all(
                                                   Radius.circular(4))),
-                                          child: FxText.b1("VISA",
+                                          child: FTxText.b1("VISA",
                                               fontWeight: 700,
                                               color: creditCardColor),
                                         ),

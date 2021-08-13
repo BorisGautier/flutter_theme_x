@@ -2,28 +2,28 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxMeasureSize] - measures the size of any particular widget
+/// [FTxMeasureSize] - measures the size of any particular widget
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/scheduler.dart';
 
 typedef void OnWidgetSizeChange(Size? size);
 
-class FxMeasureSize extends StatefulWidget {
+class FTxMeasureSize extends StatefulWidget {
   final Widget child;
   final OnWidgetSizeChange onChange;
 
-  const FxMeasureSize({
+  const FTxMeasureSize({
     Key? key,
     required this.onChange,
     required this.child,
   }) : super(key: key);
 
   @override
-  _FxMeasureSizeState createState() => _FxMeasureSizeState();
+  _FTxMeasureSizeState createState() => _FTxMeasureSizeState();
 }
 
-class _FxMeasureSizeState extends State<FxMeasureSize> {
+class _FTxMeasureSizeState extends State<FTxMeasureSize> {
   @override
   Widget build(BuildContext context) {
     SchedulerBinding.instance!.addPostFrameCallback(postFrameCallback);

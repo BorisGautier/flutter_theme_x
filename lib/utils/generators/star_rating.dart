@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxStarRating] - generates a star rating row widget for giving ratings to a particular thing.
+/// [FTxStarRating] - generates a star rating row widget for giving ratings to a particular thing.
 
 import 'package:flutter/material.dart';
 
-class FxStarRating {
+class FTxStarRating {
   static const Color starColor = Color(0xfff9c700);
 
   static Widget buildRatingStar(

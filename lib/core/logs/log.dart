@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxLog] - provides a way to print anything in the console-
+/// [FTxLog] - provides a way to print anything in the console-
 
 import 'dart:developer';
 
-class FxLog {
+class FTxLog {
   static bool _enabled = true;
 
-  FxLog(dynamic message) {
+  FTxLog(dynamic message) {
     if (_enabled) log(message.toString());
   }
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxOnBoarding] - Gives a custom page onBoarding widget with 2 buttons for SKIP and DONE.
+/// [FTxOnBoarding] - Gives a custom page onBoarding widget with 2 buttons for SKIP and DONE.
 
 import 'dart:async';
 import 'package:flutter/material.dart';
@@ -11,13 +11,13 @@ import 'Animation_Gesture/page_reveal.dart';
 import 'UI/pager_indicator.dart';
 import 'UI/pages.dart';
 
-class FxOnBoarding extends StatefulWidget {
+class FTxOnBoarding extends StatefulWidget {
   final List<PageViewModel> pages;
   final Color selectedIndicatorColor;
   final Color unSelectedIndicatorColor;
   final Widget skipWidget, doneWidget;
 
-  const FxOnBoarding(
+  const FTxOnBoarding(
       {Key? key,
       required this.pages,
       required this.selectedIndicatorColor,
@@ -27,10 +27,10 @@ class FxOnBoarding extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FxOnBoardingState createState() => new _FxOnBoardingState();
+  _FTxOnBoardingState createState() => new _FTxOnBoardingState();
 }
 
-class _FxOnBoardingState extends State<FxOnBoarding>
+class _FTxOnBoardingState extends State<FTxOnBoarding>
     with TickerProviderStateMixin {
   // ignore: close_sinks
   StreamController<SlideUpdate>? slideUpdateStream;
@@ -43,7 +43,7 @@ class _FxOnBoardingState extends State<FxOnBoarding>
 
   double? slidePercent = 0.0;
 
-  _FxOnBoardingState() {
+  _FTxOnBoardingState() {
     slideUpdateStream = new StreamController<SlideUpdate>();
 
     slideUpdateStream!.stream.listen((SlideUpdate event) {
@@ -107,18 +107,18 @@ class _FxOnBoardingState extends State<FxOnBoarding>
       backgroundColor: Colors.black,
       body: new Stack(
         children: [
-          FxSinglePage(
+          FTxSinglePage(
             viewModel: widget.pages[activeIndex],
             percentVisible: 1.0,
           ),
-          new FxPageReveal(
+          new FTxPageReveal(
             revealPercent: slidePercent,
-            child: new FxSinglePage(
+            child: new FTxSinglePage(
               viewModel: widget.pages[nextPageIndex],
               percentVisible: slidePercent,
             ),
           ),
-          new FxPagerIndicator(
+          new FTxPagerIndicator(
             viewModel: new PagerIndicatorViewModel(
                 widget.pages,
                 activeIndex,
@@ -129,7 +129,7 @@ class _FxOnBoardingState extends State<FxOnBoarding>
                 widget.skipWidget,
                 widget.doneWidget),
           ),
-          new FxPageDragger(
+          new FTxPageDragger(
             canDragLeftToRight: activeIndex > 0,
             canDragRightToLeft: activeIndex < widget.pages.length - 1,
             slideUpdateStream: this.slideUpdateStream,

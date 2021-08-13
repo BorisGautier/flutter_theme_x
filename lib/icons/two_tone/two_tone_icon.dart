@@ -2,27 +2,27 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/// [FxTwoToneIcon] - provides two tone Icons.
+/// [FTxTwoToneIcon] - provides two tone Icons.
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_theme_x/icons/two_tone/two_tone_icon_data.dart';
 
-class FxTwoToneIcon extends StatefulWidget {
-  final FxTwoToneIconData iconData;
+class FTxTwoToneIcon extends StatefulWidget {
+  final FTxTwoToneIconData iconData;
   final Color? color;
   final double? size;
 
-  const FxTwoToneIcon(this.iconData, {this.color, this.size = 24});
+  const FTxTwoToneIcon(this.iconData, {this.color, this.size = 24});
 
   @override
-  _FxTwoToneIconState createState() => _FxTwoToneIconState();
+  _FTxTwoToneIconState createState() => _FTxTwoToneIconState();
 }
 
-class _FxTwoToneIconState extends State<FxTwoToneIcon> {
+class _FTxTwoToneIconState extends State<FTxTwoToneIcon> {
   String? iconDataString;
-  FxTwoToneIconData? iconData;
+  FTxTwoToneIconData? iconData;
 
   @override
   void initState() {
@@ -56,10 +56,10 @@ class _FxTwoToneIconState extends State<FxTwoToneIcon> {
       iconData = widget.iconData;
     });
 
-    FxTwoToneIconDataCache.cache[widget.iconData] = data;
+    FTxTwoToneIconDataCache.cache[widget.iconData] = data;
   }
 
   void fetchCacheData() {
-    iconDataString = FxTwoToneIconDataCache.cache[widget.iconData];
+    iconDataString = FTxTwoToneIconDataCache.cache[widget.iconData];
   }
 }

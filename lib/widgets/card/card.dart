@@ -4,8 +4,8 @@
 
 /// There are mainly 2 types of card .
 ///
-/// [FxCard.bordered] - provides border to the card.
-/// [FxCard.rounded] - provides rounded shape to the card for the given height and width of the card.
+/// [FTxCard.bordered] - provides border to the card.
+/// [FTxCard.rounded] - provides rounded shape to the card for the given height and width of the card.
 ///
 
 import 'package:flutter/material.dart';
@@ -13,7 +13,7 @@ import 'package:flutter_theme_x/styles/shadow.dart';
 import 'package:flutter_theme_x/themes/app_theme.dart';
 import '../../utils/spacing.dart';
 
-class FxCard extends StatelessWidget {
+class FTxCard extends StatelessWidget {
   final Widget child;
   final BorderRadius? borderRadius;
   final double? borderRadiusAll, paddingAll, marginAll;
@@ -24,10 +24,10 @@ class FxCard extends StatelessWidget {
   final Border? border;
   final Clip? clipBehavior;
   final BoxShape? boxShape;
-  final FxShadow? shadow;
+  final FTxShadow? shadow;
   final double? width, height;
   final Color? splashColor;
-  const FxCard(
+  const FTxCard(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -47,7 +47,7 @@ class FxCard extends StatelessWidget {
       this.width,
       this.height})
       : super(key: key);
-  const FxCard.bordered(
+  const FTxCard.bordered(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -67,7 +67,7 @@ class FxCard extends StatelessWidget {
       this.width,
       this.height})
       : super(key: key);
-  const FxCard.rounded(
+  const FTxCard.rounded(
       {Key? key,
       required this.child,
       this.borderRadius,
@@ -89,7 +89,7 @@ class FxCard extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
-    FxShadow myShadow = shadow ?? FxShadow();
+    FTxShadow myShadow = shadow ?? FTxShadow();
     return InkWell(
       borderRadius: boxShape != BoxShape.circle
           ? borderRadius ??
@@ -101,28 +101,28 @@ class FxCard extends StatelessWidget {
       child: Container(
         width: width,
         height: height,
-        margin: margin ?? FxSpacing.all(marginAll ?? 0),
+        margin: margin ?? FTxSpacing.all(marginAll ?? 0),
         decoration: BoxDecoration(
-            color: color ?? FxAppTheme.customTheme.bgLayer2,
+            color: color ?? FTxAppTheme.customTheme.bgLayer2,
             borderRadius: boxShape != BoxShape.circle
                 ? borderRadius ??
                     BorderRadius.all(Radius.circular(borderRadiusAll ?? 8))
                 : null,
             border: bordered
                 ? border ??
-                    Border.all(color: FxAppTheme.customTheme.border2, width: 1)
+                    Border.all(color: FTxAppTheme.customTheme.border2, width: 1)
                 : null,
             shape: boxShape ?? BoxShape.rectangle,
             boxShadow: [
               BoxShadow(
                   color: myShadow.color ??
-                      FxAppTheme.customTheme.shadowColor
+                      FTxAppTheme.customTheme.shadowColor
                           .withAlpha(myShadow.alpha),
                   spreadRadius: myShadow.spreadRadius,
                   blurRadius: myShadow.blurRadius,
                   offset: myShadow.offset!)
             ]),
-        padding: padding ?? FxSpacing.all(paddingAll ?? 16),
+        padding: padding ?? FTxSpacing.all(paddingAll ?? 16),
         clipBehavior: clipBehavior ?? Clip.none,
         child: child,
       ),

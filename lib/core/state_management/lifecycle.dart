@@ -1,6 +1,5 @@
 typedef ValueUpdater<T> = T Function();
 
-
 class InternalFinalCallback<T> {
   ValueUpdater<T>? _callback;
 
@@ -9,16 +8,16 @@ class InternalFinalCallback<T> {
   T call() => _callback!.call();
 }
 
-/// The [FxLifeCycle]
+/// The [FTxLifeCycle]
 ///
 /// ```dart
-/// class SomeController with FxLifeCycle {
+/// class SomeController with FTxLifeCycle {
 ///   SomeController() {
 ///     configureLifeCycle();
 ///   }
 /// }
 /// ```
-mixin FxLifeCycleBase {
+mixin FTxLifeCycleBase {
   /// Called at the exact moment the widget is allocated in memory.
   /// It uses an internal "callable" type, to avoid any @overrides in subclases.
   /// This method should be internal and is required to define the
@@ -91,11 +90,11 @@ that inherits GetLifeCycle.""";
   }
 }
 
-abstract class FxLifeCycle with FxLifeCycleBase {
-  FxLifeCycle() {
+abstract class FTxLifeCycle with FTxLifeCycleBase {
+  FTxLifeCycle() {
     configureLifeCycle();
   }
 }
 
-/// Allow track difference between FxServices and FxControllers
-mixin FxServiceMixin {}
+/// Allow track difference between FTxServices and FTxControllers
+mixin FTxServiceMixin {}
