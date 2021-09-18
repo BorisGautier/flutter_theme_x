@@ -1,6 +1,6 @@
 /*
 * File : App Theme
-* Version : 1.0.0
+* Version : 0.0.1
 * */
 
 // Copyright 2021 The flutter_theme_x Authors. All rights reserved.
@@ -45,16 +45,6 @@ class FTxAppTheme {
         elevation: 3,
         selectedLabelTextStyle: TextStyle(color: Color(0xff3d63ff)),
         unselectedLabelTextStyle: TextStyle(color: Color(0xff495057))),
-    colorScheme: ColorScheme.light(
-        primary: Color(0xff3d63ff),
-        onPrimary: Colors.white,
-        primaryVariant: Color(0xff0055ff),
-        secondary: Color(0xff495057),
-        secondaryVariant: Color(0xff3cd278),
-        onSecondary: Colors.white,
-        surface: Color(0xffe2e7f1),
-        background: Color(0xfffefefe),
-        onBackground: Color(0xff495057)),
     cardTheme: CardTheme(
       color: Colors.white,
       shadowColor: Colors.black.withOpacity(0.4),
@@ -94,7 +84,6 @@ class FTxAppTheme {
     dividerColor: Color(0xffd1d1d1),
     errorColor: Color(0xfff0323c),
     cardColor: Colors.white,
-    accentColor: Color(0xff3d63ff),
     popupMenuTheme: PopupMenuThemeData(
       color: Color(0xffffffff),
     ),
@@ -123,6 +112,17 @@ class FTxAppTheme {
         color: Colors.white,
       ),
     ),
+    colorScheme: ColorScheme.light(
+            primary: Color(0xff3d63ff),
+            onPrimary: Colors.white,
+            primaryVariant: Color(0xff0055ff),
+            secondary: Color(0xff495057),
+            secondaryVariant: Color(0xff3cd278),
+            onSecondary: Colors.white,
+            surface: Color(0xffe2e7f1),
+            background: Color(0xfffefefe),
+            onBackground: Color(0xff495057))
+        .copyWith(secondary: Color(0xff3d63ff)),
   );
   static ThemeData darkTheme = ThemeData.dark().copyWith(
       brightness: Brightness.dark,
@@ -136,17 +136,6 @@ class FTxAppTheme {
         ),
         color: Color(0xff2e343b),
         iconTheme: IconThemeData(color: Color(0xffffffff), size: 24),
-      ),
-      colorScheme: ColorScheme.dark(
-        primary: Color(0xff3d63ff),
-        primaryVariant: Color(0xff3d63ff),
-        secondary: Color(0xff00cc77),
-        secondaryVariant: Color(0xff00cc77),
-        background: Color(0xff252525),
-        onPrimary: Colors.white,
-        onBackground: Colors.white,
-        onSecondary: Colors.white,
-        surface: Color(0xff585e63),
       ),
       cardTheme: CardTheme(
         color: Color(0xff37404a),
@@ -186,7 +175,6 @@ class FTxAppTheme {
           focusColor: Color(0xff3d63ff),
           hoverColor: Color(0xff3d63ff),
           foregroundColor: Colors.white),
-      accentColor: Color(0xff3d63ff),
       popupMenuTheme: PopupMenuThemeData(
         color: Color(0xff37404a),
       ),
@@ -215,7 +203,18 @@ class FTxAppTheme {
           color: Colors.white,
         ),
       ),
-      cupertinoOverrideTheme: CupertinoThemeData());
+      cupertinoOverrideTheme: CupertinoThemeData(),
+      colorScheme: ColorScheme.dark(
+        primary: Color(0xff3d63ff),
+        primaryVariant: Color(0xff3d63ff),
+        secondary: Color(0xff00cc77),
+        secondaryVariant: Color(0xff00cc77),
+        background: Color(0xff252525),
+        onPrimary: Colors.white,
+        onBackground: Colors.white,
+        onSecondary: Colors.white,
+        surface: Color(0xff585e63),
+      ).copyWith(secondary: Color(0xff3d63ff)));
 
   static ThemeData getThemeFromThemeMode({FTxAppThemeType? themeType}) {
     if (themeType == null) {
